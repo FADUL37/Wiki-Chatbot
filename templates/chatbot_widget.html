@@ -583,8 +583,9 @@
             setLoading(true);
             
             try {
-                // IMPORTANTE: Altere esta URL para o endereço do seu servidor
-                const response = await fetch('http://localhost:5000/chat', {
+                // Detectar automaticamente a URL base do servidor
+                const baseUrl = window.location.origin;
+                const response = await fetch(`${baseUrl}/chat`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
