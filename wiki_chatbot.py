@@ -407,19 +407,46 @@ def teste_api():
         })
 
 if __name__ == '__main__':
-    print("🚀 WIKI CHATBOT - CONFORME INSTRUÇÕES DO LUIGI")
-    print("=" * 60)
-    print(f"🔑 Token JWT: {API_TOKEN[:50]}...")
-    print(f"🌐 Base URL: {BASE_URL}")
-    print(f"📊 Total de operadoras: {len(wiki_chatbot.operadoras_disponiveis)}")
-    print(f"🖥️ Servidor iniciando em: http://localhost:5000")
-    print("=" * 60)
-    print("\n📋 Funcionalidades:")
-    print("• Consulta via API GraphQL com token JWT válido")
-    print("• Divisão de conteúdo por tags h2")
-    print("• Busca inteligente por tópicos")
-    print("• Limpeza de HTML aprimorada")
-    print("• Interface web responsiva")
-    print("=" * 60)
+    import os
     
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # Configuração para produção (Render, Heroku, etc.)
+    port = int(os.environ.get('PORT', 5000))
+    debug_mode = os.environ.get('FLASK_ENV') != 'production'
+    
+    print("\n" + "="*60)
+    print("🚀 INICIANDO SERVIDOR FLASK - WIKI.JS CHATBOT")
+    print("="*60)
+    print(f"📊 Operadoras configuradas: {len(wiki_chatbot.operadoras_disponiveis)}")
+    print("✅ Funcionalidades ativas:")
+    print("   • Consulta API GraphQL")
+    print("   • Divisão de conteúdo por tags H2")
+    print("   • Busca inteligente de tópicos")
+    print("   • Limpeza avançada de HTML")
+    print("   • Interface web responsiva")
+    print(f"\n🌐 Servidor rodando na porta: {port}")
+    print(f"🔧 Modo debug: {debug_mode}")
+    
+    if debug_mode:
+        print("\n🌐 URLs locais disponíveis:")
+        print(f"   • http://localhost:{port}")
+        print(f"   • http://127.0.0.1:{port}")
+        
+        # Tentar obter IP local
+        try:
+            import socket
+            hostname = socket.gethostname()
+            local_ip = socket.gethostbyname(hostname)
+            print(f"   • http://{local_ip}:{port}")
+        except:
+            pass
+    
+    print("\n💬 Endpoints disponíveis:")
+    print("   • / (interface principal)")
+    print("   • /widget (widget flutuante)")
+    print("   • /chat (API de mensagens)")
+    print("   • /operadoras (listar todas)")
+    print("   • /operadora/<nome>/topicos")
+    print("   • /teste_api (diagnóstico)")
+    print("="*60 + "\n")
+    
+    app.run(debug=debug_mode, host='0.0.0.0', port=port)
