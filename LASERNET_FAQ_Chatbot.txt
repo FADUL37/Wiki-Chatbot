@@ -1,0 +1,290 @@
+LASERNET (Laser Network) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da LASERNET?
+A:
+- Segunda a Sexta: 08h às 21h
+- Sábado: 08h às 17h
+- Domingo: Plantão 10h às 17h
+Obs: Atendimento de alta velocidade e precisão.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica Ultra Rápida
+- Internet de Alta Performance
+- Conexões Laser
+- Redes Ópticas Avançadas
+- Transmissão de Dados
+- Comunicações Ópticas
+- Backbone de Fibra
+- Soluções Fotônicas
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- LASERNET 300: 300MB, R$ 59,90
+- LASERNET 500: 500MB, R$ 79,90
+- LASERNET 750: 750MB, R$ 99,90
+- LASERNET 1GB: 1GB, R$ 129,90
+- LASERNET 2GB: 2GB, R$ 189,90
+- LASERNET ULTRA: 5GB, R$ 349,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP LASERNET 500: 500MB dedicado, R$ 899,90
+- CORP LASERNET 1GB: 1GB dedicado, R$ 1.499,90
+- CORP LASERNET 5GB: 5GB dedicado, R$ 4.499,90
+- LASERNET ENTERPRISE: 10GB+, sob consulta
+- Backbone Dedicado: A partir de R$ 5.000,00
+- Soluções Ópticas: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta técnica especializada
+- Análise óptica de viabilidade
+- Proposta técnica em 24h
+- Contrato de alta performance
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X17, Nokia 7360 ISAM
+- ONU: Huawei HG8546M, Nokia G-010G-P
+- Roteadores: Cisco ASR, Juniper MX
+- Switches: Cisco Nexus, Arista 7000
+- Equipamentos Ópticos: Ciena, Infinera
+- Lasers: Classe 1, alta potência
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet óptica: 10.laser.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN óptica: 200
+- VLAN backbone: 300
+- MTU: 9000 bytes (Jumbo Frames)
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/lasernet2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU Nokia: admin/admin
+- WiFi Laser: lasernet/optical123
+- Backbone: laser/network2024
+Obs: Senhas complexas obrigatórias
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento técnico
+- Nível 2: Especialistas ópticos
+- Nível 3: Engenharia fotônica
+- Nível 4: Arquitetura de redes
+- NOC Óptico: Monitoramento 24x7
+- Laser Support: Especialistas em transmissão
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Laser Power: -3dBm a +3dBm
+- OSNR: > 20dB
+- BER: < 10^-12
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.lasernet.com.br
+Obs: Servidor óptico com medição de latência ultra baixa
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.lasernet.1.10
+- DNS2: 200.lasernet.1.11
+- DNS Óptico: 10.laser.1.10 / 10.laser.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 4h úteis
+- Backbone: 1h
+- Crítico: 30 minutos
+- Instalação urbana: 48h
+- Instalação óptica: 72h
+- Disponibilidade: 99,95%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise óptica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 100,00
+- Reinstalação: R$ 200,00
+- Cabo óptico: R$ 40,00/metro
+- Emenda laser: R$ 80,00/unidade
+- Configuração óptica: R$ 200,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 17h (completo)
+- Domingo: 10h às 17h (emergencial)
+- Feriados: Plantão óptico
+- NOC: 24x7x365
+- Emergência: 0800-LASER-NET
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo Óptico: R$ 300,00/mês
+- Backbone Dedicado: R$ 2.000,00/mês
+- Monitoramento Óptico: R$ 500,00/mês
+- Redundância Laser: R$ 800,00/mês
+- Suporte Premium: R$ 400,00/mês
+- Consultoria Óptica: R$ 500,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 6 meses grátis (planos 2GB+)
+- Amazon Prime: 4 meses grátis
+- Disney+: 3 meses grátis
+- YouTube Premium: 6 meses grátis
+- Streaming 8K: Suporte nativo
+- Gaming 4K: Latência ultra baixa
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 1º de cada mês
+- Carência: 5 dias após vencimento
+- Bloqueio: Após 5 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 80,00
+- Parcelamento: Até 12x
+- Desconto anual: 20%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 10% à vista
+- Débito automático: Desconto 8%
+- Cartão de crédito: Até 12x
+- Boleto bancário
+- Transferência bancária
+- Criptomoedas: Bitcoin/Ethereum
+- Pagamento internacional
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal óptico
+- Análise de viabilidade laser
+- Taxa de migração: R$ 200,00
+- Prazo: 48h (com backup)
+- Transferência óptica de dados
+- Reconfiguração automática
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.lasernet.com.br
+- App: LaserNet Pro (Android/iOS)
+- Login: CPF + autenticação óptica
+- Autenticação: Biometria + 2FA
+- Sede: Av. Óptica, 1000 - Tech Valley
+- Cidade: São Paulo - SP
+- CNPJ: 34.567.890/0001-23
+- Telefone: 0800-LASER-NET
+- WhatsApp: (11) 99laser-tech
+- Email: contato@lasernet.com.br
+- Site: https://lasernet.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 08h–21h, Sáb 08h–17h, Dom 10h–17h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–16h
+- Técnico: 24x7x365
+- Óptico: 24x7x365
+- NOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços ópticos especializados?
+A:
+- Consultoria em redes ópticas
+- Projetos de backbone
+- Transmissão de longa distância
+- Redes metropolitanas
+- Comunicações críticas
+- Broadcast profissional
+- Data center interconect
+- Soluções fotônicas
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 60 meses
+- Instalação: 36 meses
+- Infraestrutura: 10 anos
+- SLA Residencial: 99,8%
+- SLA Empresarial: 99,95%
+- SLA Backbone: 99,99%
+- ITU-T G.984 (GPON)
+- IEEE 802.3 (Ethernet)
+- Anatel SCM
+- Certificação Óptica
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet óptica para universidades
+- Pesquisa em fotônica
+- Reciclagem de componentes ópticos
+- Energia solar em equipamentos
+- Programa de inovação tecnológica
+- Apoio a startups de telecom
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Comunicações quânticas
+- Fibras ópticas avançadas
+- Amplificadores ópticos
+- Multiplexação densa (DWDM)
+- Redes definidas por software
+- Inteligência artificial óptica
+- Fotônica integrada
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco em performance óptica
+- Tecnologia de transmissão de última geração
+- Backup redundante de enlaces ópticos
+- Monitoramento em tempo real de parâmetros
+- Escalation baseado em criticidade óptica
+- Compensação com upgrades de velocidade
+- Integração com sistemas de alta capacidade
+- Protocolo de emergência para backbone
+- Suporte técnico especializado em óptica
+- Atendimento diferenciado por aplicação
+- Compliance com padrões internacionais
+- Auditoria de performance contínua
+- Treinamento em tecnologias emergentes
+- Metodologia de otimização óptica
+- Gestão avançada de recursos
+- Sustentabilidade em comunicações
+- Inovação contínua em fotônica
+---

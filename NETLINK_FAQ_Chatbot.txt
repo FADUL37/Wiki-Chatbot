@@ -1,0 +1,290 @@
+NETLINK (Net Link Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da NETLINK?
+A:
+- Segunda a Sexta: 07h às 21h
+- Sábado: 08h às 17h
+- Domingo: Plantão 10h às 16h
+Obs: Conectando você ao futuro.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet de Alta Velocidade
+- Links Dedicados
+- Conectividade Empresarial
+- Redes Interligadas
+- Backbone Nacional
+- Soluções de Rede
+- Telecomunicações Avançadas
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- NETLINK 300: 300MB, R$ 59,90
+- NETLINK 500: 500MB, R$ 79,90
+- NETLINK 800: 800MB, R$ 99,90
+- NETLINK 1GB: 1GB, R$ 129,90
+- NETLINK 2GB: 2GB, R$ 189,90
+- NETLINK ULTRA: 3GB, R$ 269,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP NETLINK 500: 500MB dedicado, R$ 899,90
+- CORP NETLINK 1GB: 1GB dedicado, R$ 1.499,90
+- CORP NETLINK 5GB: 5GB dedicado, R$ 4.499,90
+- NETLINK ENTERPRISE: 10GB+, sob consulta
+- Link Corporativo: A partir de R$ 5.000,00
+- Soluções Customizadas: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta de viabilidade técnica
+- Análise de conectividade
+- Proposta comercial em 24h
+- Contrato de serviços
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X15, ZTE C320
+- ONU: Huawei HG8245H, ZTE F670L
+- Roteadores: Cisco ISR, Mikrotik CCR
+- Switches: Cisco Catalyst, HP Enterprise
+- Equipamentos Link: Ubiquiti, Cambium
+- Conectores: SC/APC, LC/UPC
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet netlink: 10.netlink.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN link: 200
+- VLAN corporativa: 300
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/netlink2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU ZTE: admin/admin
+- WiFi Link: netlink/connect123
+- Corporativo: netlink/network2024
+Obs: Alteração obrigatória no primeiro acesso
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral
+- Nível 2: Suporte técnico
+- Nível 3: Engenharia de redes
+- Nível 4: Arquitetura de sistemas
+- NOC NetLink: Monitoramento 24x7
+- Link Support: Especialistas em conectividade
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Link Power: -5dBm a +2dBm
+- OSNR: > 18dB
+- BER: < 10^-9
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.netlink.com.br
+Obs: Servidor dedicado com medição precisa
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.netlink.1.10
+- DNS2: 200.netlink.1.11
+- DNS Link: 10.netlink.1.10 / 10.netlink.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 6h úteis
+- Link Dedicado: 2h
+- Crítico: 1h
+- Instalação urbana: 48h
+- Instalação link: 72h
+- Disponibilidade: 99,9%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 85,00
+- Reinstalação: R$ 170,00
+- Cabo de rede: R$ 30,00/metro
+- Conector: R$ 60,00/unidade
+- Configuração: R$ 170,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 17h (completo)
+- Domingo: 10h às 16h (emergencial)
+- Feriados: Plantão netlink
+- NOC: 24x7x365
+- Emergência: 0800-NET-LINK
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 220,00/mês
+- Link Backup: R$ 1.600,00/mês
+- Monitoramento: R$ 350,00/mês
+- Redundância: R$ 650,00/mês
+- Suporte Premium: R$ 320,00/mês
+- Consultoria: R$ 420,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 4 meses grátis (planos 1GB+)
+- Amazon Prime: 3 meses grátis
+- Disney+: 2 meses grátis
+- YouTube Premium: 4 meses grátis
+- Streaming HD: Suporte nativo
+- Gaming: Baixa latência
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 7 de cada mês
+- Carência: 5 dias após vencimento
+- Bloqueio: Após 5 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 75,00
+- Parcelamento: Até 10x
+- Desconto anual: 16%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 8% à vista
+- Débito automático: Desconto 6%
+- Cartão de crédito: Até 10x
+- Boleto bancário
+- Transferência bancária
+- Pagamento online
+- App NetLink Pay
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal netlink
+- Análise de viabilidade
+- Taxa de migração: R$ 170,00
+- Prazo: 48h (com cobertura)
+- Transferência de configurações
+- Reconfiguração automática
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.netlink.com.br
+- App: NetLink Connect (Android/iOS)
+- Login: CPF + senha
+- Autenticação: SMS + email
+- Sede: Av. Conectividade, 700 - Link Center
+- Cidade: Curitiba - PR
+- CNPJ: 67.890.123/0001-56
+- Telefone: 0800-NET-LINK
+- WhatsApp: (41) 99netlink-tech
+- Email: contato@netlink.com.br
+- Site: https://netlink.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–21h, Sáb 08h–17h, Dom 10h–16h
+- Comercial: Seg–Sex 08h–19h, Sáb 08h–15h
+- Técnico: 24x7x365
+- Link: 24x7x365
+- NOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços especializados?
+A:
+- Consultoria em conectividade
+- Projetos de links dedicados
+- Interconexão de redes
+- Redes corporativas
+- Conectividade crítica
+- Backup de conectividade
+- Monitoramento avançado
+- Soluções híbridas
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 48 meses
+- Instalação: 24 meses
+- Infraestrutura: 8 anos
+- SLA Residencial: 99,7%
+- SLA Empresarial: 99,9%
+- SLA Link: 99,95%
+- ITU-T G.984 (GPON)
+- IEEE 802.3 (Ethernet)
+- Anatel SCM
+- Certificação Link
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet para escolas
+- Conectividade social
+- Reciclagem de equipamentos
+- Energia renovável
+- Programa de inclusão digital
+- Apoio a ONGs
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Redes de nova geração
+- Conectividade 5G
+- IoT e M2M
+- Edge computing
+- Redes definidas por software
+- Inteligência artificial
+- Automação de redes
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco em conectividade
+- Tecnologia de links avançados
+- Backup automático de conexões
+- Monitoramento em tempo real
+- Escalation baseado em criticidade
+- Compensação com upgrades
+- Integração com sistemas corporativos
+- Protocolo de emergência
+- Suporte técnico especializado
+- Atendimento diferenciado
+- Compliance com padrões
+- Auditoria de performance
+- Treinamento contínuo
+- Metodologia de otimização
+- Gestão de recursos
+- Sustentabilidade
+- Inovação em conectividade
+---

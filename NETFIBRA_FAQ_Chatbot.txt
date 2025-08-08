@@ -1,0 +1,290 @@
+NETFIBRA (Net Fibra Óptica) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da NETFIBRA?
+A:
+- Segunda a Sexta: 07h às 22h
+- Sábado: 08h às 18h
+- Domingo: Plantão 09h às 17h
+Obs: Fibra óptica de alta qualidade.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet Ultra Rápida
+- Redes de Fibra
+- Conectividade Óptica
+- Transmissão Digital
+- Backbone de Fibra
+- Soluções Ópticas
+- Redes Metropolitanas
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- NETFIBRA 250: 250MB, R$ 54,90
+- NETFIBRA 500: 500MB, R$ 74,90
+- NETFIBRA 750: 750MB, R$ 94,90
+- NETFIBRA 1GB: 1GB, R$ 124,90
+- NETFIBRA 2GB: 2GB, R$ 184,90
+- NETFIBRA ULTRA: 4GB, R$ 299,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP NETFIBRA 500: 500MB dedicado, R$ 849,90
+- CORP NETFIBRA 1GB: 1GB dedicado, R$ 1.399,90
+- CORP NETFIBRA 5GB: 5GB dedicado, R$ 4.199,90
+- NETFIBRA ENTERPRISE: 10GB+, sob consulta
+- Fibra Dedicada: A partir de R$ 4.800,00
+- Soluções Ópticas: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta de viabilidade óptica
+- Análise técnica de fibra
+- Proposta comercial em 24h
+- Contrato de fibra óptica
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X17, Nokia 7360
+- ONU: Huawei HG8546M, Nokia G-010G-P
+- Roteadores: Cisco ASR, Juniper MX
+- Switches: Cisco Nexus, Arista 7050
+- Equipamentos Fibra: Ciena, Infinera
+- Conectores: SC/APC, LC/UPC
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet fibra: 10.fibra.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN fibra: 200
+- VLAN corporativa: 300
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/netfibra2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU Nokia: admin/admin
+- WiFi Fibra: netfibra/fiber123
+- Corporativo: fibra/network2024
+Obs: Alteração obrigatória no primeiro acesso
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral
+- Nível 2: Suporte técnico fibra
+- Nível 3: Engenharia óptica
+- Nível 4: Arquitetura de redes
+- NOC Fibra: Monitoramento 24x7
+- Fiber Support: Especialistas ópticos
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Fiber Power: -3dBm a +3dBm
+- OSNR: > 20dB
+- BER: < 10^-12
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.netfibra.com.br
+Obs: Servidor de fibra óptica com medição precisa
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.netfibra.1.10
+- DNS2: 200.netfibra.1.11
+- DNS Fibra: 10.fibra.1.10 / 10.fibra.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 4h úteis
+- Fibra Dedicada: 2h
+- Crítico: 1h
+- Instalação urbana: 48h
+- Instalação fibra: 72h
+- Disponibilidade: 99,9%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise óptica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 90,00
+- Reinstalação: R$ 180,00
+- Cabo de fibra: R$ 35,00/metro
+- Emenda óptica: R$ 70,00/unidade
+- Configuração: R$ 180,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 18h (completo)
+- Domingo: 09h às 17h (emergencial)
+- Feriados: Plantão fibra
+- NOC: 24x7x365
+- Emergência: 0800-NET-FIBRA
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo Fibra: R$ 250,00/mês
+- Fibra Backup: R$ 1.800,00/mês
+- Monitoramento Óptico: R$ 400,00/mês
+- Redundância Fibra: R$ 700,00/mês
+- Suporte Premium: R$ 350,00/mês
+- Consultoria Óptica: R$ 450,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 5 meses grátis (planos 1GB+)
+- Amazon Prime: 4 meses grátis
+- Disney+: 3 meses grátis
+- YouTube Premium: 5 meses grátis
+- Streaming 4K: Suporte nativo
+- Gaming: Ultra baixa latência
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 3 de cada mês
+- Carência: 5 dias após vencimento
+- Bloqueio: Após 5 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 75,00
+- Parcelamento: Até 12x
+- Desconto anual: 18%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 9% à vista
+- Débito automático: Desconto 7%
+- Cartão de crédito: Até 12x
+- Boleto bancário
+- Transferência bancária
+- Pagamento digital
+- App NetFibra Pay
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal fibra
+- Análise de viabilidade óptica
+- Taxa de migração: R$ 180,00
+- Prazo: 48h (com cobertura)
+- Transferência óptica
+- Reconfiguração automática
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.netfibra.com.br
+- App: NetFibra Connect (Android/iOS)
+- Login: CPF + senha fibra
+- Autenticação: SMS + token
+- Sede: Av. Fibra Óptica, 900 - Fiber Park
+- Cidade: Belo Horizonte - MG
+- CNPJ: 56.789.012/0001-45
+- Telefone: 0800-NET-FIBRA
+- WhatsApp: (31) 99fiber-tech
+- Email: contato@netfibra.com.br
+- Site: https://netfibra.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–22h, Sáb 08h–18h, Dom 09h–17h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–16h
+- Técnico: 24x7x365
+- Fibra: 24x7x365
+- NOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços especializados?
+A:
+- Consultoria em fibra óptica
+- Projetos de redes ópticas
+- Transmissão de longa distância
+- Redes metropolitanas
+- Conectividade crítica
+- Backup de fibra
+- Monitoramento óptico
+- Soluções híbridas
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 60 meses
+- Instalação: 36 meses
+- Infraestrutura: 10 anos
+- SLA Residencial: 99,8%
+- SLA Empresarial: 99,9%
+- SLA Fibra: 99,95%
+- ITU-T G.984 (GPON)
+- IEEE 802.3 (Ethernet)
+- Anatel SCM
+- Certificação Fibra
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet fibra para escolas
+- Conectividade social
+- Reciclagem de equipamentos ópticos
+- Energia sustentável
+- Programa de inclusão digital
+- Apoio a comunidades
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Fibras ópticas avançadas
+- Tecnologias ópticas emergentes
+- Redes de próxima geração
+- Amplificação óptica
+- Multiplexação densa
+- Inteligência artificial óptica
+- Automação de redes
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco em fibra óptica
+- Tecnologia de transmissão avançada
+- Backup redundante de fibras
+- Monitoramento óptico em tempo real
+- Escalation baseado em criticidade
+- Compensação com upgrades de fibra
+- Integração com sistemas ópticos
+- Protocolo de emergência fibra
+- Suporte técnico especializado
+- Atendimento diferenciado por aplicação
+- Compliance com padrões ópticos
+- Auditoria de performance óptica
+- Treinamento em tecnologias fibra
+- Metodologia de otimização óptica
+- Gestão avançada de recursos
+- Sustentabilidade em telecomunicações
+- Inovação contínua em fibra
+---

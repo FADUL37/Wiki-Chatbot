@@ -1,0 +1,290 @@
+NETTECH (Net Tech Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da NETTECH?
+A:
+- Segunda a Sexta: 07h às 22h
+- Sábado: 08h às 18h
+- Domingo: Plantão 09h às 18h
+Obs: Tecnologia avançada em conectividade.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet de Alta Tecnologia
+- Conectividade Tech
+- Redes Tecnológicas
+- Transmissão Digital Avançada
+- Backbone Tecnológico
+- Soluções Tech
+- Telecomunicações Inovadoras
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- NETTECH 350: 350MB, R$ 64,90
+- NETTECH 550: 550MB, R$ 84,90
+- NETTECH 850: 850MB, R$ 104,90
+- NETTECH 1GB: 1GB, R$ 134,90
+- NETTECH 2GB: 2GB, R$ 194,90
+- NETTECH ULTRA: 4GB, R$ 324,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP NETTECH 1GB: 1GB dedicado, R$ 1.449,90
+- CORP NETTECH 2GB: 2GB dedicado, R$ 2.399,90
+- CORP NETTECH 5GB: 5GB dedicado, R$ 5.199,90
+- NETTECH ENTERPRISE: 10GB+, sob consulta
+- Tech Dedicado: A partir de R$ 6.500,00
+- Soluções Tecnológicas: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta tecnológica
+- Análise técnica avançada
+- Proposta comercial em 24h
+- Contrato tech
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X17, Nokia 7360 ISAM
+- ONU: Huawei HG8546M, Nokia G-010G-P
+- Roteadores: Cisco ASR, Juniper MX
+- Switches: Cisco Nexus, Arista 7280
+- Equipamentos Tech: Ciena, Infinera
+- Conectores: SC/APC, LC/UPC
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet nettech: 10.nettech.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN tech: 200
+- VLAN corporativa: 300
+- MTU: 9000 bytes (Jumbo Frames)
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/nettech2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU Nokia: admin/admin
+- WiFi Tech: nettech/technology123
+- Corporativo: nettech/tech2024
+Obs: Senhas complexas obrigatórias
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral
+- Nível 2: Suporte técnico tech
+- Nível 3: Engenharia tecnológica
+- Nível 4: Arquitetura avançada
+- NOC NetTech: Monitoramento 24x7
+- Tech Support: Especialistas tecnológicos
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Tech Power: -2dBm a +3dBm
+- OSNR: > 21dB
+- BER: < 10^-12
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.nettech.com.br
+Obs: Servidor tecnológico com medição avançada
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.nettech.1.10
+- DNS2: 200.nettech.1.11
+- DNS Tech: 10.nettech.1.10 / 10.nettech.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 4h úteis
+- Tech: 2h
+- Crítico: 1h
+- Instalação urbana: 48h
+- Instalação tech: 72h
+- Disponibilidade: 99,95%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise tecnológica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 100,00
+- Reinstalação: R$ 200,00
+- Cabo tech: R$ 40,00/metro
+- Conector tecnológico: R$ 80,00/unidade
+- Configuração: R$ 200,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 18h (completo)
+- Domingo: 09h às 18h (emergencial)
+- Feriados: Plantão tech
+- NOC: 24x7x365
+- Emergência: 0800-NET-TECH
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo Tech: R$ 300,00/mês
+- Tech Backup: R$ 2.000,00/mês
+- Monitoramento Tech: R$ 500,00/mês
+- Redundância Tech: R$ 800,00/mês
+- Suporte Premium: R$ 400,00/mês
+- Consultoria Tech: R$ 500,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 6 meses grátis (planos 2GB+)
+- Amazon Prime: 5 meses grátis
+- Disney+: 4 meses grátis
+- YouTube Premium: 6 meses grátis
+- Streaming 8K: Suporte nativo
+- Gaming Tech: Ultra baixa latência
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 1º de cada mês
+- Carência: 5 dias após vencimento
+- Bloqueio: Após 5 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 80,00
+- Parcelamento: Até 12x
+- Desconto anual: 20%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 10% à vista
+- Débito automático: Desconto 8%
+- Cartão de crédito: Até 12x
+- Boleto bancário
+- Transferência bancária
+- Pagamento tecnológico
+- App NetTech Pay
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal tech
+- Análise de viabilidade tecnológica
+- Taxa de migração: R$ 200,00
+- Prazo: 48h (com cobertura)
+- Transferência tecnológica
+- Reconfiguração automática
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.nettech.com.br
+- App: NetTech Innovation (Android/iOS)
+- Login: CPF + senha tech
+- Autenticação: Biometria + 2FA
+- Sede: Av. Tecnologia, 1500 - Tech Hub
+- Cidade: Florianópolis - SC
+- CNPJ: 12.345.678/0001-01
+- Telefone: 0800-NET-TECH
+- WhatsApp: (48) 99nettech-tech
+- Email: contato@nettech.com.br
+- Site: https://nettech.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–22h, Sáb 08h–18h, Dom 09h–18h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–16h
+- Técnico: 24x7x365
+- Tech: 24x7x365
+- NOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços especializados?
+A:
+- Consultoria tecnológica
+- Projetos de redes avançadas
+- Conectividade inovadora
+- Redes inteligentes
+- Soluções tech
+- Backup tecnológico
+- Monitoramento inteligente
+- Arquitetura de sistemas
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 60 meses
+- Instalação: 36 meses
+- Infraestrutura: 10 anos
+- SLA Residencial: 99,8%
+- SLA Empresarial: 99,95%
+- SLA Tech: 99,99%
+- ITU-T G.984 (GPON)
+- IEEE 802.3 (Ethernet)
+- Anatel SCM
+- Certificação Tech
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet tech para universidades
+- Conectividade social inovadora
+- Reciclagem de equipamentos
+- Energia sustentável
+- Programa de inovação tecnológica
+- Apoio a startups tech
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Redes de próxima geração
+- Tecnologias emergentes
+- Conectividade 6G
+- Edge computing avançado
+- IA e machine learning
+- Redes autônomas
+- Quantum networking
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco tecnológico
+- Tecnologia de ponta em telecomunicações
+- Backup redundante inteligente
+- Monitoramento tecnológico 24x7
+- Escalation baseado em inovação
+- Compensação com upgrades tecnológicos
+- Integração com sistemas avançados
+- Protocolo de emergência tech
+- Suporte técnico especializado em inovação
+- Atendimento diferenciado por tecnologia
+- Compliance com padrões tecnológicos
+- Auditoria de performance tecnológica
+- Treinamento em tecnologias emergentes
+- Metodologia de otimização tech
+- Gestão inteligente de recursos
+- Sustentabilidade tecnológica
+- Inovação contínua avançada
+---

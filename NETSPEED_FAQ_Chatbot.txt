@@ -1,0 +1,290 @@
+NETSPEED (Net Speed Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da NETSPEED?
+A:
+- Segunda a Sexta: 07h às 22h
+- Sábado: 08h às 18h
+- Domingo: Plantão 09h às 18h
+Obs: Velocidade é nossa especialidade.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet Ultra Rápida
+- Conectividade de Alta Velocidade
+- Redes Speed
+- Transmissão Veloz
+- Backbone de Alta Performance
+- Soluções Rápidas
+- Telecomunicações Velozes
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- NETSPEED 400: 400MB, R$ 69,90
+- NETSPEED 600: 600MB, R$ 89,90
+- NETSPEED 1GB: 1GB, R$ 119,90
+- NETSPEED 2GB: 2GB, R$ 179,90
+- NETSPEED 3GB: 3GB, R$ 249,90
+- NETSPEED ULTRA: 5GB, R$ 399,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP NETSPEED 1GB: 1GB dedicado, R$ 1.299,90
+- CORP NETSPEED 2GB: 2GB dedicado, R$ 2.199,90
+- CORP NETSPEED 5GB: 5GB dedicado, R$ 4.999,90
+- NETSPEED ENTERPRISE: 10GB+, sob consulta
+- Speed Dedicado: A partir de R$ 6.000,00
+- Soluções Velozes: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta de velocidade
+- Análise técnica rápida
+- Proposta comercial em 24h
+- Contrato speed
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X17, Nokia 7360 ISAM
+- ONU: Huawei HG8546M, Nokia G-010G-P
+- Roteadores: Cisco ASR, Juniper MX
+- Switches: Cisco Nexus, Arista 7280
+- Equipamentos Speed: Ciena, Infinera
+- Conectores: SC/APC, LC/UPC
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet netspeed: 10.netspeed.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN speed: 200
+- VLAN corporativa: 300
+- MTU: 9000 bytes (Jumbo Frames)
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/netspeed2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU Nokia: admin/admin
+- WiFi Speed: netspeed/velocity123
+- Corporativo: netspeed/speed2024
+Obs: Senhas complexas obrigatórias
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral
+- Nível 2: Suporte técnico speed
+- Nível 3: Engenharia de velocidade
+- Nível 4: Arquitetura de alta performance
+- NOC NetSpeed: Monitoramento 24x7
+- Speed Support: Especialistas em velocidade
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Speed Power: -2dBm a +3dBm
+- OSNR: > 22dB
+- BER: < 10^-12
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.netspeed.com.br
+Obs: Servidor de alta velocidade com medição precisa
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.netspeed.1.10
+- DNS2: 200.netspeed.1.11
+- DNS Speed: 10.netspeed.1.10 / 10.netspeed.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 4h úteis
+- Speed: 2h
+- Crítico: 1h
+- Instalação urbana: 48h
+- Instalação speed: 72h
+- Disponibilidade: 99,95%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise de velocidade: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 100,00
+- Reinstalação: R$ 200,00
+- Cabo speed: R$ 40,00/metro
+- Conector veloz: R$ 80,00/unidade
+- Configuração: R$ 200,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 18h (completo)
+- Domingo: 09h às 18h (emergencial)
+- Feriados: Plantão speed
+- NOC: 24x7x365
+- Emergência: 0800-NET-SPEED
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo Speed: R$ 300,00/mês
+- Speed Backup: R$ 2.000,00/mês
+- Monitoramento Speed: R$ 500,00/mês
+- Redundância Speed: R$ 800,00/mês
+- Suporte Premium: R$ 400,00/mês
+- Consultoria Speed: R$ 500,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 6 meses grátis (planos 2GB+)
+- Amazon Prime: 5 meses grátis
+- Disney+: 4 meses grátis
+- YouTube Premium: 6 meses grátis
+- Streaming 8K: Suporte nativo
+- Gaming Speed: Ultra baixa latência
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 1º de cada mês
+- Carência: 5 dias após vencimento
+- Bloqueio: Após 5 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 80,00
+- Parcelamento: Até 12x
+- Desconto anual: 20%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 10% à vista
+- Débito automático: Desconto 8%
+- Cartão de crédito: Até 12x
+- Boleto bancário
+- Transferência bancária
+- Pagamento rápido
+- App NetSpeed Pay
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal speed
+- Análise de viabilidade rápida
+- Taxa de migração: R$ 200,00
+- Prazo: 48h (com cobertura)
+- Transferência veloz
+- Reconfiguração automática
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.netspeed.com.br
+- App: NetSpeed Velocity (Android/iOS)
+- Login: CPF + senha speed
+- Autenticação: Biometria + 2FA
+- Sede: Av. Velocidade, 1400 - Speed Center
+- Cidade: Fortaleza - CE
+- CNPJ: 01.234.567/0001-90
+- Telefone: 0800-NET-SPEED
+- WhatsApp: (85) 99netspeed-tech
+- Email: contato@netspeed.com.br
+- Site: https://netspeed.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–22h, Sáb 08h–18h, Dom 09h–18h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–16h
+- Técnico: 24x7x365
+- Speed: 24x7x365
+- NOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços especializados?
+A:
+- Consultoria em alta velocidade
+- Projetos de redes rápidas
+- Conectividade veloz
+- Redes de alta performance
+- Soluções speed
+- Backup veloz
+- Monitoramento de velocidade
+- Otimização de performance
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 60 meses
+- Instalação: 36 meses
+- Infraestrutura: 10 anos
+- SLA Residencial: 99,8%
+- SLA Empresarial: 99,95%
+- SLA Speed: 99,99%
+- ITU-T G.984 (GPON)
+- IEEE 802.3 (Ethernet)
+- Anatel SCM
+- Certificação Speed
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet veloz para universidades
+- Conectividade social rápida
+- Reciclagem de equipamentos
+- Energia sustentável
+- Programa de aceleração digital
+- Apoio a startups tech
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Redes de ultra velocidade
+- Tecnologias de aceleração
+- Conectividade 6G
+- Edge computing veloz
+- IA para otimização
+- Redes inteligentes
+- Quantum speed networking
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco em velocidade
+- Tecnologia de ultra performance
+- Backup redundante veloz
+- Monitoramento de velocidade 24x7
+- Escalation baseado em performance
+- Compensação com upgrades de velocidade
+- Integração com sistemas de alta performance
+- Protocolo de emergência speed
+- Suporte técnico especializado em velocidade
+- Atendimento diferenciado por performance
+- Compliance com padrões de velocidade
+- Auditoria de performance contínua
+- Treinamento em tecnologias de velocidade
+- Metodologia de otimização speed
+- Gestão avançada de performance
+- Sustentabilidade em alta velocidade
+- Inovação contínua em velocidade
+---

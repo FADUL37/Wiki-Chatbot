@@ -1,0 +1,290 @@
+NETVIP (Net VIP Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da NETVIP?
+A:
+- Segunda a Sexta: 07h às 22h
+- Sábado: 08h às 18h
+- Domingo: Plantão 09h às 18h
+Obs: Atendimento VIP para clientes especiais.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet VIP
+- Conectividade Premium
+- Redes Exclusivas
+- Transmissão VIP
+- Backbone Premium
+- Soluções VIP
+- Telecomunicações Exclusivas
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- NETVIP 500: 500MB, R$ 79,90
+- NETVIP 750: 750MB, R$ 99,90
+- NETVIP 1GB: 1GB, R$ 139,90
+- NETVIP 2GB: 2GB, R$ 199,90
+- NETVIP 3GB: 3GB, R$ 279,90
+- NETVIP ULTRA: 5GB, R$ 449,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP NETVIP 1GB: 1GB dedicado, R$ 1.599,90
+- CORP NETVIP 2GB: 2GB dedicado, R$ 2.599,90
+- CORP NETVIP 5GB: 5GB dedicado, R$ 5.599,90
+- NETVIP ENTERPRISE: 10GB+, sob consulta
+- VIP Dedicado: A partir de R$ 7.000,00
+- Soluções Exclusivas: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta VIP personalizada
+- Análise técnica premium
+- Proposta comercial em 24h
+- Contrato VIP
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X17, Nokia 7360 ISAM
+- ONU: Huawei HG8546M, Nokia G-010G-P
+- Roteadores: Cisco ASR, Juniper MX
+- Switches: Cisco Nexus, Arista 7280
+- Equipamentos VIP: Ciena, Infinera
+- Conectores: SC/APC, LC/UPC
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet netvip: 10.netvip.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN vip: 200
+- VLAN premium: 300
+- MTU: 9000 bytes (Jumbo Frames)
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/netvip2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU Nokia: admin/admin
+- WiFi VIP: netvip/exclusive123
+- Premium: netvip/vip2024
+Obs: Senhas complexas obrigatórias
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento VIP
+- Nível 2: Suporte técnico premium
+- Nível 3: Engenharia exclusiva
+- Nível 4: Arquitetura VIP
+- NOC NetVIP: Monitoramento 24x7
+- VIP Support: Especialistas exclusivos
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- VIP Power: -1dBm a +4dBm
+- OSNR: > 23dB
+- BER: < 10^-12
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.netvip.com.br
+Obs: Servidor VIP com medição exclusiva
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.netvip.1.10
+- DNS2: 200.netvip.1.11
+- DNS VIP: 10.netvip.1.10 / 10.netvip.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 12h úteis
+- Empresarial: 2h úteis
+- VIP: 1h
+- Crítico: 30 minutos
+- Instalação urbana: 24h
+- Instalação VIP: 48h
+- Disponibilidade: 99,99%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise VIP: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 120,00
+- Reinstalação: R$ 250,00
+- Cabo VIP: R$ 50,00/metro
+- Conector premium: R$ 100,00/unidade
+- Configuração: R$ 250,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 18h (completo)
+- Domingo: 09h às 18h (VIP)
+- Feriados: Plantão VIP
+- NOC: 24x7x365
+- Emergência: 0800-NET-VIP
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo VIP: R$ 400,00/mês
+- VIP Backup: R$ 2.500,00/mês
+- Monitoramento VIP: R$ 600,00/mês
+- Redundância VIP: R$ 1.000,00/mês
+- Suporte Exclusivo: R$ 500,00/mês
+- Consultoria VIP: R$ 600,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 12 meses grátis (planos 2GB+)
+- Amazon Prime: 8 meses grátis
+- Disney+: 6 meses grátis
+- YouTube Premium: 12 meses grátis
+- Streaming 8K: Suporte nativo
+- Gaming VIP: Latência zero
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 1º de cada mês
+- Carência: 10 dias após vencimento
+- Bloqueio: Após 10 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 100,00
+- Parcelamento: Até 24x
+- Desconto anual: 25%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 12% à vista
+- Débito automático: Desconto 10%
+- Cartão de crédito: Até 24x
+- Boleto bancário
+- Transferência bancária
+- Pagamento VIP
+- App NetVIP Pay
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal VIP
+- Análise de viabilidade premium
+- Taxa de migração: R$ 250,00
+- Prazo: 24h (com cobertura)
+- Transferência VIP
+- Reconfiguração automática
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.netvip.com.br
+- App: NetVIP Exclusive (Android/iOS)
+- Login: CPF + senha VIP
+- Autenticação: Biometria + 2FA
+- Sede: Av. Exclusiva, 1600 - VIP Center
+- Cidade: Salvador - BA
+- CNPJ: 23.456.789/0001-12
+- Telefone: 0800-NET-VIP
+- WhatsApp: (71) 99netvip-tech
+- Email: contato@netvip.com.br
+- Site: https://netvip.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–22h, Sáb 08h–18h, Dom 09h–18h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–16h
+- Técnico: 24x7x365
+- VIP: 24x7x365
+- NOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços especializados?
+A:
+- Consultoria VIP personalizada
+- Projetos de redes exclusivas
+- Conectividade premium
+- Redes corporativas VIP
+- Soluções sob medida
+- Backup exclusivo
+- Monitoramento VIP
+- Arquitetura premium
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 72 meses
+- Instalação: 48 meses
+- Infraestrutura: 15 anos
+- SLA Residencial: 99,9%
+- SLA Empresarial: 99,99%
+- SLA VIP: 99,999%
+- ITU-T G.984 (GPON)
+- IEEE 802.3 (Ethernet)
+- Anatel SCM
+- Certificação VIP
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet VIP para universidades
+- Conectividade social premium
+- Reciclagem de equipamentos
+- Energia sustentável
+- Programa de excelência
+- Apoio a projetos exclusivos
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Redes de ultra performance
+- Tecnologias exclusivas
+- Conectividade 7G
+- Edge computing VIP
+- IA avançada
+- Redes autônomas
+- Quantum VIP networking
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco VIP exclusivo
+- Tecnologia de ultra performance premium
+- Backup redundante VIP
+- Monitoramento exclusivo 24x7
+- Escalation baseado em prioridade VIP
+- Compensação com upgrades premium
+- Integração com sistemas exclusivos
+- Protocolo de emergência VIP
+- Suporte técnico especializado exclusivo
+- Atendimento diferenciado por categoria VIP
+- Compliance com padrões premium
+- Auditoria de performance VIP
+- Treinamento em tecnologias exclusivas
+- Metodologia de otimização VIP
+- Gestão premium de recursos
+- Sustentabilidade VIP
+- Inovação contínua exclusiva
+---

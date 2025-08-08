@@ -1,0 +1,290 @@
+LINKNET (Link Network) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da LINKNET?
+A:
+- Segunda a Sexta: 07h às 22h
+- Sábado: 08h às 18h
+- Domingo: Plantão 09h às 18h
+Obs: Conectividade sem limites.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet de Alta Velocidade
+- Redes Interconectadas
+- Links Dedicados
+- Conectividade Empresarial
+- Backbone Nacional
+- Soluções de Conectividade
+- Redes Metropolitanas
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- LINKNET 200: 200MB, R$ 49,90
+- LINKNET 400: 400MB, R$ 69,90
+- LINKNET 600: 600MB, R$ 89,90
+- LINKNET 1GB: 1GB, R$ 119,90
+- LINKNET 2GB: 2GB, R$ 179,90
+- LINKNET ULTRA: 3GB, R$ 249,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP LINKNET 500: 500MB dedicado, R$ 799,90
+- CORP LINKNET 1GB: 1GB dedicado, R$ 1.299,90
+- CORP LINKNET 5GB: 5GB dedicado, R$ 3.999,90
+- LINKNET ENTERPRISE: 10GB+, sob consulta
+- Link Dedicado: A partir de R$ 4.500,00
+- Conectividade Especial: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta de conectividade
+- Análise de viabilidade técnica
+- Proposta comercial em 24h
+- Contrato de conectividade
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X15, ZTE C320
+- ONU: Huawei HG8245H, ZTE F670L
+- Roteadores: Cisco ISR, Mikrotik CCR
+- Switches: Cisco Catalyst, HP ProCurve
+- Equipamentos Link: Ubiquiti, Cambium
+- Conectores: SC/APC, LC/UPC
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet link: 10.link.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN link: 200
+- VLAN corporativa: 300
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/linknet2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU ZTE: admin/admin
+- WiFi Link: linknet/connect123
+- Corporativo: link/network2024
+Obs: Alteração obrigatória no primeiro acesso
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral
+- Nível 2: Suporte técnico
+- Nível 3: Engenharia de redes
+- Nível 4: Arquitetura de conectividade
+- NOC Link: Monitoramento 24x7
+- Connect Support: Especialistas em links
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Link Power: -5dBm a +2dBm
+- OSNR: > 18dB
+- BER: < 10^-9
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.linknet.com.br
+Obs: Servidor dedicado com medição de conectividade
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.linknet.1.10
+- DNS2: 200.linknet.1.11
+- DNS Link: 10.link.1.10 / 10.link.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 6h úteis
+- Link Dedicado: 2h
+- Crítico: 1h
+- Instalação urbana: 48h
+- Instalação link: 72h
+- Disponibilidade: 99,9%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 80,00
+- Reinstalação: R$ 150,00
+- Cabo de rede: R$ 25,00/metro
+- Conector: R$ 50,00/unidade
+- Configuração: R$ 150,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 18h (completo)
+- Domingo: 09h às 18h (emergencial)
+- Feriados: Plantão link
+- NOC: 24x7x365
+- Emergência: 0800-LINK-NET
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 200,00/mês
+- Link Backup: R$ 1.500,00/mês
+- Monitoramento: R$ 300,00/mês
+- Redundância: R$ 600,00/mês
+- Suporte Premium: R$ 300,00/mês
+- Consultoria: R$ 400,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 4 meses grátis (planos 1GB+)
+- Amazon Prime: 3 meses grátis
+- Disney+: 2 meses grátis
+- YouTube Premium: 4 meses grátis
+- Streaming HD: Suporte nativo
+- Gaming: Baixa latência
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 5 de cada mês
+- Carência: 5 dias após vencimento
+- Bloqueio: Após 5 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 70,00
+- Parcelamento: Até 10x
+- Desconto anual: 15%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 8% à vista
+- Débito automático: Desconto 6%
+- Cartão de crédito: Até 10x
+- Boleto bancário
+- Transferência bancária
+- Pagamento online
+- App LinkNet Pay
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal link
+- Análise de viabilidade
+- Taxa de migração: R$ 150,00
+- Prazo: 48h (com cobertura)
+- Transferência de dados
+- Reconfiguração automática
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.linknet.com.br
+- App: LinkNet Connect (Android/iOS)
+- Login: CPF + senha
+- Autenticação: SMS + email
+- Sede: Av. Conectividade, 800 - Tech Center
+- Cidade: Rio de Janeiro - RJ
+- CNPJ: 45.678.901/0001-34
+- Telefone: 0800-LINK-NET
+- WhatsApp: (21) 99link-tech
+- Email: contato@linknet.com.br
+- Site: https://linknet.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–22h, Sáb 08h–18h, Dom 09h–18h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–16h
+- Técnico: 24x7x365
+- Link: 24x7x365
+- NOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços especializados?
+A:
+- Consultoria em conectividade
+- Projetos de links dedicados
+- Interconexão de redes
+- Redes corporativas
+- Conectividade crítica
+- Backup de conectividade
+- Monitoramento avançado
+- Soluções híbridas
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 48 meses
+- Instalação: 24 meses
+- Infraestrutura: 8 anos
+- SLA Residencial: 99,7%
+- SLA Empresarial: 99,9%
+- SLA Link: 99,95%
+- ITU-T G.984 (GPON)
+- IEEE 802.3 (Ethernet)
+- Anatel SCM
+- Certificação Link
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet para escolas
+- Conectividade social
+- Reciclagem de equipamentos
+- Energia renovável
+- Programa de inclusão digital
+- Apoio a ONGs
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Redes de nova geração
+- Conectividade 5G
+- IoT e M2M
+- Edge computing
+- Redes definidas por software
+- Inteligência artificial
+- Automação de redes
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco em conectividade
+- Tecnologia de links avançados
+- Backup automático de conexões
+- Monitoramento em tempo real
+- Escalation baseado em criticidade
+- Compensação com upgrades
+- Integração com sistemas corporativos
+- Protocolo de emergência
+- Suporte técnico especializado
+- Atendimento diferenciado
+- Compliance com padrões
+- Auditoria de performance
+- Treinamento contínuo
+- Metodologia de otimização
+- Gestão de recursos
+- Sustentabilidade
+- Inovação em conectividade
+---

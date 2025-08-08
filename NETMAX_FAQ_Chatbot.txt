@@ -1,0 +1,290 @@
+NETMAX (Net Max Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da NETMAX?
+A:
+- Segunda a Sexta: 07h às 22h
+- Sábado: 08h às 18h
+- Domingo: Plantão 09h às 18h
+Obs: Máxima velocidade, máxima qualidade.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet Ultra Rápida
+- Conectividade Máxima
+- Redes de Alta Performance
+- Transmissão Digital
+- Backbone Avançado
+- Soluções de Rede
+- Telecomunicações Premium
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- NETMAX 400: 400MB, R$ 69,90
+- NETMAX 600: 600MB, R$ 89,90
+- NETMAX 1GB: 1GB, R$ 119,90
+- NETMAX 2GB: 2GB, R$ 179,90
+- NETMAX 3GB: 3GB, R$ 249,90
+- NETMAX ULTRA: 5GB, R$ 399,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP NETMAX 1GB: 1GB dedicado, R$ 1.299,90
+- CORP NETMAX 2GB: 2GB dedicado, R$ 2.199,90
+- CORP NETMAX 5GB: 5GB dedicado, R$ 4.999,90
+- NETMAX ENTERPRISE: 10GB+, sob consulta
+- Max Dedicado: A partir de R$ 6.000,00
+- Soluções Premium: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta de viabilidade máxima
+- Análise técnica premium
+- Proposta comercial em 24h
+- Contrato de alta performance
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X17, Nokia 7360 ISAM
+- ONU: Huawei HG8546M, Nokia G-010G-P
+- Roteadores: Cisco ASR, Juniper MX
+- Switches: Cisco Nexus, Arista 7280
+- Equipamentos Max: Ciena, Infinera
+- Conectores: SC/APC, LC/UPC
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet netmax: 10.netmax.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN max: 200
+- VLAN premium: 300
+- MTU: 9000 bytes (Jumbo Frames)
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/netmax2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU Nokia: admin/admin
+- WiFi Max: netmax/maximum123
+- Premium: netmax/premium2024
+Obs: Senhas complexas obrigatórias
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral
+- Nível 2: Suporte técnico max
+- Nível 3: Engenharia premium
+- Nível 4: Arquitetura avançada
+- NOC NetMax: Monitoramento 24x7
+- Max Support: Especialistas premium
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Max Power: -2dBm a +3dBm
+- OSNR: > 22dB
+- BER: < 10^-12
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.netmax.com.br
+Obs: Servidor premium com medição máxima
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.netmax.1.10
+- DNS2: 200.netmax.1.11
+- DNS Max: 10.netmax.1.10 / 10.netmax.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 4h úteis
+- Premium: 2h
+- Crítico: 1h
+- Instalação urbana: 48h
+- Instalação max: 72h
+- Disponibilidade: 99,95%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise premium: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 100,00
+- Reinstalação: R$ 200,00
+- Cabo premium: R$ 40,00/metro
+- Conector max: R$ 80,00/unidade
+- Configuração: R$ 200,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 18h (completo)
+- Domingo: 09h às 18h (emergencial)
+- Feriados: Plantão max
+- NOC: 24x7x365
+- Emergência: 0800-NET-MAX
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo Max: R$ 300,00/mês
+- Max Backup: R$ 2.000,00/mês
+- Monitoramento Premium: R$ 500,00/mês
+- Redundância Max: R$ 800,00/mês
+- Suporte Premium: R$ 400,00/mês
+- Consultoria Max: R$ 500,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 6 meses grátis (planos 2GB+)
+- Amazon Prime: 5 meses grátis
+- Disney+: 4 meses grátis
+- YouTube Premium: 6 meses grátis
+- Streaming 8K: Suporte nativo
+- Gaming Pro: Ultra baixa latência
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 1º de cada mês
+- Carência: 5 dias após vencimento
+- Bloqueio: Após 5 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 80,00
+- Parcelamento: Até 12x
+- Desconto anual: 20%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 10% à vista
+- Débito automático: Desconto 8%
+- Cartão de crédito: Até 12x
+- Boleto bancário
+- Transferência bancária
+- Pagamento digital
+- App NetMax Pay
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal max
+- Análise de viabilidade premium
+- Taxa de migração: R$ 200,00
+- Prazo: 48h (com cobertura)
+- Transferência premium
+- Reconfiguração automática
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.netmax.com.br
+- App: NetMax Premium (Android/iOS)
+- Login: CPF + senha max
+- Autenticação: Biometria + 2FA
+- Sede: Av. Máxima, 1200 - Max Center
+- Cidade: Porto Alegre - RS
+- CNPJ: 78.901.234/0001-67
+- Telefone: 0800-NET-MAX
+- WhatsApp: (51) 99netmax-tech
+- Email: contato@netmax.com.br
+- Site: https://netmax.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–22h, Sáb 08h–18h, Dom 09h–18h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–16h
+- Técnico: 24x7x365
+- Max: 24x7x365
+- NOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços especializados?
+A:
+- Consultoria em alta performance
+- Projetos de redes premium
+- Conectividade máxima
+- Redes corporativas avançadas
+- Soluções críticas
+- Backup premium
+- Monitoramento avançado
+- Arquitetura de redes
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 60 meses
+- Instalação: 36 meses
+- Infraestrutura: 10 anos
+- SLA Residencial: 99,8%
+- SLA Empresarial: 99,95%
+- SLA Premium: 99,99%
+- ITU-T G.984 (GPON)
+- IEEE 802.3 (Ethernet)
+- Anatel SCM
+- Certificação Premium
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet máxima para universidades
+- Conectividade social premium
+- Reciclagem de equipamentos
+- Energia sustentável
+- Programa de inovação
+- Apoio a startups
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Redes de próxima geração
+- Tecnologias emergentes
+- Conectividade 6G
+- Edge computing avançado
+- IA e machine learning
+- Automação inteligente
+- Quantum networking
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco em máxima performance
+- Tecnologia de ponta em telecomunicações
+- Backup redundante premium
+- Monitoramento inteligente 24x7
+- Escalation baseado em criticidade máxima
+- Compensação com upgrades premium
+- Integração com sistemas avançados
+- Protocolo de emergência premium
+- Suporte técnico especializado máximo
+- Atendimento diferenciado por tier
+- Compliance com padrões internacionais
+- Auditoria de performance contínua
+- Treinamento em tecnologias emergentes
+- Metodologia de otimização máxima
+- Gestão avançada de recursos
+- Sustentabilidade em telecomunicações
+- Inovação contínua premium
+---

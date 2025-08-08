@@ -1,0 +1,290 @@
+NETPRO (Net Pro Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da NETPRO?
+A:
+- Segunda a Sexta: 07h às 22h
+- Sábado: 08h às 18h
+- Domingo: Plantão 09h às 18h
+Obs: Soluções profissionais em conectividade.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet Profissional
+- Conectividade Pro
+- Redes Empresariais
+- Transmissão Profissional
+- Backbone Corporativo
+- Soluções Pro
+- Telecomunicações Avançadas
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- NETPRO 300: 300MB, R$ 59,90
+- NETPRO 500: 500MB, R$ 79,90
+- NETPRO 800: 800MB, R$ 99,90
+- NETPRO 1GB: 1GB, R$ 129,90
+- NETPRO 2GB: 2GB, R$ 189,90
+- NETPRO ULTRA: 3GB, R$ 269,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP NETPRO 1GB: 1GB dedicado, R$ 1.399,90
+- CORP NETPRO 2GB: 2GB dedicado, R$ 2.299,90
+- CORP NETPRO 5GB: 5GB dedicado, R$ 4.999,90
+- NETPRO ENTERPRISE: 10GB+, sob consulta
+- Pro Dedicado: A partir de R$ 6.000,00
+- Soluções Profissionais: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta profissional
+- Análise técnica especializada
+- Proposta comercial em 24h
+- Contrato profissional
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X17, Nokia 7360 ISAM
+- ONU: Huawei HG8546M, Nokia G-010G-P
+- Roteadores: Cisco ASR, Juniper MX
+- Switches: Cisco Nexus, Arista 7280
+- Equipamentos Pro: Ciena, Infinera
+- Conectores: SC/APC, LC/UPC
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet netpro: 10.netpro.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN pro: 200
+- VLAN corporativa: 300
+- MTU: 9000 bytes (Jumbo Frames)
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/netpro2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU Nokia: admin/admin
+- WiFi Pro: netpro/professional123
+- Corporativo: netpro/pro2024
+Obs: Senhas complexas obrigatórias
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral
+- Nível 2: Suporte técnico pro
+- Nível 3: Engenharia profissional
+- Nível 4: Arquitetura avançada
+- NOC NetPro: Monitoramento 24x7
+- Pro Support: Especialistas profissionais
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Pro Power: -2dBm a +3dBm
+- OSNR: > 21dB
+- BER: < 10^-12
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.netpro.com.br
+Obs: Servidor profissional com medição precisa
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.netpro.1.10
+- DNS2: 200.netpro.1.11
+- DNS Pro: 10.netpro.1.10 / 10.netpro.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 4h úteis
+- Profissional: 2h
+- Crítico: 1h
+- Instalação urbana: 48h
+- Instalação pro: 72h
+- Disponibilidade: 99,95%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise profissional: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 100,00
+- Reinstalação: R$ 200,00
+- Cabo profissional: R$ 40,00/metro
+- Conector pro: R$ 80,00/unidade
+- Configuração: R$ 200,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 18h (completo)
+- Domingo: 09h às 18h (emergencial)
+- Feriados: Plantão pro
+- NOC: 24x7x365
+- Emergência: 0800-NET-PRO
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo Pro: R$ 300,00/mês
+- Pro Backup: R$ 2.000,00/mês
+- Monitoramento Pro: R$ 500,00/mês
+- Redundância Pro: R$ 800,00/mês
+- Suporte Premium: R$ 400,00/mês
+- Consultoria Pro: R$ 500,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 6 meses grátis (planos 2GB+)
+- Amazon Prime: 5 meses grátis
+- Disney+: 4 meses grátis
+- YouTube Premium: 6 meses grátis
+- Streaming 8K: Suporte nativo
+- Gaming Pro: Ultra baixa latência
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 1º de cada mês
+- Carência: 5 dias após vencimento
+- Bloqueio: Após 5 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 80,00
+- Parcelamento: Até 12x
+- Desconto anual: 20%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 10% à vista
+- Débito automático: Desconto 8%
+- Cartão de crédito: Até 12x
+- Boleto bancário
+- Transferência bancária
+- Pagamento corporativo
+- App NetPro Pay
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal pro
+- Análise de viabilidade profissional
+- Taxa de migração: R$ 200,00
+- Prazo: 48h (com cobertura)
+- Transferência profissional
+- Reconfiguração automática
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.netpro.com.br
+- App: NetPro Professional (Android/iOS)
+- Login: CPF + senha pro
+- Autenticação: Biometria + 2FA
+- Sede: Av. Profissional, 1300 - Pro Center
+- Cidade: Recife - PE
+- CNPJ: 90.123.456/0001-89
+- Telefone: 0800-NET-PRO
+- WhatsApp: (81) 99netpro-tech
+- Email: contato@netpro.com.br
+- Site: https://netpro.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–22h, Sáb 08h–18h, Dom 09h–18h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–16h
+- Técnico: 24x7x365
+- Pro: 24x7x365
+- NOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços especializados?
+A:
+- Consultoria profissional
+- Projetos de redes corporativas
+- Conectividade empresarial
+- Redes críticas
+- Soluções sob medida
+- Backup profissional
+- Monitoramento avançado
+- Arquitetura de sistemas
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 60 meses
+- Instalação: 36 meses
+- Infraestrutura: 10 anos
+- SLA Residencial: 99,8%
+- SLA Empresarial: 99,95%
+- SLA Profissional: 99,99%
+- ITU-T G.984 (GPON)
+- IEEE 802.3 (Ethernet)
+- Anatel SCM
+- Certificação Profissional
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet profissional para universidades
+- Conectividade social
+- Reciclagem de equipamentos
+- Energia sustentável
+- Programa de capacitação
+- Apoio a startups
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Redes profissionais avançadas
+- Tecnologias emergentes
+- Conectividade 6G
+- Edge computing profissional
+- IA e automação
+- Redes inteligentes
+- Quantum networking
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco profissional
+- Tecnologia de ponta em telecomunicações
+- Backup redundante profissional
+- Monitoramento inteligente 24x7
+- Escalation baseado em criticidade profissional
+- Compensação com upgrades premium
+- Integração com sistemas corporativos
+- Protocolo de emergência profissional
+- Suporte técnico especializado avançado
+- Atendimento diferenciado por segmento
+- Compliance com padrões internacionais
+- Auditoria de performance profissional
+- Treinamento em tecnologias avançadas
+- Metodologia de otimização profissional
+- Gestão avançada de recursos
+- Sustentabilidade corporativa
+- Inovação contínua profissional
+---

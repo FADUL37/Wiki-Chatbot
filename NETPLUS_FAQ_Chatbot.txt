@@ -1,0 +1,290 @@
+NETPLUS (Net Plus Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da NETPLUS?
+A:
+- Segunda a Sexta: 07h às 21h
+- Sábado: 08h às 17h
+- Domingo: Plantão 10h às 17h
+Obs: Sempre um plus na sua conectividade.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet Plus
+- Conectividade Avançada
+- Redes de Alto Desempenho
+- Transmissão Digital Plus
+- Backbone Robusto
+- Soluções Integradas
+- Telecomunicações Plus
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- NETPLUS 350: 350MB, R$ 64,90
+- NETPLUS 550: 550MB, R$ 84,90
+- NETPLUS 850: 850MB, R$ 104,90
+- NETPLUS 1GB: 1GB, R$ 134,90
+- NETPLUS 2GB: 2GB, R$ 194,90
+- NETPLUS ULTRA: 4GB, R$ 324,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP NETPLUS 500: 500MB dedicado, R$ 949,90
+- CORP NETPLUS 1GB: 1GB dedicado, R$ 1.549,90
+- CORP NETPLUS 5GB: 5GB dedicado, R$ 4.749,90
+- NETPLUS ENTERPRISE: 10GB+, sob consulta
+- Plus Dedicado: A partir de R$ 5.500,00
+- Soluções Plus: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta de viabilidade plus
+- Análise técnica avançada
+- Proposta comercial em 24h
+- Contrato plus
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X15, ZTE C320
+- ONU: Huawei HG8245H, ZTE F670L
+- Roteadores: Cisco ISR, Mikrotik CCR
+- Switches: Cisco Catalyst, HP Enterprise
+- Equipamentos Plus: Ubiquiti, Cambium
+- Conectores: SC/APC, LC/UPC
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet netplus: 10.netplus.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN plus: 200
+- VLAN corporativa: 300
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/netplus2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU ZTE: admin/admin
+- WiFi Plus: netplus/connect123
+- Corporativo: netplus/plus2024
+Obs: Alteração obrigatória no primeiro acesso
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral
+- Nível 2: Suporte técnico plus
+- Nível 3: Engenharia avançada
+- Nível 4: Arquitetura de redes
+- NOC NetPlus: Monitoramento 24x7
+- Plus Support: Especialistas avançados
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Plus Power: -4dBm a +2dBm
+- OSNR: > 19dB
+- BER: < 10^-10
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.netplus.com.br
+Obs: Servidor plus com medição avançada
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.netplus.1.10
+- DNS2: 200.netplus.1.11
+- DNS Plus: 10.netplus.1.10 / 10.netplus.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 5h úteis
+- Plus: 2h
+- Crítico: 1h
+- Instalação urbana: 48h
+- Instalação plus: 72h
+- Disponibilidade: 99,9%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise plus: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 90,00
+- Reinstalação: R$ 180,00
+- Cabo plus: R$ 35,00/metro
+- Conector: R$ 70,00/unidade
+- Configuração: R$ 180,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 17h (completo)
+- Domingo: 10h às 17h (emergencial)
+- Feriados: Plantão plus
+- NOC: 24x7x365
+- Emergência: 0800-NET-PLUS
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo Plus: R$ 250,00/mês
+- Plus Backup: R$ 1.700,00/mês
+- Monitoramento Plus: R$ 400,00/mês
+- Redundância Plus: R$ 700,00/mês
+- Suporte Premium: R$ 350,00/mês
+- Consultoria Plus: R$ 450,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 5 meses grátis (planos 1GB+)
+- Amazon Prime: 4 meses grátis
+- Disney+: 3 meses grátis
+- YouTube Premium: 5 meses grátis
+- Streaming 4K: Suporte nativo
+- Gaming Plus: Baixa latência
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 5 de cada mês
+- Carência: 5 dias após vencimento
+- Bloqueio: Após 5 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 75,00
+- Parcelamento: Até 12x
+- Desconto anual: 17%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 9% à vista
+- Débito automático: Desconto 7%
+- Cartão de crédito: Até 12x
+- Boleto bancário
+- Transferência bancária
+- Pagamento digital
+- App NetPlus Pay
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal plus
+- Análise de viabilidade
+- Taxa de migração: R$ 180,00
+- Prazo: 48h (com cobertura)
+- Transferência plus
+- Reconfiguração automática
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.netplus.com.br
+- App: NetPlus Connect (Android/iOS)
+- Login: CPF + senha plus
+- Autenticação: SMS + token
+- Sede: Av. Plus, 1000 - Plus Center
+- Cidade: Brasília - DF
+- CNPJ: 89.012.345/0001-78
+- Telefone: 0800-NET-PLUS
+- WhatsApp: (61) 99netplus-tech
+- Email: contato@netplus.com.br
+- Site: https://netplus.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–21h, Sáb 08h–17h, Dom 10h–17h
+- Comercial: Seg–Sex 08h–19h, Sáb 08h–15h
+- Técnico: 24x7x365
+- Plus: 24x7x365
+- NOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços especializados?
+A:
+- Consultoria em conectividade plus
+- Projetos de redes avançadas
+- Conectividade empresarial
+- Redes corporativas plus
+- Soluções críticas
+- Backup avançado
+- Monitoramento plus
+- Arquitetura de sistemas
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 54 meses
+- Instalação: 30 meses
+- Infraestrutura: 9 anos
+- SLA Residencial: 99,8%
+- SLA Empresarial: 99,9%
+- SLA Plus: 99,95%
+- ITU-T G.984 (GPON)
+- IEEE 802.3 (Ethernet)
+- Anatel SCM
+- Certificação Plus
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet plus para escolas
+- Conectividade social
+- Reciclagem de equipamentos
+- Energia sustentável
+- Programa de inclusão digital
+- Apoio a comunidades
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Redes de nova geração
+- Tecnologias plus
+- Conectividade avançada
+- Edge computing
+- Redes inteligentes
+- Automação plus
+- IoT avançado
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco em valor agregado
+- Tecnologia plus em telecomunicações
+- Backup redundante avançado
+- Monitoramento inteligente 24x7
+- Escalation baseado em criticidade plus
+- Compensação com upgrades avançados
+- Integração com sistemas plus
+- Protocolo de emergência avançado
+- Suporte técnico especializado plus
+- Atendimento diferenciado por categoria
+- Compliance com padrões avançados
+- Auditoria de performance plus
+- Treinamento em tecnologias plus
+- Metodologia de otimização avançada
+- Gestão inteligente de recursos
+- Sustentabilidade plus
+- Inovação contínua avançada
+---
