@@ -1,0 +1,269 @@
+AVIANET (Região Sudeste) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da AVIANET?
+A:
+- Segunda a Sexta: 07h às 21h
+- Sábado: 08h às 16h
+- Domingo: Plantão 09h às 15h
+Obs: Suporte 24h para clientes enterprise e data center.
+
+2. [Tecnologias e Soluções]
+Q: Quais tecnologias a AVIANET oferece?
+A:
+- Fibra Óptica GPON/XGS-PON
+- SD-WAN Empresarial
+- Cloud Computing
+- Internet Dedicada
+- Telefonia IP
+- Segurança Cibernética
+- IoT Solutions
+
+3. [Planos Residenciais]
+Q: Portfólio de planos para residências?
+A:
+- AVIA 180: 180MB, R$ 69,90
+- AVIA 300: 300MB, R$ 89,90
+- AVIA 500: 500MB, R$ 119,90
+- AVIA 750: 750MB, R$ 149,90
+- AVIA 1GB: 1GB, R$ 189,90
+- AVIA 1.5GB: 1.5GB, R$ 249,90
+
+4. [Soluções Empresariais]
+Q: Planos para empresas?
+A:
+- BUSINESS 200: 200MB dedicado, R$ 399,90
+- BUSINESS 500: 500MB dedicado, R$ 799,90
+- BUSINESS 1GB: 1GB dedicado, R$ 1.299,90
+- ENTERPRISE: 10GB+ dedicado, sob consulta
+- SD-WAN: A partir de R$ 2.500,00
+- Data Center: Personalizado
+
+5. [Processo Comercial]
+Q: Como funciona a contratação?
+A:
+- Análise de viabilidade em 12h
+- Proposta técnico-comercial detalhada
+- Contrato eletrônico com certificado digital
+- Instalação express: 24h (fibra urbana)
+- Garantia de satisfação: 30 dias
+- Migração assistida de outros provedores
+
+6. [Infraestrutura Técnica]
+Q: Equipamentos e tecnologias utilizadas?
+A:
+- OLT: Huawei MA5800, ZTE C320
+- ONU: Huawei HG8310M, ZTE F670L
+- Roteadores: Cisco, Intelbras WiFi 6E
+- Switches: Cisco Catalyst, HP Aruba
+- Servidores: Dell PowerEdge, HPE ProLiant
+- Fibra: Corning, Furukawa
+
+7. [Endereçamento de Rede]
+Q: Configurações padrão de rede?
+A:
+- Gateway residencial: 192.168.0.1
+- Gateway empresarial: 10.x.x.1
+- ONU management: 192.168.100.1:8080
+- VLAN dados: 10
+- VLAN VoIP: 20
+- VLAN management: 100
+
+8. [Autenticação de Equipamentos]
+Q: Credenciais padrão dos dispositivos?
+A:
+- Roteador residencial: admin/avianet2024
+- Roteador empresarial: admin/avia@corp
+- ONU Huawei: telecomadmin/admintelecom
+- ONU ZTE: admin/admin
+- Switch Cisco: admin/avia123
+Obs: Alteração obrigatória no primeiro acesso
+
+9. [Estrutura de Suporte]
+Q: Organização do suporte técnico?
+A:
+- L1: Atendimento e diagnóstico inicial
+- L2: Configuração e troubleshooting avançado
+- L3: Infraestrutura, campo e projetos
+- NOC: Monitoramento 24x7x365
+- SOC: Segurança e incidentes
+- Engenharia: Projetos e otimização
+
+10. [Métricas de Sinal]
+Q: Parâmetros ópticos ideais?
+A:
+- GPON RX: -28dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- XGS-PON RX: -28dBm a -8dBm
+- Atenuação máxima: 28dB
+- BER: < 10^-12
+
+11. [Teste de Performance]
+Q: Ferramenta oficial de velocidade?
+A: https://speedtest.avianet.com.br
+Obs: Certificado pela Anatel, usar preferencialmente cabo ethernet
+
+12. [Servidores DNS]
+Q: DNS configurados pela AVIANET?
+A:
+- DNS1: 200.225.157.45
+- DNS2: 200.225.157.46
+- DNS Seguro: 200.225.157.100 (filtro malware)
+- Backup: 1.1.1.1 / 1.0.0.1
+- IPv6: 2606:4700:4700::1111
+
+13. [SLA e Atendimento]
+Q: Tempos de resposta garantidos?
+A:
+- Residencial: 36h úteis
+- Empresarial: 8h úteis
+- Enterprise: 4h
+- Crítico: 2h
+- Data Center: 30 minutos
+- Instalação: 24h a 72h
+
+14. [Tabela de Custos]
+Q: Valores de serviços técnicos?
+A:
+- Diagnóstico remoto: Gratuito
+- Visita técnica: Gratuita (primeira)
+- Visita improdutiva: R$ 90,00
+- Reinstalação: R$ 180,00
+- Cabo Cat6A: R$ 18,00/metro
+- Conector óptico: R$ 25,00/unidade
+- Configuração personalizada: R$ 150,00/hora
+
+15. [Plantão e Emergência]
+Q: Cobertura em finais de semana?
+A:
+- Sábado: 08h às 16h (atendimento normal)
+- Domingo: 09h às 15h (emergencial)
+- Feriados: NOC 24h + plantão técnico
+- Emergência corporativa: 24x7
+- WhatsApp urgente: (11) 99999-2222
+
+16. [Serviços Avançados]
+Q: Produtos e serviços especiais?
+A:
+- IP Fixo: R$ 250,00/mês
+- Bloco IPv4 /28: R$ 800,00/mês
+- VPN MPLS: A partir de R$ 500,00
+- Firewall gerenciado: R$ 400,00/mês
+- Backup cloud: R$ 80,00/100GB
+- DDoS Protection: R$ 300,00/mês
+
+17. [Entretenimento Digital]
+Q: Parcerias de streaming?
+A:
+- Netflix: Incluso planos +500MB (6 meses)
+- Disney+: Incluso planos +750MB (3 meses)
+- Amazon Prime: Incluso planos +1GB (12 meses)
+- Spotify Premium: Incluso planos +300MB
+- Xbox Game Pass: Promoção trimestral
+
+18. [Política de Cobrança]
+Q: Regras financeiras?
+A:
+- Vencimento: Dia 25 de cada mês
+- Tolerância: 15 dias após vencimento
+- Bloqueio: Após 15 dias de atraso
+- Multa: 2% + juros SELIC
+- Religação: R$ 75,00
+- Renegociação: Até 12x sem juros
+- Desconto pontualidade: 5%
+
+19. [Formas de Pagamento]
+Q: Opções de quitação?
+A:
+- PIX: Desconto 10% à vista
+- Boleto bancário
+- Débito automático (desconto 5%)
+- Cartão de crédito: Até 12x
+- Transferência TED/DOC
+- Criptomoedas (Bitcoin, Ethereum)
+- Apple Pay / Google Pay
+
+20. [Transferência de Serviços]
+Q: Mudança de endereço?
+A:
+- Solicitação com 20 dias antecedência
+- Análise técnica gratuita
+- Taxa de migração: R$ 250,00
+- Prazo: 3 a 7 dias úteis
+- Upgrade gratuito se disponível
+- Manutenção de fidelidade
+
+21. [Informações Institucionais]
+- Portal do Cliente: https://minha.avianet.com.br
+- App: AVIANET Connect (iOS/Android)
+- Login: CPF/CNPJ + senha
+- Autenticação: 2FA obrigatório
+- Sede: Av. Paulista, 1500 - Bela Vista
+- Cidade: São Paulo - SP
+- CNPJ: 12.345.678/0001-90
+- Telefone: (11) 4000-9000
+- WhatsApp: (11) 99888-1234
+- Email: contato@avianet.com.br
+- Site: https://avianet.com.br
+
+22. [Horários Setoriais]
+- Central de Relacionamento: Seg–Sex 07h–21h, Sáb 08h–16h
+- Vendas: Seg–Sex 08h–20h, Sáb 08h–14h
+- Suporte Técnico: Seg–Sex 07h–21h, Sáb 08h–16h
+- Financeiro: Seg–Sex 08h–18h
+- NOC/SOC: 24x7x365
+- Engenharia: Seg–Sex 08h–18h
+- Diretoria: Seg–Sex 09h–18h
+
+23. [Soluções Corporativas]
+Q: Serviços para grandes empresas?
+A:
+- Consultoria em transformação digital
+- Projetos de infraestrutura
+- Cabeamento estruturado certificado
+- Segurança cibernética avançada
+- Cloud híbrida e multi-cloud
+- Disaster recovery
+- Compliance e auditoria
+- Treinamento técnico
+
+24. [Certificações e Garantias]
+Q: Qualificações e garantias?
+A:
+- Equipamentos: 48 meses
+- Instalação: 12 meses
+- Cabeamento: Garantia vitalícia
+- SLA Residencial: 99,7%
+- SLA Empresarial: 99,95%
+- SLA Data Center: 99,99%
+- ISO 27001 (Segurança)
+- ISO 9001 (Qualidade)
+- Anatel homologado
+
+25. [Sustentabilidade]
+Q: Práticas ambientais?
+A:
+- Energia 100% renovável
+- Reciclagem de equipamentos
+- Compensação de carbono
+- Digitalização de processos
+- Parceria com ONGs ambientais
+
+---
+**Diretrizes Operacionais Avançadas:**
+- Autenticação biométrica para informações sensíveis
+- Gravação de todas as chamadas para qualidade
+- Criptografia end-to-end em comunicações
+- Backup triplo de todas as configurações
+- Monitoramento preditivo com IA
+- Escalation automático baseado em criticidade
+- SLA diferenciado por tipo de cliente
+- Compensação automática por indisponibilidade
+- Relatórios de performance em tempo real
+- Integração com sistemas de terceiros via API
+- Suporte multilíngue (português, inglês, espanhol)
+- Atendimento especializado para PcD
+- Protocolo de segurança para dados pessoais (LGPD)
+- Auditoria contínua de processos
+- Treinamento mensal obrigatório para equipe
+---

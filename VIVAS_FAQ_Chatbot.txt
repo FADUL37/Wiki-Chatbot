@@ -1,0 +1,173 @@
+VIVAS (Região Sul) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de atendimento da VIVAS?
+A:
+- Segunda a Sexta: 08h às 18h
+- Sábado: 08h às 12h
+- Domingo: Plantão emergencial 08h às 12h
+Obs: Atendimento prioritário para clientes corporativos.
+
+2. [Tecnologias Oferecidas]
+Q: Quais tecnologias a VIVAS oferece?
+A:
+- Fibra Óptica FTTH
+- Internet Dedicada
+- IPTV Premium
+- Telefonia VoIP
+- Monitoramento 24h
+
+3. [Planos Comercializados]
+Q: Quais são os planos da VIVAS?
+A:
+- VIVAS 100: 100MB, R$ 79,90
+- VIVAS 200: 200MB, R$ 99,90
+- VIVAS 300: 300MB, R$ 119,90
+- VIVAS 500: 500MB, R$ 149,90
+- VIVAS 1GB: 1GB, R$ 199,90
+- Corporativo: Sob consulta
+
+4. [Contratação]
+Q: Como proceder para contratar ou indicar clientes?
+A:
+- Transferir para setor Comercial durante horário
+- Fora do horário: protocolar solicitação
+- Desconto para indicação: 50% no primeiro mês
+- Sempre verificar viabilidade técnica
+
+5. [Equipamentos Utilizados]
+Q: Quais equipamentos utiliza?
+A:
+- ONU/ONT: Huawei, ZTE, Intelbras
+- Roteadores: TP-Link Archer, Intelbras Action
+- Switch: Intelbras, TP-Link
+- Cabos: Cat6, Fibra Óptica
+
+6. [Portas de Acesso]
+Q: Qual a porta de acesso aos equipamentos?
+A:
+- Roteador principal: 192.168.1.1
+- ONU/ONT: 192.168.100.1
+- Porta de gerência: 8080
+- SNMP: 161
+
+7. [Usuário/Senha Padrão]
+Q: Qual usuário e senha padrão?
+A:
+- Roteadores: admin/vivas2024
+- ONT: admin/admin
+- Gerência: vivastec/vivas123
+Obs: Senhas podem variar por lote de equipamento
+
+8. [Suporte Técnico]
+Q: Como funciona o suporte técnico?
+A:
+- Nível 1: Atendimento básico
+- Nível 2: Suporte avançado
+- Nível 3: Equipe de campo
+- Abertura de OS via sistema
+
+9. [Sinal Ideal]
+Q: Qual o nível de sinal ideal?
+A:
+- Fibra: -25dBm a -3dBm
+- Rádio: -65dBm a -45dBm
+
+10. [Teste de Velocidade]
+Q: Qual site para teste de velocidade?
+A: http://speedtest.vivas.net.br
+
+11. [DNS Padrão]
+Q: Qual DNS padrão da VIVAS?
+A:
+- Primário: 8.8.8.8
+- Secundário: 8.8.4.4
+- DNS Local: 200.150.10.10
+
+12. [Prazo de Atendimento]
+Q: Prazo para atendimento técnico?
+A:
+- Residencial: 48h úteis
+- Corporativo: 12h úteis
+- Emergencial: 4h
+
+13. [Visita Técnica – Valores]
+Q: Custo da visita técnica?
+A:
+- Visita diagnóstico: Gratuita
+- Visita improdutiva: R$ 50,00
+- Instalação adicional: R$ 80,00
+- Material: Conforme tabela
+
+14. [Plantão]
+Q: Tem plantão de final de semana?
+A:
+- Sábado: 08h às 12h
+- Domingo: Emergencial 08h às 12h
+- Feriados: Plantão reduzido
+
+15. [IP Fixo]
+Q: Fornece IP fixo?
+A:
+- Sim, R$ 150,00/mês
+- Configuração inclusa
+- Suporte técnico especializado
+
+16. [IPTV]
+Q: Trabalha com IPTV?
+A:
+- Sim, IPTV Premium
+- +100 canais HD
+- Gravação em nuvem
+- Aplicativo mobile
+
+17. [Financeiro]
+Q: Política de cobrança?
+A:
+- Vencimento: Todo dia 10
+- Bloqueio: Após 5 dias
+- Religação: R$ 30,00
+- Parcelamento: Até 3x
+
+18. [Métodos de Pagamento]
+Q: Como pagar a fatura?
+A:
+- PIX: Instantâneo
+- Boleto bancário
+- Débito automático
+- Cartão de crédito
+
+19. [Mudança de Endereço]
+Q: Como solicitar mudança?
+A:
+- Protocolar via atendimento
+- Verificar viabilidade
+- Taxa: R$ 100,00
+- Prazo: 5 dias úteis
+
+20. [Informações da Empresa]
+- Central do Cliente: https://cliente.vivas.net.br
+- Login: CPF
+- Senha: Cadastrada pelo cliente
+- Endereço: Av. Principal, 1000 - Centro
+- Telefone: (47) 3000-1000
+- WhatsApp: (47) 99999-0000
+- Site: https://vivas.net.br
+
+21. [Horários dos Setores]
+- Atendimento: Seg–Sex 08h–18h, Sáb 08h–12h
+- Comercial: Seg–Sex 08h–18h, Sáb 08h–12h
+- Técnico: Seg–Sex 08h–18h, Sáb 08h–12h
+- Financeiro: Seg–Sex 08h–17h
+
+---
+**Observações Importantes:**
+- Sempre verificar autenticação do cliente antes de fornecer informações
+- Senhas de equipamentos são confidenciais
+- Visitas técnicas podem ter custo adicional
+- Suporte remoto disponível via TeamViewer
+- Garantia de equipamentos: 12 meses
+- SLA corporativo diferenciado
+- Backup de energia em toda rede
+- Monitoramento 24x7 da infraestrutura
+---

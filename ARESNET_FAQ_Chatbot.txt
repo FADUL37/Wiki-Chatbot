@@ -1,0 +1,210 @@
+ARESNET (Região Nordeste) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de atendimento da ARESNET?
+A:
+- Segunda a Sexta: 07h às 19h
+- Sábado: 07h às 13h
+- Domingo: Plantão 08h às 12h
+Obs: Atendimento estendido para clientes premium.
+
+2. [Tecnologias Oferecidas]
+Q: Quais tecnologias a ARESNET oferece?
+A:
+- Fibra Óptica GPON
+- Internet via Rádio
+- TV por Assinatura
+- Telefonia Fixa
+- Segurança Digital
+- Cloud Backup
+
+3. [Planos Comercializados]
+Q: Quais são os planos da ARESNET?
+A:
+- ARES 150: 150MB, R$ 69,90
+- ARES 250: 250MB, R$ 89,90
+- ARES 400: 400MB, R$ 109,90
+- ARES 600: 600MB, R$ 139,90
+- ARES 1GB: 1GB, R$ 179,90
+- Empresarial: Personalizado
+
+4. [Contratação]
+Q: Como proceder para contratar?
+A:
+- Contato direto com vendas
+- Análise de viabilidade gratuita
+- Instalação em até 48h
+- Promoção: 3 meses com 50% desconto
+- Indicação premiada: R$ 100 de crédito
+
+5. [Equipamentos Utilizados]
+Q: Quais equipamentos utiliza?
+A:
+- ONU: Parks, Intelbras, Huawei
+- Roteadores: Intelbras WiFi 6, TP-Link
+- Antenas: Ubiquiti, Cambium Networks
+- Switches: Intelbras, D-Link
+- Cabos: Cat6A, Fibra SM/MM
+
+6. [Portas de Acesso]
+Q: Portas de acesso aos equipamentos?
+A:
+- Roteador: 192.168.0.1 ou 192.168.1.1
+- ONU: 192.168.100.1:8080
+- Antena: 192.168.1.20
+- Gerenciamento: Porta 443 (HTTPS)
+
+7. [Usuário/Senha Padrão]
+Q: Credenciais padrão dos equipamentos?
+A:
+- Roteador: admin/aresnet2024
+- ONU: admin/ares123
+- Antena: ubnt/ubnt ou admin/admin
+- Sistema: Consultar tabela por modelo
+Obs: Alterar senhas após configuração
+
+8. [Suporte Técnico]
+Q: Níveis de suporte disponíveis?
+A:
+- N1: Atendimento telefônico básico
+- N2: Suporte técnico especializado
+- N3: Equipe de campo e infraestrutura
+- Abertura de chamados via app ou site
+
+9. [Sinal Ideal]
+Q: Parâmetros ideais de sinal?
+A:
+- Fibra Óptica: -28dBm a -8dBm
+- Rádio 2.4GHz: -70dBm a -50dBm
+- Rádio 5.8GHz: -75dBm a -55dBm
+
+10. [Teste de Velocidade]
+Q: Site oficial para teste?
+A: http://velocidade.aresnet.com.br
+
+11. [DNS Configurado]
+Q: Servidores DNS da ARESNET?
+A:
+- DNS1: 200.175.89.139
+- DNS2: 200.175.89.140
+- Backup: 1.1.1.1 e 1.0.0.1
+
+12. [Prazo de Atendimento]
+Q: Tempo para atendimento técnico?
+A:
+- Residencial: 24h úteis
+- Empresarial: 8h úteis
+- Crítico: 2h
+- Instalação: 48h após aprovação
+
+13. [Visita Técnica – Custos]
+Q: Valores de visita técnica?
+A:
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 60,00
+- Reinstalação: R$ 120,00
+- Cabo adicional: R$ 12,00/metro
+- Conector: R$ 8,00/unidade
+
+14. [Plantão e Emergência]
+Q: Atendimento em finais de semana?
+A:
+- Sábado: 07h às 13h (completo)
+- Domingo: 08h às 12h (emergencial)
+- Feriados: Plantão reduzido
+- WhatsApp 24h para urgências
+
+15. [IP Fixo]
+Q: Disponibilidade de IP fixo?
+A:
+- Sim, R$ 180,00/mês
+- Configuração gratuita
+- Suporte dedicado
+- Certificado SSL incluso
+
+16. [TV e Streaming]
+Q: Serviços de TV disponíveis?
+A:
+- IPTV com +150 canais
+- Netflix incluso (planos acima 400MB)
+- Amazon Prime Video
+- Globoplay
+- Aplicativo próprio AresTV
+
+17. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 15 de cada mês
+- Bloqueio: 7 dias após vencimento
+- Multa: 2% + juros 1% ao mês
+- Religação: R$ 45,00
+- Negociação: Até 6x sem juros
+
+18. [Formas de Pagamento]
+Q: Como quitar a mensalidade?
+A:
+- PIX (desconto 5%)
+- Boleto bancário
+- Débito automático
+- Cartão de crédito (até 12x)
+- Dinheiro nas lojas físicas
+
+19. [Mudança de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via atendimento
+- Análise de viabilidade
+- Taxa de mudança: R$ 150,00
+- Prazo: 3 a 5 dias úteis
+- Manutenção do plano atual
+
+20. [Informações Corporativas]
+- Portal do Cliente: https://minha.aresnet.com.br
+- App: AresNet (Android/iOS)
+- Login: CPF/CNPJ
+- Senha: Definida no cadastro
+- Matriz: Rua das Tecnologias, 500 - Centro
+- Telefone: (85) 3200-5000
+- WhatsApp: (85) 99888-7777
+- Site: https://aresnet.com.br
+- Email: contato@aresnet.com.br
+
+21. [Horários Setoriais]
+- Central de Atendimento: Seg–Sex 07h–19h, Sáb 07h–13h
+- Departamento Comercial: Seg–Sex 08h–18h, Sáb 08h–12h
+- Suporte Técnico: Seg–Sex 07h–19h, Sáb 07h–13h
+- Financeiro: Seg–Sex 08h–17h
+- Diretoria: Seg–Sex 09h–17h
+
+22. [Serviços Adicionais]
+Q: Outros serviços oferecidos?
+A:
+- Consultoria em TI
+- Cabeamento estruturado
+- Câmeras de segurança
+- Backup em nuvem
+- Hospedagem de sites
+- Email corporativo
+
+23. [Garantias e SLA]
+Q: Garantias oferecidas?
+A:
+- Equipamentos: 24 meses
+- Instalação: 90 dias
+- SLA Residencial: 99,5%
+- SLA Empresarial: 99,9%
+- Compensação por indisponibilidade
+
+---
+**Diretrizes Operacionais:**
+- Sempre confirmar identidade antes de fornecer informações
+- Não divulgar senhas por telefone - apenas presencialmente
+- Registrar todos os atendimentos no sistema CRM
+- Visitas técnicas devem ser agendadas com 24h de antecedência
+- Clientes inadimplentes: encaminhar para financeiro
+- Reclamações: protocolar e escalar para supervisão
+- Equipamentos em garantia: troca gratuita
+- Suporte remoto via AnyDesk (com autorização)
+- Backup diário da configuração dos equipamentos
+- Monitoramento proativo 24x7
+---

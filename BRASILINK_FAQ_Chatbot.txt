@@ -1,0 +1,239 @@
+BRASILINK (Região Centro-Oeste) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de atendimento da BRASILINK?
+A:
+- Segunda a Sexta: 06h às 20h
+- Sábado: 06h às 14h
+- Domingo: Plantão 08h às 14h
+Obs: Atendimento 24h para clientes corporativos premium.
+
+2. [Tecnologias Oferecidas]
+Q: Quais tecnologias a BRASILINK disponibiliza?
+A:
+- Fibra Óptica FTTH/FTTB
+- Internet Satelital
+- Rádio Ponto-a-Ponto
+- VoIP Empresarial
+- Data Center
+- Conectividade Rural
+
+3. [Planos Residenciais]
+Q: Quais planos residenciais estão disponíveis?
+A:
+- BRASIL 120: 120MB, R$ 59,90
+- BRASIL 200: 200MB, R$ 79,90
+- BRASIL 350: 350MB, R$ 99,90
+- BRASIL 500: 500MB, R$ 129,90
+- BRASIL 800: 800MB, R$ 159,90
+- BRASIL 1GB: 1GB, R$ 199,90
+
+4. [Planos Empresariais]
+Q: Opções para empresas?
+A:
+- CORP 100: 100MB dedicado, R$ 299,90
+- CORP 200: 200MB dedicado, R$ 499,90
+- CORP 500: 500MB dedicado, R$ 899,90
+- CORP 1GB: 1GB dedicado, R$ 1.499,90
+- Customizado: Sob consulta
+
+5. [Processo de Contratação]
+Q: Como contratar os serviços?
+A:
+- Consulta de viabilidade gratuita
+- Proposta comercial em 24h
+- Contrato digital disponível
+- Instalação em até 72h
+- Período de fidelidade: 12 meses
+- Desconto anual: 10%
+
+6. [Equipamentos e Tecnologia]
+Q: Quais equipamentos são utilizados?
+A:
+- ONU/ONT: Huawei, ZTE, Intelbras, Parks
+- Roteadores: Intelbras WiFi 6, TP-Link AX
+- Switches: Cisco, Intelbras, TP-Link
+- Antenas: Ubiquiti, Mikrotik, Cambium
+- Servidores: Dell, HP Enterprise
+
+7. [Configurações de Rede]
+Q: Endereços e portas padrão?
+A:
+- Gateway padrão: 192.168.1.1
+- ONU management: 192.168.100.1:8080
+- Rádio PtP: 10.0.0.1
+- VLAN management: 100
+- Porta SNMP: 161/162
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas dos equipamentos?
+A:
+- Roteador: admin/brasilink2024
+- ONU Huawei: root/admin
+- ONU ZTE: admin/admin
+- Mikrotik: admin/brasil123
+- Ubiquiti: ubnt/ubnt
+Obs: Credenciais podem variar por lote
+
+9. [Estrutura de Suporte]
+Q: Como funciona o suporte técnico?
+A:
+- Nível 1: Atendimento inicial e triagem
+- Nível 2: Diagnóstico avançado e configuração
+- Nível 3: Infraestrutura e campo
+- NOC: Monitoramento 24x7
+- Escalation: Supervisão e gerência
+
+10. [Parâmetros de Sinal]
+Q: Níveis ideais de sinal?
+A:
+- Fibra GPON: -28dBm a -8dBm (RX)
+- Rádio 5.8GHz: -65dBm a -45dBm
+- Satelital: SNR > 10dB
+- Cabo: -15dBm a +15dBm
+
+11. [Teste de Velocidade]
+Q: Ferramenta oficial de teste?
+A: http://speedtest.brasilink.net.br
+Obs: Usar sempre cabo ethernet para teste preciso
+
+12. [Configuração DNS]
+Q: Servidores DNS recomendados?
+A:
+- DNS Primário: 200.160.2.3
+- DNS Secundário: 200.160.2.4
+- DNS Público: 8.8.8.8 / 8.8.4.4
+- IPv6: 2001:4860:4860::8888
+
+13. [SLA e Prazos]
+Q: Prazos de atendimento?
+A:
+- Residencial: 48h úteis
+- Empresarial: 12h úteis
+- Crítico: 4h
+- Instalação nova: 72h
+- Reparo de infraestrutura: 24h
+
+14. [Custos de Serviços]
+Q: Tabela de valores extras?
+A:
+- Visita técnica diagnóstico: Gratuita
+- Visita improdutiva: R$ 80,00
+- Reinstalação completa: R$ 150,00
+- Cabo UTP Cat6: R$ 15,00/metro
+- Conector RJ45: R$ 10,00/unidade
+- Configuração avançada: R$ 100,00
+
+15. [Plantão e Emergência]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 06h às 14h (atendimento completo)
+- Domingo: 08h às 14h (emergencial)
+- Feriados: Plantão NOC 24h
+- WhatsApp emergencial: (65) 99999-1111
+
+16. [IP Fixo e Serviços]
+Q: IP fixo e serviços adicionais?
+A:
+- IP Fixo: R$ 200,00/mês
+- Bloco /29: R$ 500,00/mês
+- VPN Site-to-Site: R$ 300,00/mês
+- Email corporativo: R$ 25,00/caixa
+- Backup cloud: R$ 50,00/100GB
+
+17. [Streaming e Entretenimento]
+Q: Parcerias de conteúdo?
+A:
+- Netflix: Incluso planos +350MB
+- Amazon Prime: Incluso planos +500MB
+- Paramount+: Incluso planos +800MB
+- YouTube Premium: Promoção sazonal
+- Gaming: Parceria com Xbox Game Pass
+
+18. [Política Financeira]
+Q: Regras de cobrança e pagamento?
+A:
+- Vencimento: Dia 20 de cada mês
+- Carência: 10 dias após vencimento
+- Bloqueio: Após 10 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 60,00
+- Parcelamento: Até 10x (acima R$ 500)
+
+19. [Métodos de Pagamento]
+Q: Formas de quitação disponíveis?
+A:
+- PIX: Desconto 8% à vista
+- Boleto bancário
+- Débito automático (desconto 3%)
+- Cartão crédito: Até 12x
+- Transferência bancária
+- Dinheiro (lojas físicas)
+
+20. [Mudança e Transferência]
+Q: Processo de mudança de endereço?
+A:
+- Solicitação com 15 dias antecedência
+- Análise técnica de viabilidade
+- Taxa de transferência: R$ 200,00
+- Prazo de execução: 5 dias úteis
+- Manutenção de plano e condições
+
+21. [Dados Corporativos]
+- Portal Cliente: https://cliente.brasilink.net.br
+- App Mobile: BrasiLink Connect
+- Login: CPF/CNPJ
+- Senha: Cadastrada pelo usuário
+- Sede: Av. Brasil, 2000 - Jardim América
+- Cidade: Cuiabá - MT
+- Telefone: (65) 3500-8000
+- WhatsApp: (65) 99888-0000
+- Email: atendimento@brasilink.net.br
+- Site: https://brasilink.net.br
+
+22. [Horários Departamentais]
+- Atendimento Geral: Seg–Sex 06h–20h, Sáb 06h–14h
+- Comercial: Seg–Sex 07h–19h, Sáb 07h–13h
+- Técnico: Seg–Sex 06h–20h, Sáb 06h–14h
+- Financeiro: Seg–Sex 08h–18h
+- NOC: 24x7x365
+- Diretoria: Seg–Sex 08h–17h
+
+23. [Serviços Especializados]
+Q: Serviços corporativos avançados?
+A:
+- Consultoria em TI
+- Projeto de redes
+- Cabeamento estruturado
+- Segurança digital
+- Backup corporativo
+- Disaster recovery
+- Monitoramento de rede
+- Suporte on-site
+
+24. [Garantias e Certificações]
+Q: Garantias oferecidas?
+A:
+- Equipamentos: 36 meses
+- Instalação: 180 dias
+- Cabeamento: 25 anos
+- SLA Residencial: 99,5%
+- SLA Empresarial: 99,9%
+- Certificação ISO 9001
+- Anatel homologado
+
+---
+**Procedimentos Operacionais:**
+- Identificação obrigatória antes de qualquer informação
+- Senhas de equipamentos: apenas com autorização técnica
+- Todos os atendimentos devem ser registrados no CRM
+- Agendamento de visitas com mínimo 48h
+- Clientes em débito: encaminhar para cobrança
+- Reclamações: protocolar e notificar supervisão em 2h
+- Equipamentos defeituosos: troca em até 24h
+- Suporte remoto: TeamViewer ou AnyDesk (com permissão)
+- Backup automático de configurações semanalmente
+- Monitoramento proativo com alertas em tempo real
+- Escalation automático para incidentes críticos
+- Relatórios de performance mensais para clientes corporativos
+---

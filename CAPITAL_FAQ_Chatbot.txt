@@ -1,0 +1,289 @@
+CAPITAL TELECOM (Região Norte) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da CAPITAL?
+A:
+- Segunda a Sexta: 06h às 22h
+- Sábado: 07h às 17h
+- Domingo: Plantão 08h às 16h
+Obs: Atendimento 24x7 para clientes corporativos gold e platinum.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH/FTTB
+- Internet Satelital (Starlink Partner)
+- Conectividade Rural
+- Data Center Tier III
+- Cloud Computing AWS/Azure
+- Telefonia Corporativa
+- Videoconferência
+- Segurança Digital
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- CAPITAL 100: 100MB, R$ 54,90
+- CAPITAL 200: 200MB, R$ 74,90
+- CAPITAL 400: 400MB, R$ 94,90
+- CAPITAL 600: 600MB, R$ 124,90
+- CAPITAL 1GB: 1GB, R$ 164,90
+- CAPITAL 2GB: 2GB, R$ 224,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP BASIC: 300MB dedicado, R$ 499,90
+- CORP STANDARD: 500MB dedicado, R$ 799,90
+- CORP PREMIUM: 1GB dedicado, R$ 1.399,90
+- CORP ENTERPRISE: 10GB+ dedicado, sob consulta
+- MPLS: A partir de R$ 3.000,00
+- Satelital: Cobertura amazônica
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta de viabilidade instantânea
+- Visita técnica gratuita
+- Proposta em até 6h
+- Assinatura digital certificada
+- Instalação em 48h (área urbana)
+- Instalação em 120h (área rural)
+- Garantia total: 60 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Nokia 7360, Huawei MA5800
+- ONU: Nokia G-010G-P, Huawei HG8310M
+- Roteadores: Cisco ISR, Intelbras WiFi 6
+- Switches: Cisco Catalyst, Extreme Networks
+- Antenas: Starlink, Viasat, Hughes
+- Servidores: Dell EMC, Cisco UCS
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet empresarial: 10.x.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 10
+- VLAN telefonia: 20
+- VLAN gerência: 99
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/capital2024
+- ONU Nokia: admin/admin
+- ONU Huawei: telecomadmin/admintelecom
+- Cisco: admin/cap@123
+- Starlink: Configuração automática
+Obs: Troca obrigatória no primeiro login
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Triagem e atendimento básico
+- Nível 2: Diagnóstico e configuração
+- Nível 3: Campo e infraestrutura
+- Nível 4: Engenharia e projetos
+- NOC: Monitoramento 24x7
+- SOC: Segurança e compliance
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -28dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Satelital: SNR > 15dB
+- Rádio: RSSI > -70dBm
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://velocidade.capitaltelecom.com.br
+Obs: Homologado Anatel, preferir conexão cabeada
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.204.0.10
+- DNS2: 200.204.0.11
+- DNS Seguro: 200.204.0.100 (anti-malware)
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 48h úteis
+- Empresarial: 12h úteis
+- Corporativo: 6h
+- Crítico: 2h
+- Satelital: 24h (condições climáticas)
+- Instalação urbana: 48h
+- Instalação rural: 120h
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 100,00
+- Reinstalação: R$ 200,00
+- Cabo fibra: R$ 25,00/metro
+- Emenda óptica: R$ 50,00/unidade
+- Configuração avançada: R$ 180,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 07h às 17h (completo)
+- Domingo: 08h às 16h (emergencial)
+- Feriados: NOC 24h + plantão
+- Corporativo: Suporte 24x7
+- Emergência: (92) 99999-3333
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 300,00/mês
+- Bloco /29: R$ 1.000,00/mês
+- Link dedicado: A partir de R$ 2.000,00
+- Firewall UTM: R$ 500,00/mês
+- Backup automático: R$ 100,00/100GB
+- Monitoramento 24h: R$ 200,00/mês
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: Incluso planos +400MB (12 meses)
+- Amazon Prime: Incluso planos +600MB (6 meses)
+- Disney+: Incluso planos +1GB (3 meses)
+- Globoplay: Incluso todos os planos
+- YouTube Premium: Promoção semestral
+- Gaming: Parceria NVIDIA GeForce Now
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 30 de cada mês
+- Carência: 20 dias após vencimento
+- Bloqueio: Após 20 dias de atraso
+- Multa: 2% + juros CDI
+- Religação: R$ 80,00
+- Parcelamento: Até 18x sem juros
+- Desconto anual: 15%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 12% à vista
+- Boleto bancário
+- Débito automático (desconto 8%)
+- Cartão de crédito: Até 18x
+- Transferência bancária
+- Criptomoedas (Bitcoin, USDT)
+- Pix parcelado
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação com 30 dias antecedência
+- Análise de viabilidade gratuita
+- Taxa de migração: R$ 300,00
+- Prazo urbano: 5 dias úteis
+- Prazo rural: 15 dias úteis
+- Upgrade automático se disponível
+
+21. [Dados Institucionais]
+- Portal Cliente: https://minha.capitaltelecom.com.br
+- App: Capital Connect (iOS/Android/Web)
+- Login: CPF/CNPJ
+- Autenticação: Biometria + SMS
+- Matriz: Av. Amazonas, 3000 - Adrianópolis
+- Cidade: Manaus - AM
+- CNPJ: 98.765.432/0001-10
+- Telefone: (92) 4000-7000
+- WhatsApp: (92) 99777-8888
+- Email: atendimento@capitaltelecom.com.br
+- Site: https://capitaltelecom.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 06h–22h, Sáb 07h–17h, Dom 08h–16h
+- Comercial: Seg–Sex 07h–21h, Sáb 08h–16h
+- Técnico: Seg–Sex 06h–22h, Sáb 07h–17h
+- Financeiro: Seg–Sex 08h–19h
+- NOC: 24x7x365
+- Engenharia: Seg–Sex 08h–18h
+- Diretoria: Seg–Sex 09h–17h
+
+23. [Soluções Especializadas]
+Q: Serviços para grandes corporações?
+A:
+- Consultoria em conectividade amazônica
+- Projetos de telecomunicações
+- Cabeamento submarino
+- Segurança cibernética avançada
+- Cloud computing híbrida
+- Disaster recovery geográfico
+- Compliance regulatório
+- Conectividade satelital
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 60 meses
+- Instalação: 24 meses
+- Infraestrutura: 10 anos
+- SLA Residencial: 99,8%
+- SLA Empresarial: 99,95%
+- SLA Crítico: 99,99%
+- ISO 27001 (Segurança)
+- ISO 14001 (Ambiental)
+- Anatel Classe A
+- Certificação Starlink
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet gratuita para escolas
+- Conectividade para comunidades ribeirinhas
+- Preservação da Amazônia
+- Inclusão digital indígena
+- Energia solar em estações
+- Reciclagem de equipamentos
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- 5G experimental
+- IoT para agronegócio
+- Inteligência artificial
+- Blockchain para contratos
+- Realidade virtual/aumentada
+- Edge computing
+- Quantum networking research
+
+---
+**Protocolos Operacionais Especializados:**
+- Autenticação multifator obrigatória para dados sensíveis
+- Criptografia AES-256 em todas as comunicações
+- Backup geográfico triplo (Manaus/Brasília/São Paulo)
+- Monitoramento por satélite da infraestrutura
+- IA preditiva para manutenção preventiva
+- Escalation automático baseado em machine learning
+- Compensação automática por SLA não cumprido
+- Integração com sistemas governamentais (SIPAM/SIVAM)
+- Protocolo especial para emergências amazônicas
+- Suporte multilíngue (português, inglês, espanhol, indígenas)
+- Atendimento especializado para comunidades tradicionais
+- Compliance total com LGPD e regulamentações ambientais
+- Auditoria trimestral de segurança
+- Treinamento contínuo em sustentabilidade
+- Protocolo de emergência para desastres naturais
+- Parceria com defesa civil e bombeiros
+- Sistema de alerta precoce para clientes rurais
+---
