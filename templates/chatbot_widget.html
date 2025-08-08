@@ -276,8 +276,8 @@
 
         .input-container {
             display: flex;
-            gap: 10px;
-            align-items: center;
+            flex-direction: column;
+            gap: 8px;
             background: #f8f9fa;
             border-radius: 25px;
             padding: 8px;
@@ -289,6 +289,18 @@
             border-color: #667eea;
             background: white;
             box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .input-controls {
+            display: flex;
+            gap: 8px;
+            align-items: center;
         }
 
         .chat-input input {
@@ -303,6 +315,46 @@
 
         .chat-input input::placeholder {
             color: #999;
+        }
+
+        .date-input {
+            font-size: 13px !important;
+            padding: 10px 15px !important;
+            border-color: #28a745 !important;
+            background-color: #f8fff9;
+        }
+
+        .date-input:focus {
+            border-color: #28a745 !important;
+            box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1) !important;
+        }
+
+        .date-toggle {
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .date-toggle:hover {
+            background: #218838;
+            transform: scale(1.05);
+        }
+
+        .date-toggle.active {
+            background: #dc3545;
+        }
+
+        .date-toggle.active:hover {
+            background: #c82333;
         }
 
         .send-button {
@@ -513,6 +565,83 @@
             margin: 5px 0;
             font-size: 13px;
             color: #666;
+        }
+
+        .desbloqueio-header {
+            background: linear-gradient(135deg, #f8fff9 0%, #e8f5e8 100%);
+            border-left-color: #28a745;
+        }
+
+        .resultado-item {
+            margin-bottom: 15px;
+            padding: 12px;
+            border-left: 3px solid #667eea;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .resultado-item h5 {
+            margin: 0 0 8px 0;
+            color: #667eea;
+            font-size: 14px;
+        }
+
+        .resultado-content {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        .relevancia {
+            font-size: 12px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .prazo-info {
+            margin: 15px 0;
+            padding: 12px;
+            border-radius: 8px;
+            border-left: 3px solid;
+        }
+
+        .prazo-rapido {
+            background: #d4edda;
+            border-left-color: #28a745;
+        }
+
+        .prazo-normal {
+            background: #e7f3ff;
+            border-left-color: #667eea;
+        }
+
+        .prazo-moderado {
+            background: #fff3cd;
+            border-left-color: #ffc107;
+        }
+
+        .prazo-lento {
+            background: #ffe8d1;
+            border-left-color: #fd7e14;
+        }
+
+        .prazo-muito-lento {
+            background: #f8d7da;
+            border-left-color: #dc3545;
+        }
+
+        .prazo-sem-data, .prazo-erro {
+            background: #f8f9fa;
+            border-left-color: #6c757d;
+        }
+
+        .prazo-info h4 {
+            margin: 0 0 8px 0;
+            font-size: 16px;
+        }
+
+        .prazo-info p {
+            margin: 4px 0;
+            font-size: 14px;
         }
 
         /* Responsivo para mobile */
@@ -783,10 +912,18 @@
             
             <div class="chat-input">
                 <div class="input-container">
-                    <input type="text" id="messageInput" placeholder="Digite sua pergunta..." onkeypress="handleKeyPress(event)">
-                    <button class="send-button" onclick="sendMessage()" id="sendButton">
-                        <i class="fas fa-paper-plane"></i>
-                    </button>
+                    <div class="input-group">
+                        <input type="text" id="messageInput" placeholder="Digite sua pergunta..." onkeypress="handleKeyPress(event)" maxlength="500">
+                        <input type="text" id="dataUltimoPagamento" placeholder="Data último pagamento (DD/MM/AAAA)" class="date-input" style="display: none;">
+                    </div>
+                    <div class="input-controls">
+                        <button onclick="toggleDateInput()" id="dateToggle" class="date-toggle" title="Adicionar data de pagamento">
+                            📅
+                        </button>
+                        <button class="send-button" onclick="sendMessage()" id="sendButton">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -843,9 +980,29 @@
             }, 300);
         }
 
+        function toggleDateInput() {
+            const dateInput = document.getElementById('dataUltimoPagamento');
+            const dateToggle = document.getElementById('dateToggle');
+            
+            if (dateInput.style.display === 'none') {
+                dateInput.style.display = 'block';
+                dateToggle.classList.add('active');
+                dateToggle.innerHTML = '❌';
+                dateToggle.title = 'Remover data de pagamento';
+            } else {
+                dateInput.style.display = 'none';
+                dateInput.value = '';
+                dateToggle.classList.remove('active');
+                dateToggle.innerHTML = '📅';
+                dateToggle.title = 'Adicionar data de pagamento';
+            }
+        }
+
         async function sendMessage() {
             const input = document.getElementById('messageInput');
+            const dateInput = document.getElementById('dataUltimoPagamento');
             const message = input.value.trim();
+            const dataUltimoPagamento = dateInput.value.trim();
             
             if (!message || isLoading) return;
             
@@ -857,13 +1014,31 @@
             }
             
             // Adicionar mensagem do usuário
-            addMessage(message, 'user');
+            let displayMessage = message;
+            if (dataUltimoPagamento) {
+                displayMessage += ` (Data pagamento: ${dataUltimoPagamento})`;
+            }
+            addMessage(displayMessage, 'user');
             input.value = '';
+            
+            // Esconder campo de data após envio se estava visível
+            if (dataUltimoPagamento) {
+                toggleDateInput();
+            }
             
             // Mostrar indicador de digitação
             setLoading(true);
             
             try {
+                // Preparar dados para envio
+                const requestData = {
+                    pergunta: message
+                };
+                
+                if (dataUltimoPagamento) {
+                    requestData.data_ultimo_pagamento = dataUltimoPagamento;
+                }
+                
                 // Detectar automaticamente a URL base do servidor
                 const baseUrl = window.location.origin;
                 const response = await fetch(`${baseUrl}/chat`, {
@@ -871,7 +1046,7 @@
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ pergunta: message })
+                    body: JSON.stringify(requestData)
                 });
                 
                 const data = await response.json();
@@ -941,6 +1116,86 @@
                         <p><strong>Tópico:</strong> ${data.topico_encontrado}</p>
                         <p><strong>Fonte:</strong> API Wiki.js GraphQL</p>
                     </div>
+                `;
+            } else if (data.tipo === 'sucesso_multiplo') {
+                content.innerHTML = `
+                    <div class="success-message">
+                        <strong>✅ ${data.operadora} - Múltiplos Resultados</strong><br>
+                        <small>Consultado em: ${data.timestamp}</small>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <strong>📊 Resultados encontrados (${data.total_resultados}):</strong><br><br>
+                        ${data.resultados_encontrados.map((resultado, index) => `
+                            <div class="resultado-item" style="margin-bottom: 15px; padding: 12px; border-left: 3px solid #667eea; background: #f8f9fa; border-radius: 8px;">
+                                <h5 style="margin: 0 0 8px 0; color: #667eea;">📌 ${resultado.header}</h5>
+                                <div style="margin-bottom: 8px;">${resultado.content.replace(/\n/g, '<br>')}</div>
+                                <div style="font-size: 12px; color: #666;">Relevância: ${resultado.relevancia}/10</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="response-details">
+                        <h4>🔍 Detalhes da Busca</h4>
+                        <p><strong>Palavra-chave:</strong> ${data.keyword_buscada}</p>
+                        <p><strong>Fonte:</strong> API Wiki.js GraphQL</p>
+                    </div>
+                `;
+            } else if (data.tipo === 'desbloqueio') {
+                let prazoHtml = '';
+                if (data.calculo_prazo) {
+                    const prazo = data.calculo_prazo;
+                    let statusIcon = '⏱️';
+                    let statusColor = '#667eea';
+                    
+                    switch(prazo.status) {
+                        case 'rapido': statusIcon = '⚡'; statusColor = '#28a745'; break;
+                        case 'normal': statusIcon = '⏱️'; statusColor = '#667eea'; break;
+                        case 'moderado': statusIcon = '⏳'; statusColor = '#ffc107'; break;
+                        case 'lento': statusIcon = '🐌'; statusColor = '#fd7e14'; break;
+                        case 'muito_lento': statusIcon = '🚨'; statusColor = '#dc3545'; break;
+                        case 'sem_data': statusIcon = '❓'; statusColor = '#6c757d'; break;
+                        case 'data_invalida': statusIcon = '❌'; statusColor = '#dc3545'; break;
+                    }
+                    
+                    prazoHtml = `
+                        <div style="margin: 15px 0; padding: 12px; border-left: 3px solid ${statusColor}; background: #f8f9fa; border-radius: 8px;">
+                            <h4 style="margin: 0 0 8px 0; color: ${statusColor};">${statusIcon} Análise do Prazo</h4>
+                            ${prazo.prazo_estimado ? `<p style="margin: 4px 0;"><strong>⏰ Prazo Estimado:</strong> ${prazo.prazo_estimado}</p>` : ''}
+                            ${prazo.dias_desde_pagamento !== undefined ? `<p style="margin: 4px 0;"><strong>📊 Dias desde o pagamento:</strong> ${prazo.dias_desde_pagamento} dias</p>` : ''}
+                            <p style="margin: 4px 0;"><strong>💡 Recomendação:</strong> ${prazo.recomendacao}</p>
+                        </div>
+                    `;
+                }
+                
+                let infoHtml = '';
+                if (data.informacoes_desbloqueio && data.informacoes_desbloqueio.length > 0) {
+                    infoHtml = `
+                        <div style="margin-top: 15px;">
+                            <strong>📋 Informações sobre Desbloqueio:</strong><br><br>
+                            ${data.informacoes_desbloqueio.map((info, index) => `
+                                <div style="margin-bottom: 15px; padding: 12px; border-left: 3px solid #28a745; background: #f8fff9; border-radius: 8px;">
+                                    <h5 style="margin: 0 0 8px 0; color: #28a745;">📌 ${info.header}</h5>
+                                    <div>${info.content.replace(/\n/g, '<br>')}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                } else {
+                    infoHtml = `
+                        <div style="margin-top: 15px; padding: 12px; background: #fff3cd; border-radius: 8px; border-left: 3px solid #ffc107;">
+                            <p style="margin: 0;">ℹ️ Não foram encontradas informações específicas sobre desbloqueio para esta operadora.</p>
+                            <p style="margin: 8px 0 0 0;">💬 Recomendamos entrar em contato diretamente com a ${data.operadora}.</p>
+                        </div>
+                    `;
+                }
+                
+                content.innerHTML = `
+                    <div class="success-message">
+                        <strong>🔓 ${data.operadora} - Consulta de Desbloqueio</strong><br>
+                        <small>Consultado em: ${data.timestamp}</small><br>
+                        ${data.data_ultimo_pagamento ? `<small>📅 Data do Pagamento: ${data.data_ultimo_pagamento}</small>` : ''}
+                    </div>
+                    ${prazoHtml}
+                    ${infoHtml}
                 `;
             } else if (data.tipo === 'info_geral') {
                 content.innerHTML = `
