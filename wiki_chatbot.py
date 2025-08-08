@@ -525,6 +525,230 @@ class WikiChatbot:
         
         return recomendacoes.get(status, 'Consulte diretamente a operadora para mais informações.')
     
+    def obter_informacoes_essenciais_operadora(self, operadora):
+        """
+        Retorna informações essenciais que nunca devem deixar de ser informadas sobre uma operadora
+        """
+        # Consultar a operadora na API
+        api_response = self.consultar_operadora_api(operadora)
+        
+        if not api_response.get('sucesso'):
+            return {
+                'tipo': 'erro',
+                'mensagem': f'Erro ao consultar informações essenciais de {operadora}',
+                'detalhes': api_response.get('erro')
+            }
+        
+        # Informações críticas que sempre devem ser buscadas
+        informacoes_criticas = [
+            'telefone', 'contato', 'endereço', 'endereco', 'horário', 'horario',
+            'funcionamento', 'atendimento', 'suporte', 'emergência', 'emergencia',
+            'pagamento', 'boleto', 'pix', 'débito', 'debito', 'cartão', 'cartao',
+            'instalação', 'instalacao', 'técnico', 'tecnico', 'visita',
+            'planos', 'valores', 'preços', 'precos', 'promoção', 'promocao',
+            'velocidade', 'internet', 'wifi', 'fibra', 'cobertura'
+        ]
+        
+        informacoes_encontradas = []
+        
+        # Buscar cada informação crítica
+        for keyword in informacoes_criticas:
+            resultado = self.find_topic_in_wiki(api_response, keyword)
+            
+            if resultado['found']:
+                if resultado.get('busca_expandida'):
+                    # Adicionar todos os resultados encontrados
+                    for res in resultado['resultados_multiplos']:
+                        if not any(info['header'] == res['header'] for info in informacoes_encontradas):
+                            informacoes_encontradas.append({
+                                'categoria': keyword,
+                                'header': res['header'],
+                                'content': res['content'],
+                                'relevancia': res['relevancia'],
+                                'prioridade': self.calcular_prioridade_informacao(keyword)
+                            })
+                else:
+                    # Adicionar resultado único
+                    if not any(info['header'] == resultado['header'] for info in informacoes_encontradas):
+                        informacoes_encontradas.append({
+                            'categoria': keyword,
+                            'header': resultado['header'],
+                            'content': resultado['content'],
+                            'relevancia': 10,
+                            'prioridade': self.calcular_prioridade_informacao(keyword)
+                        })
+        
+        # Ordenar por prioridade e relevância
+        informacoes_encontradas.sort(key=lambda x: (x['prioridade'], x['relevancia']), reverse=True)
+        
+        # Limitar a 10 informações mais importantes
+        informacoes_encontradas = informacoes_encontradas[:10]
+        
+        return {
+            'tipo': 'informacoes_essenciais',
+            'operadora': operadora,
+            'total_informacoes': len(informacoes_encontradas),
+            'informacoes_criticas': informacoes_encontradas,
+            'timestamp': datetime.now().strftime('%d/%m/%Y às %H:%M:%S')
+        }
+    
+    def calcular_prioridade_informacao(self, keyword):
+        """
+        Calcula a prioridade de uma informação baseada na palavra-chave
+        """
+        prioridades = {
+            # Prioridade máxima (10) - Informações de contato
+            'telefone': 10, 'contato': 10, 'emergência': 10, 'emergencia': 10,
+            
+            # Prioridade alta (9) - Localização e horários
+            'endereço': 9, 'endereco': 9, 'horário': 9, 'horario': 9,
+            'funcionamento': 9, 'atendimento': 9,
+            
+            # Prioridade média-alta (8) - Pagamentos e suporte
+            'pagamento': 8, 'boleto': 8, 'pix': 8, 'débito': 8, 'debito': 8,
+            'cartão': 8, 'cartao': 8, 'suporte': 8,
+            
+            # Prioridade média (7) - Serviços técnicos
+            'instalação': 7, 'instalacao': 7, 'técnico': 7, 'tecnico': 7,
+            'visita': 7,
+            
+            # Prioridade média-baixa (6) - Planos e preços
+            'planos': 6, 'valores': 6, 'preços': 6, 'precos': 6,
+            'promoção': 6, 'promocao': 6,
+            
+            # Prioridade baixa (5) - Especificações técnicas
+            'velocidade': 5, 'internet': 5, 'wifi': 5, 'fibra': 5, 'cobertura': 5
+        }
+        
+        return prioridades.get(keyword, 3)
+    
+    def gerar_resposta_inteligente(self, operadora, tipo_atendimento, contexto=None):
+        """
+        Gera respostas inteligentes baseadas na wiki da operadora
+        """
+        try:
+            # Obter informações da operadora
+            info_operadora = self.obter_informacoes_essenciais_operadora(operadora)
+            
+            if info_operadora.get('tipo') == 'erro':
+                return f"Desculpe, não consegui obter informações sobre a {operadora}. Posso ajudá-lo de outra forma?"
+            
+            # Templates de resposta baseados no tipo de atendimento
+            templates = {
+                'saudacao': self._template_saudacao,
+                'contato': self._template_contato,
+                'pagamento': self._template_pagamento,
+                'suporte': self._template_suporte,
+                'despedida': self._template_despedida,
+                'informacoes': self._template_informacoes_gerais
+            }
+            
+            template_func = templates.get(tipo_atendimento, self._template_padrao)
+            return template_func(operadora, info_operadora, contexto)
+            
+        except Exception as e:
+            return f"Desculpe, ocorreu um erro ao gerar a resposta. Como posso ajudá-lo?"
+    
+    def _template_saudacao(self, operadora, info, contexto):
+        """Template para saudação inicial"""
+        contatos = [item for item in info.get('informacoes_criticas', []) if 'telefone' in item.get('header', '').lower() or 'contato' in item.get('header', '').lower()]
+        contato_principal = contatos[0].get('content', 'Entre em contato conosco') if contatos else "Entre em contato conosco"
+        
+        return f"""Olá! Bem-vindo ao atendimento da {operadora}! 👋
+
+Estou aqui para ajudá-lo com informações sobre nossos serviços. 
+
+📞 {contato_principal[:100]}...
+
+Como posso ajudá-lo hoje? Posso fornecer informações sobre:
+• Contatos e atendimento
+• Pagamentos e faturas
+• Suporte técnico
+• Planos e serviços"""
+    
+    def _template_contato(self, operadora, info, contexto):
+        """Template para informações de contato"""
+        contatos = [item for item in info.get('informacoes_criticas', []) if any(palavra in item.get('header', '').lower() for palavra in ['telefone', 'contato', 'whatsapp', 'email', 'chat'])]
+        
+        resposta = f"📞 **Contatos da {operadora}:**\n\n"
+        
+        if contatos:
+            for contato in contatos[:5]:  # Limitar a 5 contatos principais
+                resposta += f"• {contato.get('header', '')}: {contato.get('content', '')[:100]}...\n"
+        else:
+            resposta += "• Entre em contato através dos canais oficiais da operadora\n"
+        
+        resposta += "\n💡 **Dica:** Tenha sempre em mãos seu CPF e número da linha para um atendimento mais rápido!"
+        return resposta
+    
+    def _template_pagamento(self, operadora, info, contexto):
+        """Template para informações de pagamento"""
+        pagamentos = [item for item in info.get('informacoes_criticas', []) if any(palavra in item.get('header', '').lower() for palavra in ['pagamento', 'fatura', 'boleto', 'débito', 'pix'])]
+        
+        resposta = f"💳 **Formas de Pagamento - {operadora}:**\n\n"
+        
+        if pagamentos:
+            for pagamento in pagamentos[:4]:
+                resposta += f"• {pagamento.get('header', '')}: {pagamento.get('content', '')[:100]}...\n"
+        else:
+            resposta += "• Consulte as opções de pagamento disponíveis\n"
+        
+        resposta += "\n⚠️ **Importante:** Mantenha suas faturas em dia para evitar interrupções no serviço!"
+        return resposta
+    
+    def _template_suporte(self, operadora, info, contexto):
+        """Template para suporte técnico"""
+        suporte = [item for item in info.get('informacoes_criticas', []) if any(palavra in item.get('header', '').lower() for palavra in ['suporte', 'técnico', 'problema', 'reparo', 'manutenção'])]
+        
+        resposta = f"🔧 **Suporte Técnico - {operadora}:**\n\n"
+        
+        if suporte:
+            for item in suporte[:4]:
+                resposta += f"• {item.get('header', '')}: {item.get('content', '')[:100]}...\n"
+        else:
+            resposta += "• Entre em contato com o suporte técnico para assistência\n"
+        
+        resposta += "\n💡 **Antes de ligar:** Verifique se todos os cabos estão conectados e reinicie o equipamento."
+        return resposta
+    
+    def _template_despedida(self, operadora, info, contexto):
+        """Template para despedida"""
+        return f"""Obrigado por entrar em contato com a {operadora}! 😊
+
+Espero ter ajudado com suas dúvidas. Se precisar de mais alguma coisa, estarei sempre aqui!
+
+📞 Lembre-se: nossos canais de atendimento estão sempre disponíveis para você.
+
+Tenha um ótimo dia! 🌟"""
+    
+    def _template_informacoes_gerais(self, operadora, info, contexto):
+        """Template para informações gerais"""
+        informacoes = info.get('informacoes_criticas', [])
+        
+        resposta = f"ℹ️ **Informações Importantes - {operadora}:**\n\n"
+        
+        if informacoes:
+            # Mostrar as 6 informações mais relevantes
+            for item in informacoes[:6]:
+                resposta += f"• {item.get('header', '')}: {item.get('content', '')[:80]}...\n"
+        else:
+            resposta += "• Consulte nossos canais oficiais para mais informações\n"
+        
+        resposta += "\n📋 Precisa de algo específico? Posso ajudá-lo com contatos, pagamentos ou suporte técnico!"
+        return resposta
+    
+    def _template_padrao(self, operadora, info, contexto):
+        """Template padrão para casos não específicos"""
+        return f"""Olá! Estou aqui para ajudá-lo com informações sobre a {operadora}.
+
+Posso fornecer informações sobre:
+• 📞 Contatos e atendimento
+• 💳 Pagamentos e faturas  
+• 🔧 Suporte técnico
+• 📋 Informações gerais
+
+O que você gostaria de saber?"""
+    
     def extrair_keyword_pergunta(self, pergunta):
         """
         Extrai palavra-chave da pergunta para busca nos tópicos
@@ -682,6 +906,38 @@ def consultar_topicos(nome):
     resultado = wiki_chatbot.consultar_topicos_operadora(nome_upper)
     return jsonify(resultado)
 
+@app.route('/informacoes_essenciais/<operadora>')
+def informacoes_essenciais(operadora):
+    try:
+        resultado = wiki_chatbot.obter_informacoes_essenciais_operadora(operadora.upper())
+        return jsonify(resultado)
+    except Exception as e:
+        return jsonify({
+            'erro': f'Erro ao obter informações essenciais: {str(e)}',
+            'status': 'erro'
+        }), 500
+
+@app.route('/resposta_inteligente')
+def resposta_inteligente():
+    try:
+        operadora = request.args.get('operadora', 'OPERADORA')
+        tipo = request.args.get('tipo', 'saudacao')
+        contexto = request.args.get('contexto', None)
+        
+        resposta = wiki_chatbot.gerar_resposta_inteligente(operadora.upper(), tipo, contexto)
+        
+        return jsonify({
+            'resposta': resposta,
+            'operadora': operadora,
+            'tipo': tipo,
+            'timestamp': datetime.now().strftime('%d/%m/%Y às %H:%M:%S')
+        })
+    except Exception as e:
+        return jsonify({
+            'erro': f'Erro ao gerar resposta: {str(e)}',
+            'status': 'erro'
+        }), 500
+
 @app.route('/teste_api')
 def teste_api():
     """Endpoint para testar a conectividade com a API"""
@@ -713,7 +969,9 @@ if __name__ == '__main__':
     print("   • Consulta API GraphQL")
     print("   • Divisão de conteúdo por tags H2")
     print("   • Busca inteligente de tópicos")
+    print("   • Respostas inteligentes baseadas na wiki")
     print("   • Limpeza avançada de HTML")
+    print("   • Templates de resposta personalizados")
     print("   • Interface web responsiva")
     print(f"\n🌐 Servidor rodando na porta: {port}")
     print(f"🔧 Modo debug: {debug_mode}")
@@ -738,6 +996,8 @@ if __name__ == '__main__':
     print("   • /chat (API de mensagens)")
     print("   • /operadoras (listar todas)")
     print("   • /operadora/<nome>/topicos")
+    print("   • /informacoes_essenciais/<operadora>")
+    print("   • /resposta_inteligente (respostas baseadas na wiki)")
     print("   • /teste_api (diagnóstico)")
     print("="*60 + "\n")
     
