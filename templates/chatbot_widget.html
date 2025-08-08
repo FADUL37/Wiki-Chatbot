@@ -163,25 +163,7 @@
             transform: scale(1.1);
         }
 
-        .emotional-btn {
-            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
-            color: white;
-            border: none;
-            padding: 8px 12px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
-        }
 
-        .emotional-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
-        }
 
         .chat-close {
             background: none;
@@ -1051,10 +1033,7 @@
                             <i class="fas fa-question-circle"></i>
                             <span>Q&A</span>
                         </button>
-                        <button class="emotional-btn" onclick="openEmotionalWidget()" title="Widget Emocional">
-                            <i class="fas fa-heart"></i>
-                            <span>Emocional</span>
-                        </button>
+
                         <button class="header-btn" onclick="showQuickActions()" title="Ações Rápidas">
                             <i class="fas fa-bolt"></i>
                         </button>
@@ -1086,7 +1065,7 @@
                         <div class="suggestion-chip" onclick="sendSuggestion('Listar operadoras')">📋 Ver Todas</div>
                         <div class="suggestion-chip" onclick="showOperadorasInfo()">🏢 Info Operadoras</div>
                         <div class="suggestion-chip" onclick="showDesbloqueioInfo()">🔓 Desbloqueio</div>
-                        <div class="suggestion-chip" onclick="showEmotionalOperadoras()">🎭 Personalidades</div>
+
                     </div>
                 </div>
             </div>
@@ -1624,25 +1603,14 @@
                             <div class="suggestion-chip" onclick="sendSuggestion('Listar operadoras')">📋 Ver Todas</div>
                             <div class="suggestion-chip" onclick="showOperadorasInfo()">🏢 Info Operadoras</div>
                             <div class="suggestion-chip" onclick="showDesbloqueioInfo()">🔓 Desbloqueio</div>
-                            <div class="suggestion-chip" onclick="showEmotionalOperadoras()">🎭 Personalidades</div>
+
                         </div>
                     </div>
                 `;
             }, messages.length * 50 + 300);
         }
 
-        // Função para abrir o widget emocional
-        function openEmotionalWidget() {
-            // Detectar automaticamente a URL base do servidor
-            const baseUrl = window.location.origin;
-            const emotionalWidgetUrl = `${baseUrl}/widget-emocional`;
-            
-            // Abrir em nova aba
-            window.open(emotionalWidgetUrl, '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
-            
-            // Adicionar mensagem informativa no chat
-            addMessage('🎭 Widget Emocional aberto em nova aba! Explore as personalidades únicas de cada operadora.', 'bot');
-        }
+
         
         // Função para abrir o widget Q&A
         function openQAWidget() {
@@ -1657,19 +1625,7 @@
             addMessage('❓ Sistema Q&A aberto em nova aba! Acesse cenários pré-definidos de atendimento para cada operadora.', 'bot');
         }
         
-        // Adicionar operadoras emocionais às sugestões
-        function showEmotionalOperadoras() {
-            const operadorasEmocionais = [
-                { text: '💖 VIVAS - Carinhosa', action: () => sendSuggestion('Fale como VIVAS carinhosa') },
-                { text: '🔥 ARESNET - Energética', action: () => sendSuggestion('Fale como ARESNET energética') },
-                { text: '🌟 BRASILINK - Otimista', action: () => sendSuggestion('Fale como BRASILINK otimista') },
-                { text: '🎯 AVIANET - Focada', action: () => sendSuggestion('Fale como AVIANET focada') },
-                { text: '💼 CAPITAL - Profissional', action: () => sendSuggestion('Fale como CAPITAL profissional') },
-                { text: '🎭 Ver Widget Completo', action: () => openEmotionalWidget() }
-            ];
-            
-            addQuickActionsMessage(operadorasEmocionais, 'Personalidades Emocionais das Operadoras:');
-        }
+
 
         // Inicialização básica
         document.addEventListener('DOMContentLoaded', function() {

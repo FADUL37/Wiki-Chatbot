@@ -1049,10 +1049,6 @@ wiki_chatbot = WikiChatbot()
 def index():
     return render_template('wiki_chatbot.html')
 
-@app.route('/widget-emocional')
-def widget_emocional():
-    return render_template('widget_emocional.html')
-
 @app.route('/widget-qa')
 def widget_qa():
     """Rota para servir o widget Q&A com cenários pré-definidos"""
