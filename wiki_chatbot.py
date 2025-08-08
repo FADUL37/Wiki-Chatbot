@@ -1053,6 +1053,11 @@ def index():
 def widget_emocional():
     return render_template('widget_emocional.html')
 
+@app.route('/widget-qa')
+def widget_qa():
+    """Rota para servir o widget Q&A com cenários pré-definidos"""
+    return render_template('widget_qa_operadoras.html')
+
 @app.route('/widget')
 def widget():
     """Rota para servir apenas o widget do chatbot (ícone flutuante)"""
