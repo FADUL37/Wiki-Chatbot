@@ -1,0 +1,289 @@
+ITAPOA (Itapoá Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da ITAPOA?
+A:
+- Segunda a Sexta: 07h às 19h
+- Sábado: 08h às 16h
+- Domingo: Plantão 09h às 15h
+Obs: Atendimento regional com foco local.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica Regional
+- Internet Banda Larga
+- Telefonia Rural
+- TV por Assinatura
+- WiFi Comunitário
+- Conectividade Portuária
+- Soluções Logísticas
+- Monitoramento Costeiro
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- ITAPOA 100: 100MB, R$ 39,90
+- ITAPOA 200: 200MB, R$ 59,90
+- ITAPOA 350: 350MB, R$ 79,90
+- ITAPOA 500: 500MB, R$ 99,90
+- ITAPOA 750: 750MB, R$ 129,90
+- ITAPOA COSTA: 1GB, R$ 169,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP ITAPOA 250: 250MB dedicado, R$ 499,90
+- CORP ITAPOA 500: 500MB dedicado, R$ 799,90
+- CORP ITAPOA 1GB: 1GB dedicado, R$ 1.299,90
+- ITAPOA PORTO: Conectividade portuária, sob consulta
+- Logística Digital: A partir de R$ 800,00
+- WiFi Empresarial: R$ 200,00/mês
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Atendimento presencial local
+- Consulta telefônica regional
+- Análise de viabilidade gratuita
+- Proposta em 48h
+- Instalação em 72h (urbana)
+- Instalação em 96h (rural/costeira)
+- Garantia: 45 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: ZTE C300, Huawei MA5608T
+- ONU: ZTE F660, Huawei HG8245H
+- Roteadores: Intelbras Action, TP-Link Archer
+- Switches: D-Link DGS, Intelbras SG
+- Antenas: Aquário, Intelbras (resistentes à maresia)
+- Cabos: Furukawa (proteção UV/sal)
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet costeira: 172.20.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN porto: 150
+- VLAN comunitária: 200
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/itapoa2024
+- ONU ZTE: admin/admin
+- ONU Huawei: telecomadmin/admintelecom
+- WiFi Costeiro: itapoa/costa123
+- Porto: porto/itapoa
+Obs: Senhas devem ser alteradas após instalação
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento local
+- Nível 2: Suporte técnico regional
+- Nível 3: Engenharia costeira
+- Nível 4: Projetos portuários
+- Suporte Comunitário: Atendimento local
+- Porto Support: Especializado em logística
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- WiFi Costeiro: RSSI > -70dBm
+- SNR mínimo: 15dB
+- Atenuação máxima: 25dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://teste.itapoa.net.br
+Obs: Servidor regional com medição costeira
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.itapoa.1.10
+- DNS2: 200.itapoa.1.11
+- DNS Regional: 172.20.1.10 / 172.20.1.11
+- OpenDNS: 208.67.222.222 / 208.67.220.220
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 72h úteis
+- Empresarial: 24h úteis
+- Portuário: 12h úteis
+- Comunitário: 48h úteis
+- Instalação urbana: 72h
+- Instalação costeira: 96h
+- Disponibilidade: 99,0%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 50,00
+- Reinstalação: R$ 100,00
+- Cabo fibra: R$ 20,00/metro
+- Cabo costeiro: R$ 30,00/metro
+- Configuração: R$ 80,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 16h (completo)
+- Domingo: 09h às 15h (emergencial)
+- Feriados: Plantão local
+- Porto: Suporte estendido
+- Emergência: (47) 3000-ITAPOA
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 80,00/mês
+- WiFi Costeiro: R$ 120,00/mês
+- Monitoramento Porto: R$ 300,00/mês
+- Backup 4G: R$ 150,00/mês
+- Suporte Prioritário: R$ 80,00/mês
+- Conectividade Marítima: Sob consulta
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Globoplay: Incluso todos os planos
+- SBT+: Acesso gratuito
+- Conteúdo Regional: Programação local
+- Rádio Costeira: Estações locais
+- TV Comunitária: Canal regional
+- Pesca Online: Conteúdo especializado
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 25 de cada mês
+- Carência: 20 dias após vencimento
+- Bloqueio: Após 20 dias de atraso
+- Multa: 2% + juros simples
+- Religação: R$ 35,00
+- Parcelamento: Até 6x sem juros
+- Desconto local: 8%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 5% à vista
+- Boleto bancário
+- Débito automático: Desconto 3%
+- Cartão de crédito: Até 6x
+- Dinheiro (agências locais)
+- Cooperativas de crédito
+- Pagamento na comunidade
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação presencial ou telefônica
+- Análise de viabilidade gratuita
+- Taxa de migração: R$ 70,00
+- Prazo local: 3 dias úteis
+- Prazo regional: 7 dias úteis
+- Prioridade para área de cobertura
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.itapoa.net.br
+- App: Itapoá Connect (Android/iOS)
+- Login: CPF ou código cliente
+- Autenticação: SMS
+- Sede: Av. Portuária, 150 - Centro
+- Cidade: Itapoá - SC
+- CNPJ: 23.456.789/0001-12
+- Telefone: (47) 3000-ITAPOA
+- WhatsApp: (47) 99itapoa-help
+- Email: contato@itapoa.net.br
+- Site: https://itapoa.net.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–19h, Sáb 08h–16h, Dom 09h–15h
+- Comercial: Seg–Sex 08h–18h, Sáb 08h–15h
+- Técnico: Seg–Sex 07h–19h, Sáb 08h–16h
+- Porto: Seg–Sex 06h–20h, Sáb 07h–17h
+- Comunitário: Seg–Sex 08h–17h
+- Projetos: Seg–Sex 08h–17h
+- Financeiro: Seg–Sex 08h–17h
+
+23. [Soluções Especializadas]
+Q: Serviços para região costeira?
+A:
+- Consultoria em conectividade portuária
+- Monitoramento de embarcações
+- Sistemas de logística digital
+- Conectividade para pesca
+- Turismo digital
+- E-commerce regional
+- Gestão portuária
+- Sustentabilidade marinha
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 24 meses
+- Instalação: 18 meses
+- Infraestrutura: 3 anos
+- SLA Residencial: 99,0%
+- SLA Empresarial: 99,3%
+- SLA Portuário: 99,5%
+- Anatel SCM
+- Certificação Portuária
+- ISO 14001 (Ambiental)
+- Selo Costeiro
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet gratuita para escolas costeiras
+- Preservação marinha digital
+- Monitoramento ambiental
+- Educação pesqueira
+- Turismo sustentável
+- Proteção de ecossistemas
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- IoT para monitoramento marinho
+- Sensores oceânicos
+- Conectividade embarcada
+- Sustentabilidade costeira
+- Tecnologia pesqueira
+- Turismo digital
+- Logística inteligente
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento adaptado para região costeira
+- Tecnologia resistente à maresia
+- Backup para condições climáticas adversas
+- Monitoramento específico para ambiente marinho
+- Escalation baseado em sazonalidade turística
+- Compensação adaptada para economia local
+- Integração com sistemas portuários
+- Protocolo de emergência costeira
+- Suporte técnico itinerante
+- Atendimento em comunidades pesqueiras
+- Compliance com regulamentações portuárias
+- Auditoria ambiental semestral
+- Treinamento em tecnologia marinha
+- Metodologia de desenvolvimento sustentável
+- Gestão de recursos costeiros
+- Sustentabilidade marinha e terrestre
+- Inovação voltada para economia azul
+---

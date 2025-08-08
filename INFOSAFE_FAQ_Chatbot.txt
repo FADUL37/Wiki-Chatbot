@@ -1,0 +1,290 @@
+INFOSAFE (InfoSafe Segurança Digital) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da INFOSAFE?
+A:
+- Segunda a Sexta: 08h às 22h
+- Sábado: 08h às 18h
+- Domingo: Plantão 10h às 18h
+Obs: Monitoramento de segurança 24x7.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica Segura
+- Internet Protegida
+- Firewall Avançado
+- Antivírus Corporativo
+- VPN Empresarial
+- Backup Seguro
+- Monitoramento 24x7
+- Consultoria em Segurança
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- INFOSAFE 200: 200MB + Proteção, R$ 59,90
+- INFOSAFE 400: 400MB + Antivírus, R$ 79,90
+- INFOSAFE 600: 600MB + Firewall, R$ 99,90
+- INFOSAFE 1GB: 1GB + VPN, R$ 139,90
+- INFOSAFE FAMILY: 2GB + Proteção Total, R$ 199,90
+- INFOSAFE MAX: 5GB + Segurança Premium, R$ 349,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP INFOSAFE 500: 500MB + Firewall, R$ 999,90
+- CORP INFOSAFE 1GB: 1GB + VPN, R$ 1.599,90
+- CORP INFOSAFE 5GB: 5GB + SOC, R$ 4.999,90
+- INFOSAFE ENTERPRISE: Segurança completa, sob consulta
+- SOC as a Service: A partir de R$ 3.000,00
+- Consultoria: R$ 300,00/hora
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta de segurança gratuita
+- Análise de vulnerabilidades
+- Proposta de proteção em 24h
+- Contrato com cláusulas de segurança
+- Instalação segura em 48h
+- Configuração de proteção em 72h
+- Garantia de segurança: 90 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800 (Hardened), ZTE C320 (Secure)
+- ONU: Huawei HG8546M (Encrypted), ZTE F670L (Protected)
+- Firewalls: Fortinet FortiGate, Palo Alto Networks
+- Roteadores: Cisco ISR (Secure), pfSense
+- Antivírus: Kaspersky, Bitdefender
+- VPN: OpenVPN, Cisco AnyConnect
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet segura: 10.safe.x.x/24
+- ONU web: 192.168.100.1:8443 (HTTPS)
+- VLAN internet: 100 (protegida)
+- VLAN DMZ: 200 (isolada)
+- VLAN segura: 300 (criptografada)
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/InfoSafe@2024!
+- ONU Huawei: telecomadmin/SecureAdmin@2024
+- ONU ZTE: admin/SafeAdmin@2024
+- WiFi Seguro: infosafe/SecureWiFi@123
+- VPN: usuario/VPN@Safe2024
+Obs: Senhas complexas obrigatórias + 2FA
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento de segurança
+- Nível 2: Analistas de segurança
+- Nível 3: Especialistas em cibersegurança
+- Nível 4: Arquitetos de segurança
+- SOC: Centro de operações 24x7
+- CSIRT: Resposta a incidentes
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Criptografia: AES-256
+- Integridade: SHA-256
+- Autenticação: RSA-2048
+- Atenuação máxima: 25dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.infosafe.com.br
+Obs: Teste seguro com verificação de integridade
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.infosafe.1.10 (Filtrado)
+- DNS2: 200.infosafe.1.11 (Protegido)
+- DNS Seguro: 1.1.1.1 / 1.0.0.1 (Cloudflare)
+- DNS Família: 208.67.222.123 / 208.67.220.123
+- DNS Corporativo: 10.safe.1.10 / 10.safe.1.11
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 4h úteis
+- Incidente de segurança: 1h
+- Ataque cibernético: 30 minutos
+- Instalação segura: 48h
+- Configuração completa: 72h
+- Disponibilidade: 99,9%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise de segurança: Gratuita
+- Auditoria básica: R$ 500,00
+- Visita improdutiva: R$ 80,00
+- Reinstalação segura: R$ 200,00
+- Cabo blindado: R$ 35,00/metro
+- Configuração firewall: R$ 300,00
+- Resposta a incidente: R$ 500,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 18h (completo)
+- Domingo: 10h às 18h (emergencial)
+- Feriados: Plantão de segurança
+- SOC: 24x7x365
+- Emergência: 0800-INFO-SAFE
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo Seguro: R$ 250,00/mês
+- VPN Dedicada: R$ 400,00/mês
+- SOC Personalizado: R$ 2.000,00/mês
+- Backup Criptografado: R$ 300,00/TB
+- Monitoramento Premium: R$ 800,00/mês
+- Consultoria Especializada: R$ 400,00/hora
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Globoplay: Incluso com proteção parental
+- Netflix: Acesso seguro
+- Disney+: Filtro de conteúdo
+- YouTube Kids: Proteção infantil
+- Conteúdo Educativo: Biblioteca segura
+- Jogos Online: Proteção anti-cheat
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 5 de cada mês
+- Carência: 5 dias após vencimento
+- Bloqueio: Após 5 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 50,00
+- Parcelamento: Até 10x
+- Desconto anual: 15%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 8% à vista
+- Débito automático: Desconto 5%
+- Cartão de crédito: Até 10x
+- Boleto bancário (criptografado)
+- Transferência segura
+- Pagamento digital protegido
+- Criptomoedas (Bitcoin)
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal seguro
+- Análise de segurança do novo local
+- Taxa de migração: R$ 150,00
+- Prazo: 48h (com backup)
+- Transferência segura de dados
+- Reconfiguração de proteções
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.infosafe.com.br (SSL)
+- App: InfoSafe Secure (Android/iOS)
+- Login: CPF + 2FA obrigatório
+- Autenticação: Biometria + Token
+- Sede: Rua Segura, 500 - Cyber District
+- Cidade: São Paulo - SP
+- CNPJ: 12.345.678/0001-01
+- Telefone: 0800-INFO-SAFE
+- WhatsApp: (11) 99safe-help (criptografado)
+- Email: contato@infosafe.com.br
+- Site: https://infosafe.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 08h–22h, Sáb 08h–18h, Dom 10h–18h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–17h
+- Técnico: Seg–Sex 08h–22h, Sáb 08h–18h
+- SOC: 24x7x365
+- Segurança: 24x7x365
+- Consultoria: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–17h
+
+23. [Soluções Especializadas]
+Q: Serviços de segurança especializados?
+A:
+- Consultoria em cibersegurança
+- Auditoria de segurança
+- Teste de penetração
+- Análise de vulnerabilidades
+- Resposta a incidentes
+- Forense digital
+- Treinamento em segurança
+- Compliance e governança
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 36 meses
+- Instalação: 24 meses
+- Infraestrutura: 5 anos
+- SLA Residencial: 99,7%
+- SLA Empresarial: 99,9%
+- SLA Segurança: 99,95%
+- ISO 27001 (Segurança)
+- ISO 27002 (Controles)
+- NIST Cybersecurity Framework
+- Anatel SCM
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Educação em segurança digital
+- Proteção de crianças online
+- Combate ao cyberbullying
+- Reciclagem segura de dados
+- Energia limpa em data centers
+- Inclusão digital segura
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Inteligência artificial para detecção
+- Machine learning anti-fraude
+- Blockchain para autenticação
+- Quantum cryptography (pesquisa)
+- Zero Trust Architecture
+- SASE (Secure Access Service Edge)
+- XDR (Extended Detection Response)
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento com foco em segurança
+- Tecnologia de proteção multicamadas
+- Backup criptografado automático
+- Monitoramento contínuo de ameaças
+- Escalation baseado em criticidade de segurança
+- Compensação com melhorias de proteção
+- Integração com sistemas de segurança
+- Protocolo de resposta a incidentes
+- Suporte especializado em cibersegurança
+- Atendimento com verificação de identidade
+- Compliance com regulamentações de segurança
+- Auditoria de segurança contínua
+- Treinamento em conscientização
+- Metodologia de segurança por design
+- Gestão de riscos cibernéticos
+- Sustentabilidade em segurança
+- Inovação em proteção digital
+---

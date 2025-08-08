@@ -1,0 +1,289 @@
+INFORNET (Infornet Telecomunicações) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da INFORNET?
+A:
+- Segunda a Sexta: 07h30 às 20h30
+- Sábado: 08h às 17h
+- Domingo: Plantão 09h às 16h
+Obs: Suporte técnico especializado para TI.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Soluções de TI
+- Infraestrutura de Redes
+- Consultoria Tecnológica
+- Sistemas Integrados
+- Automação Empresarial
+- Segurança da Informação
+- Data Center
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- INFORNET 150: 150MB, R$ 45,90
+- INFORNET 300: 300MB, R$ 65,90
+- INFORNET 500: 500MB, R$ 85,90
+- INFORNET 750: 750MB, R$ 115,90
+- INFORNET 1GB: 1GB, R$ 145,90
+- INFORNET HOME: 2GB, R$ 219,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP INFORNET 400: 400MB dedicado, R$ 699,90
+- CORP INFORNET 800: 800MB dedicado, R$ 1.199,90
+- CORP INFORNET 2GB: 2GB dedicado, R$ 2.499,90
+- INFORNET ENTERPRISE: Sob medida
+- Consultoria TI: A partir de R$ 2.000,00
+- Data Center: Sob consulta
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta técnica especializada
+- Análise de necessidades de TI
+- Proposta técnica em 48h
+- Contrato empresarial
+- Instalação em 72h (urbana)
+- Instalação em 96h (rural)
+- Garantia: 60 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800, ZTE C320
+- ONU: Huawei HG8546M, ZTE F670L
+- Roteadores: Cisco ISR, Mikrotik CCR
+- Switches: Cisco Catalyst, HP ProCurve
+- Servidores: Dell PowerEdge, IBM System
+- Storage: NetApp, EMC
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet empresarial: 10.infornet.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN corporativa: 200
+- VLAN servidores: 300
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/infornet2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU ZTE: admin/admin
+- WiFi Corporativo: infornet/empresa
+- Servidor: administrator/Info@2024
+Obs: Política de senhas complexas obrigatória
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento técnico geral
+- Nível 2: Especialistas em redes
+- Nível 3: Engenharia de sistemas
+- Nível 4: Arquitetura de TI
+- Consultoria: Especialistas seniores
+- Data Center: Suporte 24x7
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Backbone: -3dBm a +3dBm
+- SNR mínimo: 20dB
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.infornet.com.br
+Obs: Servidor próprio com análise técnica detalhada
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.infornet.1.10
+- DNS2: 200.infornet.1.11
+- DNS Corporativo: 10.infornet.1.10 / 10.infornet.1.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 48h úteis
+- Empresarial: 8h úteis
+- Corporativo: 4h
+- Data Center: 1h
+- Instalação urbana: 72h
+- Instalação corporativa: 96h
+- Disponibilidade: 99,8%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Consultoria: R$ 200,00/hora
+- Visita improdutiva: R$ 100,00
+- Reinstalação: R$ 200,00
+- Cabo fibra: R$ 30,00/metro
+- Configuração servidor: R$ 300,00/hora
+- Projeto de rede: Sob consulta
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 17h (completo)
+- Domingo: 09h às 16h (emergencial)
+- Feriados: Plantão corporativo
+- Data Center: 24x7x365
+- Emergência: (11) 4000-INFO
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 200,00/mês
+- Consultoria Mensal: R$ 1.500,00/mês
+- Backup Corporativo: R$ 500,00/TB
+- Monitoramento 24x7: R$ 800,00/mês
+- Suporte Dedicado: R$ 2.000,00/mês
+- Projeto Customizado: Sob consulta
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Globoplay: Incluso planos corporativos
+- Microsoft 365: Desconto especial
+- Adobe Creative: Licenças corporativas
+- Zoom Pro: Incluso planos empresariais
+- Teams Premium: Configuração incluída
+- Conteúdo Técnico: Biblioteca especializada
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 30 de cada mês
+- Carência: 10 dias após vencimento
+- Bloqueio: Após 10 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 100,00
+- Parcelamento: Até 12x (corporativo)
+- Desconto anual: 12%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 5% à vista
+- Débito automático: Desconto 3%
+- Boleto bancário
+- Cartão de crédito: Até 12x
+- Transferência bancária
+- Nota fiscal eletrônica
+- Faturamento corporativo
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal corporativo
+- Análise técnica em 48h
+- Taxa de migração: R$ 300,00
+- Prazo urbano: 3 dias úteis
+- Prazo corporativo: 5 dias úteis
+- Backup completo de configurações
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.infornet.com.br
+- App: Infornet Business (Android/iOS)
+- Login: CNPJ + senha corporativa
+- Autenticação: 2FA obrigatório
+- Sede: Av. Tecnologia, 800 - Business Center
+- Cidade: São Paulo - SP
+- CNPJ: 01.234.567/0001-90
+- Telefone: (11) 4000-INFO
+- WhatsApp: (11) 99info-tech
+- Email: contato@infornet.com.br
+- Site: https://infornet.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h30–20h30, Sáb 08h–17h, Dom 09h–16h
+- Comercial: Seg–Sex 08h–19h, Sáb 08h–16h
+- Técnico: Seg–Sex 07h30–20h30, Sáb 08h–17h
+- Consultoria: Seg–Sex 08h–18h
+- Data Center: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–17h
+
+23. [Soluções Especializadas]
+Q: Serviços de TI especializados?
+A:
+- Consultoria em transformação digital
+- Arquitetura de sistemas
+- Migração para nuvem
+- Segurança da informação
+- Business intelligence
+- Automação de processos
+- Integração de sistemas
+- Governança de TI
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 36 meses
+- Instalação: 24 meses
+- Infraestrutura: 5 anos
+- SLA Residencial: 99,5%
+- SLA Empresarial: 99,8%
+- SLA Data Center: 99,95%
+- ISO 27001 (Segurança)
+- ISO 20000 (Serviços TI)
+- ITIL v4 Certified
+- Anatel SCM
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Inclusão digital em escolas técnicas
+- Capacitação em TI para jovens
+- Reciclagem de equipamentos eletrônicos
+- Data center verde
+- Programa de estágio em TI
+- Apoio a startups de tecnologia
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Cloud computing híbrida
+- Inteligência artificial empresarial
+- IoT industrial
+- Blockchain corporativo
+- Edge computing
+- Automação com RPA
+- Quantum computing (pesquisa)
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento técnico especializado em TI
+- Tecnologia enterprise de alta disponibilidade
+- Backup redundante de sistemas críticos
+- Monitoramento proativo com IA
+- Escalation baseado em impacto nos negócios
+- Compensação com créditos ou melhorias
+- Integração total com sistemas corporativos
+- Protocolo de segurança empresarial
+- Suporte multilíngue técnico
+- Atendimento especializado por vertical
+- Compliance com regulamentações setoriais
+- Auditoria de segurança mensal
+- Treinamento técnico avançado
+- Metodologia ITIL para gestão
+- Gestão de mudanças controlada
+- Sustentabilidade em TI
+- Inovação contínua em soluções
+---
