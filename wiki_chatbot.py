@@ -1133,7 +1133,7 @@ def resposta_inteligente():
 def faq_operadora(operadora):
     """Gera FAQ estruturado para uma operadora específica"""
     try:
-        resultado = chatbot.gerar_faq_operadora(operadora.upper())
+        resultado = wiki_chatbot.gerar_faq_operadora(operadora.upper())
         return jsonify(resultado)
         
     except Exception as e:
