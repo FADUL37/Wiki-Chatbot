@@ -1,0 +1,289 @@
+ETECC (Empresa de Telecomunicações do Centro-Oeste) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da ETECC?
+A:
+- Segunda a Sexta: 07h às 20h
+- Sábado: 08h às 17h
+- Domingo: Plantão 09h às 16h
+Obs: Atendimento rural estendido até 21h.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet via Rádio
+- Telefonia Fixa
+- TV por Assinatura
+- Conectividade Rural
+- Soluções Agro
+- WiFi Comunitário
+- Backup Satelital
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- ETECC 120: 120MB, R$ 44,90
+- ETECC 250: 250MB, R$ 64,90
+- ETECC 400: 400MB, R$ 84,90
+- ETECC 600: 600MB, R$ 109,90
+- ETECC 1GB: 1GB, R$ 139,90
+- ETECC RURAL: 200MB, R$ 89,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP ETECC 300: 300MB dedicado, R$ 599,90
+- CORP ETECC 500: 500MB dedicado, R$ 899,90
+- CORP ETECC 1GB: 1GB dedicado, R$ 1.399,90
+- CORP ETECC AGRO: Sob medida para agronegócio
+- Link Dedicado: A partir de R$ 1.800,00
+- Conectividade Rural: Sob consulta
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta presencial ou telefônica
+- Visita técnica gratuita
+- Proposta em 48h
+- Contrato simplificado
+- Instalação em 72h (urbana)
+- Instalação em 120h (rural)
+- Garantia: 45 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: ZTE C300, Huawei MA5608T
+- ONU: ZTE F660, Huawei HG8245H
+- Roteadores: Intelbras Action, TP-Link Archer
+- Rádios: Ubiquiti airMAX, Cambium Networks
+- Switches: D-Link DGS, TP-Link TL-SG
+- Antenas: Aquário, Intelbras
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet rural: 172.16.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN rural: 150
+- VLAN agro: 200
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/etecc2024
+- ONU ZTE: admin/admin
+- ONU Huawei: telecomadmin/admintelecom
+- WiFi Rural: etecc/rural123
+- Rádio: ubnt/etecc
+Obs: Senhas devem ser alteradas após instalação
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral
+- Nível 2: Suporte técnico regional
+- Nível 3: Engenharia especializada
+- Nível 4: Projetos rurais
+- Central Rural: Atendimento específico
+- Agro Tech: Suporte para agronegócio
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Rádio: RSSI > -70dBm
+- SNR mínimo: 15dB
+- Atenuação máxima: 25dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://teste.etecc.com.br
+Obs: Servidor regional com teste específico para área rural
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.etecc.1.10
+- DNS2: 200.etecc.1.11
+- DNS Rural: 172.16.1.10 / 172.16.1.11
+- OpenDNS: 208.67.222.222 / 208.67.220.220
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 72h úteis
+- Empresarial: 24h úteis
+- Rural: 96h úteis
+- Agronegócio: 12h úteis
+- Instalação urbana: 72h
+- Instalação rural: 120h
+- Disponibilidade: 99,2%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 60,00
+- Reinstalação: R$ 120,00
+- Cabo fibra: R$ 18,00/metro
+- Cabo rural: R$ 25,00/metro
+- Configuração: R$ 90,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 17h (completo)
+- Domingo: 09h às 16h (emergencial)
+- Feriados: Plantão rural
+- Agronegócio: Suporte estendido
+- Emergência: (67) 3000-ETECC
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 120,00/mês
+- Backup 4G Rural: R$ 200,00/mês
+- Monitoramento Agro: R$ 300,00/mês
+- WiFi Fazenda: R$ 150,00/mês
+- Suporte Prioritário: R$ 100,00/mês
+- Conectividade Satelital: Sob consulta
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Globoplay: Incluso todos os planos
+- SBT+: Acesso gratuito
+- Pluto TV: Incluso
+- Conteúdo Rural: Canais especializados
+- Rádio Regional: Estações locais
+- TV Comunitária: Programação local
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 20 de cada mês
+- Carência: 20 dias após vencimento
+- Bloqueio: Após 20 dias de atraso
+- Multa: 2% + juros simples
+- Religação: R$ 40,00
+- Parcelamento: Até 8x sem juros
+- Desconto rural: 10%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 5% à vista
+- Boleto bancário
+- Débito automático: Desconto 3%
+- Cartão de crédito: Até 8x
+- Dinheiro (agências)
+- Cooperativas de crédito
+- Pagamento móvel
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação presencial ou telefônica
+- Análise de viabilidade gratuita
+- Taxa de migração: R$ 90,00
+- Prazo urbano: 3 dias úteis
+- Prazo rural: 7 dias úteis
+- Prioridade para área de cobertura
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.etecc.com.br
+- App: ETECC Mobile (Android/iOS)
+- Login: CPF ou código cliente
+- Autenticação: SMS
+- Sede: Rua Central, 200 - Centro
+- Cidade: Campo Grande - MS
+- CNPJ: 67.890.123/0001-56
+- Telefone: (67) 3000-ETECC
+- WhatsApp: (67) 99etecc-help
+- Email: contato@etecc.com.br
+- Site: https://etecc.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–20h, Sáb 08h–17h, Dom 09h–16h
+- Comercial: Seg–Sex 08h–19h, Sáb 08h–16h
+- Técnico: Seg–Sex 07h–20h, Sáb 08h–17h
+- Rural: Seg–Sex 06h–21h, Sáb 07h–18h
+- Agronegócio: Seg–Sex 06h–19h
+- Projetos: Seg–Sex 08h–17h
+- Financeiro: Seg–Sex 08h–17h
+
+23. [Soluções Especializadas]
+Q: Serviços para agronegócio?
+A:
+- Consultoria em conectividade rural
+- IoT para agricultura de precisão
+- Monitoramento de propriedades
+- Sistemas de irrigação conectados
+- Gestão de rebanhos
+- Meteorologia digital
+- E-commerce rural
+- Telemedicina veterinária
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 24 meses
+- Instalação: 18 meses
+- Infraestrutura: 3 anos
+- SLA Residencial: 99,0%
+- SLA Empresarial: 99,5%
+- SLA Rural: 98,5%
+- Anatel SCM
+- Certificação Rural
+- ISO 14001 (Ambiental)
+- Selo Agro Digital
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet gratuita para escolas rurais
+- Capacitação digital para produtores
+- Preservação ambiental
+- Energia solar em torres
+- Programa de inclusão digital
+- Apoio a cooperativas
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- IoT para agronegócio
+- Sensores ambientais
+- Drones para monitoramento
+- Inteligência artificial agrícola
+- Blockchain para rastreabilidade
+- Conectividade 5G rural
+- Sustentabilidade tecnológica
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento adaptado para área rural
+- Tecnologia resiliente para clima adverso
+- Backup múltiplo para conectividade crítica
+- Monitoramento específico para agronegócio
+- Escalation baseado em sazonalidade agrícola
+- Compensação adaptada para economia rural
+- Integração com sistemas cooperativistas
+- Protocolo de emergência rural
+- Suporte técnico itinerante
+- Atendimento em propriedades rurais
+- Compliance com regulamentações rurais
+- Auditoria ambiental semestral
+- Treinamento em tecnologia agrícola
+- Metodologia de desenvolvimento sustentável
+- Gestão de recursos naturais
+- Sustentabilidade ambiental e econômica
+- Inovação voltada para o campo
+---

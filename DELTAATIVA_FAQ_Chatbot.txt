@@ -1,0 +1,289 @@
+DELTAATIVA (Delta Ativa Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da DELTAATIVA?
+A:
+- Segunda a Sexta: 07h às 21h
+- Sábado: 08h às 18h
+- Domingo: Plantão 09h às 17h
+Obs: Suporte técnico 24x7 para clientes corporativos.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica GPON/EPON
+- Internet Dedicada
+- MPLS Corporativo
+- SD-WAN Empresarial
+- Cloud Computing
+- Telefonia VoIP
+- Videoconferência
+- Backup de Dados
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- DELTA 150: 150MB, R$ 49,90
+- DELTA 300: 300MB, R$ 69,90
+- DELTA 500: 500MB, R$ 89,90
+- DELTA 750: 750MB, R$ 119,90
+- DELTA 1GB: 1GB, R$ 149,90
+- DELTA MAX: 2GB, R$ 229,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP DELTA 500: 500MB dedicado, R$ 899,90
+- CORP DELTA 1GB: 1GB dedicado, R$ 1.599,90
+- CORP DELTA 5GB: 5GB dedicado, R$ 4.999,90
+- CORP DELTA 10GB: 10GB+ dedicado, sob consulta
+- MPLS: A partir de R$ 2.500,00
+- SD-WAN: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta comercial online/presencial
+- Análise de viabilidade técnica
+- Proposta personalizada em 24h
+- Contrato digital ou físico
+- Instalação em 48h (área urbana)
+- Instalação em 96h (área rural)
+- Garantia total: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800, ZTE C320
+- ONU: Huawei HG8546M, ZTE F670L
+- Roteadores: Cisco ISR, Mikrotik CCR
+- Switches: Cisco Catalyst, HP ProCurve
+- Firewalls: Fortinet FortiGate, pfSense
+- WiFi: Ubiquiti UniFi, Aruba Instant
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.0.1
+- Subnet empresarial: 10.x.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN corporativa: 200
+- VLAN guest: 300
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/deltaativa2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU ZTE: admin/admin
+- WiFi Corporativo: empresa/deltaativa
+- Firewall: admin/delta@2024
+Obs: Alteração obrigatória no primeiro acesso
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral e comercial
+- Nível 2: Suporte técnico especializado
+- Nível 3: Engenharia de redes
+- Nível 4: Arquitetura e projetos
+- NOC: Monitoramento 24x7
+- SOC: Segurança cibernética
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- EPON RX: -25dBm a -6dBm
+- EPON TX: -3dBm a +2dBm
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.deltaativa.com.br
+Obs: Servidor próprio com medição certificada
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.deltaativa.1.10
+- DNS2: 200.deltaativa.1.11
+- DNS Corporativo: 10.0.0.10 / 10.0.0.11
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 48h úteis
+- Empresarial: 12h úteis
+- Corporativo: 4h
+- Crítico: 2h
+- Instalação urbana: 48h
+- Instalação rural: 96h
+- Disponibilidade: 99,9%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 80,00
+- Reinstalação: R$ 150,00
+- Cabo fibra: R$ 25,00/metro
+- Emenda óptica: R$ 50,00/unidade
+- Configuração avançada: R$ 120,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 18h (completo)
+- Domingo: 09h às 17h (emergencial)
+- Feriados: Plantão reduzido
+- Corporativo: 24x7x365
+- Emergência: 0800-DELTA-24
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 200,00/mês
+- Backup 4G: R$ 250,00/mês
+- Firewall Gerenciado: R$ 400,00/mês
+- Cloud Backup: R$ 100,00/100GB
+- Monitoramento 24x7: R$ 300,00/mês
+- Suporte Dedicado: R$ 500,00/mês
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 6 meses grátis (planos 1GB+)
+- Amazon Prime: 3 meses grátis
+- Globoplay: Incluso todos os planos
+- Spotify: 3 meses grátis
+- YouTube Premium: 2 meses grátis
+- Gaming: Parceria com Steam
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 15 de cada mês
+- Carência: 15 dias após vencimento
+- Bloqueio: Após 15 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 50,00
+- Parcelamento: Até 12x
+- Desconto anual: 10%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 5% à vista
+- Débito automático: Desconto 3%
+- Boleto bancário
+- Cartão de crédito: Até 12x
+- Transferência bancária
+- Dinheiro (lojas físicas)
+- Criptomoedas (Bitcoin/Ethereum)
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal ou app
+- Análise de viabilidade em 24h
+- Taxa de migração: R$ 120,00
+- Prazo urbano: 2 dias úteis
+- Prazo rural: 5 dias úteis
+- Agendamento flexível
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.deltaativa.com.br
+- App: Delta Ativa (Android/iOS)
+- Login: CPF + senha
+- Autenticação: 2FA obrigatório
+- Sede: Av. Tecnologia, 500 - Tech Park
+- Cidade: São Paulo - SP
+- CNPJ: 56.789.012/0001-45
+- Telefone: (11) 4000-DELTA
+- WhatsApp: (11) 99delta-tech
+- Email: contato@deltaativa.com.br
+- Site: https://deltaativa.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–21h, Sáb 08h–18h, Dom 09h–17h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–16h
+- Técnico: 24x7x365 (corporativo)
+- Engenharia: Seg–Sex 08h–18h
+- NOC/SOC: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–17h
+
+23. [Soluções Especializadas]
+Q: Serviços para empresas?
+A:
+- Consultoria em transformação digital
+- Projetos de infraestrutura de TI
+- Migração para nuvem
+- Segurança cibernética
+- Disaster Recovery
+- Business Intelligence
+- IoT Industrial
+- Automação de processos
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 36 meses
+- Instalação: 24 meses
+- Infraestrutura: 5 anos
+- SLA Residencial: 99,5%
+- SLA Empresarial: 99,9%
+- SLA Corporativo: 99,95%
+- ISO 27001 (Segurança)
+- ISO 9001 (Qualidade)
+- Anatel SCM/SMP
+- SOC 2 Type II
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet gratuita para ONGs
+- Capacitação digital em escolas
+- Reciclagem de equipamentos eletrônicos
+- Energia renovável nos data centers
+- Programa de inclusão digital
+- Apoio a startups locais
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- 5G para empresas
+- Edge Computing
+- Inteligência Artificial
+- Machine Learning
+- Blockchain corporativo
+- Realidade Virtual/Aumentada
+- Quantum Computing (pesquisa)
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento multicanal integrado
+- Escalation automático por criticidade
+- Backup redundante de configurações
+- Monitoramento proativo com IA
+- Resposta a incidentes em tempo real
+- Compensação automática por SLA
+- Integração com sistemas empresariais
+- Protocolo de segurança cibernética
+- Suporte multilíngue (PT/EN/ES)
+- Atendimento especializado por segmento
+- Compliance com LGPD e regulamentações
+- Auditoria de segurança trimestral
+- Treinamento contínuo de equipes
+- Metodologia ágil de projetos
+- Gestão de mudanças controlada
+- Sustentabilidade em todas as operações
+- Inovação contínua em produtos
+---

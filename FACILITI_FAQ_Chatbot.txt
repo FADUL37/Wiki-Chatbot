@@ -1,0 +1,288 @@
+FACILITI (Faciliti Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da FACILITI?
+A:
+- Segunda a Sexta: 08h às 20h
+- Sábado: 08h às 16h
+- Domingo: Plantão 10h às 16h
+Obs: Atendimento simplificado e acessível.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica Residencial
+- Internet Banda Larga
+- WiFi Mesh Doméstico
+- Telefonia Digital
+- TV Streaming
+- Suporte Remoto
+- Instalação Expressa
+- Configuração Automática
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- FACILITI 100: 100MB, R$ 39,90
+- FACILITI 200: 200MB, R$ 54,90
+- FACILITI 350: 350MB, R$ 69,90
+- FACILITI 500: 500MB, R$ 89,90
+- FACILITI 750: 750MB, R$ 119,90
+- FACILITI MAX: 1GB, R$ 149,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP FACILITI 200: 200MB dedicado, R$ 399,90
+- CORP FACILITI 500: 500MB dedicado, R$ 699,90
+- CORP FACILITI 1GB: 1GB dedicado, R$ 1.199,90
+- FACILITI OFFICE: Pacote completo, R$ 899,90
+- WiFi Empresarial: A partir de R$ 200,00
+- Suporte Dedicado: R$ 150,00/mês
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Contratação online em 5 minutos
+- WhatsApp comercial
+- Análise automática de viabilidade
+- Proposta instantânea
+- Instalação em 24h (área urbana)
+- Instalação em 48h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5608T, ZTE C300
+- ONU: Huawei HG8245H, ZTE F660
+- Roteadores: TP-Link Archer, Intelbras Action
+- WiFi Mesh: TP-Link Deco, Intelbras Twibi
+- Switches: TP-Link TL-SG, D-Link DGS
+- Cabos: Furukawa, Intelbras
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.0.1
+- Subnet padrão: 192.168.0.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN mesh: 150
+- VLAN guest: 200
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/faciliti123
+- ONU Huawei: telecomadmin/admintelecom
+- ONU ZTE: admin/admin
+- WiFi Mesh: faciliti/mesh123
+- Configuração: auto/faciliti
+Obs: Configuração automática disponível
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento via chat/WhatsApp
+- Nível 2: Suporte técnico telefônico
+- Nível 3: Técnico presencial
+- Nível 4: Engenharia especializada
+- Autoatendimento: Portal e app
+- Suporte Remoto: Acesso direto
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- WiFi: RSSI > -65dBm
+- SNR mínimo: 20dB
+- Atenuação máxima: 25dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://teste.faciliti.net.br
+Obs: Teste rápido e intuitivo
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.faciliti.1.10
+- DNS2: 200.faciliti.1.11
+- DNS Seguro: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+- OpenDNS: 208.67.222.222 / 208.67.220.220
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 24h úteis
+- Empresarial: 12h úteis
+- Chat/WhatsApp: Imediato
+- Suporte remoto: 30 minutos
+- Instalação expressa: 24h
+- Instalação padrão: 48h
+- Disponibilidade: 99,5%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 40,00
+- Reinstalação: R$ 80,00
+- Cabo fibra: R$ 12,00/metro
+- Configuração básica: R$ 60,00
+- Suporte presencial: R$ 80,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 16h (completo)
+- Domingo: 10h às 16h (emergencial)
+- Feriados: Chat automático
+- WhatsApp: 24x7
+- Emergência: 0800-FACILITI
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 80,00/mês
+- WiFi Mesh Premium: R$ 120,00/mês
+- Suporte Prioritário: R$ 60,00/mês
+- Backup 4G: R$ 150,00/mês
+- Configuração Avançada: R$ 100,00
+- Monitoramento 24x7: R$ 80,00/mês
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Globoplay: Incluso todos os planos
+- YouTube Premium: 3 meses grátis
+- Spotify: 2 meses grátis
+- Amazon Prime Video: 1 mês grátis
+- Pluto TV: Acesso livre
+- Twitch: Sem limitação
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 10 de cada mês
+- Carência: 10 dias após vencimento
+- Bloqueio: Após 10 dias de atraso
+- Multa: 2% + juros simples
+- Religação: R$ 25,00
+- Parcelamento: Até 6x sem juros
+- Desconto pontualidade: 5%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 8% à vista
+- Débito automático: Desconto 5%
+- Boleto bancário
+- Cartão de crédito: Até 6x
+- Dinheiro (lojas parceiras)
+- Transferência bancária
+- Carteira digital
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via app ou WhatsApp
+- Análise automática de viabilidade
+- Taxa de migração: R$ 50,00
+- Prazo: 24h (mesma cidade)
+- Prazo: 48h (outras cidades)
+- Agendamento online
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.faciliti.net.br
+- App: Faciliti (Android/iOS)
+- Login: CPF + senha simples
+- Autenticação: SMS ou email
+- Sede: Rua Fácil, 123 - Centro
+- Cidade: Brasília - DF
+- CNPJ: 78.901.234/0001-67
+- Telefone: 0800-FACILITI
+- WhatsApp: (61) 99faciliti
+- Email: contato@faciliti.net.br
+- Site: https://faciliti.net.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 08h–20h, Sáb 08h–16h, Dom 10h–16h
+- Comercial: Seg–Sex 08h–19h, Sáb 08h–15h
+- Técnico: Seg–Sex 08h–20h, Sáb 08h–16h
+- WhatsApp: 24x7 (bot + humano)
+- Chat Online: 24x7
+- Instalações: Seg–Sáb 08h–18h
+- Financeiro: Seg–Sex 08h–17h
+
+23. [Soluções Especializadas]
+Q: Serviços diferenciados?
+A:
+- Consultoria em conectividade doméstica
+- Otimização de WiFi residencial
+- Suporte para home office
+- Configuração de smart home
+- Streaming sem buffering
+- Gaming com baixa latência
+- Educação à distância
+- Telemedicina domiciliar
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 24 meses
+- Instalação: 12 meses
+- Infraestrutura: 2 anos
+- SLA Residencial: 99,3%
+- SLA Empresarial: 99,7%
+- Anatel SCM
+- Certificação de Qualidade
+- ISO 9001 (em processo)
+- Selo de Facilidade
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet gratuita para estudantes
+- Capacitação digital para idosos
+- Reciclagem de equipamentos
+- Energia limpa nas operações
+- Programa de inclusão digital
+- Apoio a pequenos negócios
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Automação de processos
+- Inteligência artificial para suporte
+- Configuração automática
+- Diagnóstico remoto
+- App intuitivo
+- Chatbot avançado
+- Simplificação tecnológica
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento simplificado e direto
+- Tecnologia plug-and-play
+- Configuração automática de equipamentos
+- Diagnóstico remoto inteligente
+- Escalation rápido e eficiente
+- Compensação automática por problemas
+- Integração total entre canais
+- Protocolo de facilidade máxima
+- Suporte multilíngue básico
+- Atendimento humanizado e próximo
+- Compliance simplificado
+- Auditoria de satisfação mensal
+- Treinamento em atendimento
+- Metodologia de simplicidade
+- Gestão ágil de processos
+- Sustentabilidade operacional
+- Inovação focada na experiência
+---
