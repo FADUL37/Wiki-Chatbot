@@ -1,0 +1,289 @@
+CENSANET (Comunicação Inteligente) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da CENSANET?
+A:
+- Segunda a Sexta: 07h às 21h
+- Sábado: 08h às 16h
+- Domingo: Plantão 09h às 15h
+Obs: Suporte técnico 24x7 para clientes corporativos premium.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica GPON/XGS-PON
+- Rádio Enlace Ponto-a-Ponto
+- Satelital Ka/Ku Band
+- Data Center Tier II+
+- Cloud Híbrida
+- VoIP Empresarial
+- Videomonitoramento
+- IoT Industrial
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- CENSA 150: 150MB, R$ 59,90
+- CENSA 300: 300MB, R$ 79,90
+- CENSA 500: 500MB, R$ 109,90
+- CENSA 750: 750MB, R$ 139,90
+- CENSA 1GB: 1GB, R$ 179,90
+- CENSA 1.5GB: 1.5GB, R$ 249,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP SMART: 200MB dedicado, R$ 399,90
+- CORP PLUS: 500MB dedicado, R$ 699,90
+- CORP PRO: 1GB dedicado, R$ 1.199,90
+- CORP ENTERPRISE: 5GB+ dedicado, sob consulta
+- Link Dedicado: A partir de R$ 2.500,00
+- Satelital Corporativo: Cobertura nacional
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Análise de viabilidade online
+- Visita técnica sem custo
+- Proposta técnica em 4h
+- Contrato digital certificado
+- Instalação em 72h (urbano)
+- Instalação em 96h (rural)
+- Garantia de satisfação: 45 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800, ZTE C320
+- ONU: Huawei HG8310M, ZTE F670L
+- Roteadores: Cisco ISR, MikroTik hEX
+- Switches: Cisco Catalyst, HP ProCurve
+- Antenas: Ubiquiti, Cambium Networks
+- Servidores: HPE ProLiant, Dell PowerEdge
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.0.1
+- Subnet corporativa: 172.16.x.x/24
+- ONU management: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN telefonia: 200
+- VLAN gerência: 999
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/censanet2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU ZTE: admin/admin
+- Cisco: admin/censa@123
+- MikroTik: admin/
+Obs: Alteração obrigatória no primeiro acesso
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento inicial e triagem
+- Nível 2: Suporte técnico especializado
+- Nível 3: Engenharia de campo
+- Nível 4: Projetos e infraestrutura
+- NOC: Monitoramento contínuo
+- SOC: Segurança da informação
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- XGS-PON RX: -28dBm a -8dBm
+- Rádio: RSSI > -65dBm
+- Atenuação máxima: 27dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.censanet.com.br
+Obs: Certificado Anatel, recomendado cabo ethernet
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.195.147.10
+- DNS2: 200.195.147.11
+- DNS Seguro: 200.195.147.100 (filtro malware)
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 72h úteis
+- Empresarial: 24h úteis
+- Corporativo: 8h
+- Crítico: 4h
+- Satelital: 48h (condições climáticas)
+- Instalação urbana: 72h
+- Instalação rural: 96h
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 80,00
+- Reinstalação: R$ 150,00
+- Cabo fibra: R$ 20,00/metro
+- Emenda óptica: R$ 40,00/unidade
+- Configuração avançada: R$ 150,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 16h (completo)
+- Domingo: 09h às 15h (emergencial)
+- Feriados: NOC 24h + plantão
+- Corporativo: Suporte 24x7
+- Emergência: (11) 99888-7777
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 250,00/mês
+- Bloco /29: R$ 800,00/mês
+- Link dedicado: A partir de R$ 1.800,00
+- Firewall UTM: R$ 400,00/mês
+- Backup cloud: R$ 80,00/100GB
+- Monitoramento 24h: R$ 150,00/mês
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: Incluso planos +500MB (6 meses)
+- Amazon Prime: Incluso planos +750MB (3 meses)
+- Disney+: Incluso planos +1GB (2 meses)
+- Globoplay: Incluso todos os planos
+- Spotify: Promoção trimestral
+- Gaming: Parceria Steam
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 25 de cada mês
+- Carência: 15 dias após vencimento
+- Bloqueio: Após 15 dias de atraso
+- Multa: 2% + juros SELIC
+- Religação: R$ 60,00
+- Parcelamento: Até 12x sem juros
+- Desconto anual: 10%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 8% à vista
+- Boleto bancário
+- Débito automático (desconto 5%)
+- Cartão de crédito: Até 12x
+- Transferência bancária
+- Dinheiro (agências)
+- Pix parcelado
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação com 15 dias antecedência
+- Análise de viabilidade gratuita
+- Taxa de migração: R$ 200,00
+- Prazo urbano: 5 dias úteis
+- Prazo rural: 10 dias úteis
+- Upgrade automático se disponível
+
+21. [Dados Institucionais]
+- Portal Cliente: https://minha.censanet.com.br
+- App: CENSA Connect (iOS/Android)
+- Login: CPF/CNPJ
+- Autenticação: SMS + Token
+- Matriz: Rua Tecnologia, 1500 - Centro
+- Cidade: Campinas - SP
+- CNPJ: 12.345.678/0001-90
+- Telefone: (19) 3000-8000
+- WhatsApp: (19) 99666-5555
+- Email: atendimento@censanet.com.br
+- Site: https://censanet.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–21h, Sáb 08h–16h, Dom 09h–15h
+- Comercial: Seg–Sex 08h–20h, Sáb 09h–15h
+- Técnico: Seg–Sex 07h–21h, Sáb 08h–16h
+- Financeiro: Seg–Sex 08h–18h
+- NOC: 24x7x365
+- Engenharia: Seg–Sex 08h–17h
+- Diretoria: Seg–Sex 09h–16h
+
+23. [Soluções Especializadas]
+Q: Serviços para grandes corporações?
+A:
+- Consultoria em telecomunicações
+- Projetos de rede corporativa
+- Integração de sistemas
+- Segurança da informação
+- Cloud computing
+- Disaster recovery
+- Compliance LGPD
+- IoT industrial
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 36 meses
+- Instalação: 12 meses
+- Infraestrutura: 5 anos
+- SLA Residencial: 99,5%
+- SLA Empresarial: 99,8%
+- SLA Crítico: 99,95%
+- ISO 9001 (Qualidade)
+- ISO 27001 (Segurança)
+- Anatel SCM
+- Certificação Cisco
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet gratuita para ONGs
+- Conectividade para escolas públicas
+- Programa de inclusão digital
+- Reciclagem de equipamentos
+- Energia renovável
+- Reflorestamento urbano
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- 5G experimental
+- IoT para cidades inteligentes
+- Inteligência artificial
+- Machine learning
+- Blockchain
+- Edge computing
+- Quantum networking
+
+---
+**Protocolos Operacionais Especializados:**
+- Autenticação dupla para acesso administrativo
+- Criptografia AES-256 em todas as transmissões
+- Backup automático diário com retenção de 30 dias
+- Monitoramento proativo com alertas inteligentes
+- Escalation automático baseado em criticidade
+- Compensação automática por SLA não cumprido
+- Integração com sistemas de terceiros via API
+- Protocolo de emergência para desastres naturais
+- Suporte multilíngue (português, inglês, espanhol)
+- Atendimento especializado para PcD
+- Compliance total com LGPD e Marco Civil
+- Auditoria mensal de segurança
+- Treinamento contínuo da equipe técnica
+- Protocolo de qualidade Six Sigma
+- Sistema de gestão ISO 9001
+- Monitoramento ambiental das instalações
+- Programa de melhoria contínua
+---

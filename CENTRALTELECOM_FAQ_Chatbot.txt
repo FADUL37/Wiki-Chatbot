@@ -1,0 +1,289 @@
+CENTRALTELECOM (Central de Comunicações) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da CENTRALTELECOM?
+A:
+- Segunda a Sexta: 06h às 22h
+- Sábado: 07h às 18h
+- Domingo: Plantão 08h às 17h
+Obs: Central de atendimento 24x7 para emergências corporativas.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH/FTTB
+- Telefonia Fixa e Móvel
+- Central Telefônica Virtual
+- Data Center Tier III
+- Cloud PBX
+- Videoconferência HD
+- Contact Center
+- Unified Communications
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- CENTRAL 120: 120MB, R$ 52,90
+- CENTRAL 250: 250MB, R$ 72,90
+- CENTRAL 400: 400MB, R$ 92,90
+- CENTRAL 600: 600MB, R$ 122,90
+- CENTRAL 1GB: 1GB, R$ 162,90
+- CENTRAL 2GB: 2GB, R$ 222,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP CONNECT: 300MB dedicado, R$ 449,90
+- CORP ADVANCED: 500MB dedicado, R$ 749,90
+- CORP PREMIUM: 1GB dedicado, R$ 1.299,90
+- CORP ENTERPRISE: 5GB+ dedicado, sob consulta
+- PBX Virtual: A partir de R$ 2.200,00
+- Contact Center: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta de viabilidade imediata
+- Visita técnica gratuita
+- Proposta comercial em 8h
+- Assinatura eletrônica
+- Instalação em 48h (área urbana)
+- Instalação em 96h (área rural)
+- Garantia de satisfação: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Nokia 7360, Huawei MA5800
+- ONU: Nokia G-010G-P, Huawei HG8310M
+- Centrais: Asterisk, FreePBX, Elastix
+- Roteadores: Cisco ISR, Intelbras Action
+- Switches: Cisco Catalyst, D-Link
+- Telefones: Yealink, Grandstream, Intelbras
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet empresarial: 10.x.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 10
+- VLAN telefonia: 20
+- VLAN dados: 30
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/central2024
+- ONU Nokia: admin/admin
+- ONU Huawei: telecomadmin/admintelecom
+- PBX: admin/central123
+- Telefones IP: admin/admin
+Obs: Alteração obrigatória no primeiro login
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Recepção e triagem
+- Nível 2: Suporte técnico avançado
+- Nível 3: Engenharia de campo
+- Nível 4: Projetos especiais
+- Central NOC: Monitoramento 24x7
+- Help Desk: Suporte telefônico
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -28dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- Telefonia: -40dBm a -10dBm
+- Dados: RSSI > -70dBm
+- Atenuação máxima: 28dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://velocidade.centraltelecom.com.br
+Obs: Homologado Anatel, preferir conexão cabeada
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.225.157.10
+- DNS2: 200.225.157.11
+- DNS Seguro: 200.225.157.100 (anti-phishing)
+- Cloudflare: 1.1.1.1 / 1.0.0.1
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 48h úteis
+- Empresarial: 12h úteis
+- Corporativo: 6h
+- Crítico: 2h
+- Telefonia: 4h
+- Instalação urbana: 48h
+- Instalação rural: 96h
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 90,00
+- Reinstalação: R$ 180,00
+- Cabo fibra: R$ 22,00/metro
+- Emenda óptica: R$ 45,00/unidade
+- Configuração PBX: R$ 200,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 07h às 18h (completo)
+- Domingo: 08h às 17h (emergencial)
+- Feriados: Central 24h + plantão
+- Corporativo: Suporte 24x7
+- Emergência: (11) 99777-6666
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 280,00/mês
+- Bloco /29: R$ 900,00/mês
+- PBX Virtual: A partir de R$ 1.500,00
+- Contact Center: R$ 800,00/posição
+- Gravação de chamadas: R$ 150,00/mês
+- Relatórios avançados: R$ 100,00/mês
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: Incluso planos +400MB (9 meses)
+- Amazon Prime: Incluso planos +600MB (6 meses)
+- Disney+: Incluso planos +1GB (3 meses)
+- Globoplay: Incluso todos os planos
+- Spotify: Promoção semestral
+- Gaming: Parceria PlayStation Now
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 28 de cada mês
+- Carência: 18 dias após vencimento
+- Bloqueio: Após 18 dias de atraso
+- Multa: 2% + juros CDI
+- Religação: R$ 75,00
+- Parcelamento: Até 15x sem juros
+- Desconto anual: 12%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 10% à vista
+- Boleto bancário
+- Débito automático (desconto 6%)
+- Cartão de crédito: Até 15x
+- Transferência bancária
+- Dinheiro (lojas próprias)
+- Pix parcelado
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação com 20 dias antecedência
+- Análise de viabilidade gratuita
+- Taxa de migração: R$ 250,00
+- Prazo urbano: 5 dias úteis
+- Prazo rural: 12 dias úteis
+- Upgrade automático se disponível
+
+21. [Dados Institucionais]
+- Portal Cliente: https://minha.centraltelecom.com.br
+- App: Central Connect (iOS/Android/Web)
+- Login: CPF/CNPJ
+- Autenticação: Biometria + Token
+- Matriz: Av. Comunicações, 2500 - Vila Olímpia
+- Cidade: São Paulo - SP
+- CNPJ: 23.456.789/0001-12
+- Telefone: (11) 4000-8000
+- WhatsApp: (11) 99888-7777
+- Email: atendimento@centraltelecom.com.br
+- Site: https://centraltelecom.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 06h–22h, Sáb 07h–18h, Dom 08h–17h
+- Comercial: Seg–Sex 07h–21h, Sáb 08h–17h
+- Técnico: Seg–Sex 06h–22h, Sáb 07h–18h
+- Financeiro: Seg–Sex 08h–19h
+- Central NOC: 24x7x365
+- Engenharia: Seg–Sex 08h–18h
+- Diretoria: Seg–Sex 09h–17h
+
+23. [Soluções Especializadas]
+Q: Serviços para grandes corporações?
+A:
+- Consultoria em telecomunicações
+- Projetos de contact center
+- Integração de sistemas telefônicos
+- Unified Communications
+- Videoconferência corporativa
+- Gravação e monitoramento
+- Compliance telefônico
+- Telefonia móvel corporativa
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 48 meses
+- Instalação: 18 meses
+- Infraestrutura: 8 anos
+- SLA Residencial: 99,7%
+- SLA Empresarial: 99,9%
+- SLA Crítico: 99,95%
+- ISO 9001 (Qualidade)
+- ISO 27001 (Segurança)
+- Anatel SCM/STFC
+- Certificação Cisco/Asterisk
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Telefonia gratuita para asilos
+- Conectividade para hospitais
+- Programa de inclusão digital
+- Central de emergência comunitária
+- Energia limpa nas centrais
+- Reciclagem de aparelhos
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- VoIP avançado
+- IA para contact center
+- Chatbots inteligentes
+- Análise de sentimentos
+- WebRTC
+- Telefonia na nuvem
+- 5G para IoT
+
+---
+**Protocolos Operacionais Especializados:**
+- Autenticação biométrica para centrais críticas
+- Criptografia E2E em todas as chamadas VoIP
+- Backup redundante com failover automático
+- Monitoramento de qualidade de chamadas em tempo real
+- Escalation inteligente baseado em perfil do cliente
+- Compensação automática por indisponibilidade
+- Integração com CRM via API REST
+- Protocolo de emergência para desastres
+- Suporte multilíngue com tradução simultânea
+- Atendimento especializado para deficientes auditivos
+- Compliance total com LGPD e Lei Geral de Telecomunicações
+- Auditoria bimestral de qualidade
+- Treinamento contínuo em atendimento
+- Protocolo de qualidade COPC
+- Sistema de gestão de relacionamento
+- Monitoramento ambiental das centrais
+- Programa de excelência operacional
+---

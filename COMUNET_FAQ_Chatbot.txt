@@ -1,0 +1,289 @@
+COMUNET (Comunidade Conectada) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da COMUNET?
+A:
+- Segunda a Sexta: 06h às 22h
+- Sábado: 07h às 19h
+- Domingo: Plantão 08h às 18h
+Obs: Atendimento comunitário 24x7 para emergências locais.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica Comunitária
+- WiFi Público Gratuito
+- Rede Mesh Colaborativa
+- Intranet Comunitária
+- Telecentros Digitais
+- Aplicativos Locais
+- E-gov Municipal
+- Telemedicina Básica
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- COMUNET 100: 100MB, R$ 39,90
+- COMUNET 200: 200MB, R$ 59,90
+- COMUNET 300: 300MB, R$ 79,90
+- COMUNET 500: 500MB, R$ 99,90
+- COMUNET 1GB: 1GB, R$ 139,90
+- COMUNET FAMÍLIA: 2GB, R$ 199,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP COMUNIDADE: 200MB dedicado, R$ 299,90
+- CORP LOCAL: 500MB dedicado, R$ 499,90
+- CORP MUNICIPAL: 1GB dedicado, R$ 899,90
+- CORP REGIONAL: 5GB+ dedicado, sob consulta
+- WiFi Público: A partir de R$ 1.200,00
+- Intranet Local: Sob medida
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta comunitária presencial
+- Visita técnica gratuita
+- Proposta social em 12h
+- Contrato simplificado
+- Instalação em 72h (área urbana)
+- Instalação em 120h (área rural)
+- Garantia comunitária: 60 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5608T, ZTE C300
+- ONU: Huawei HG8245H, ZTE F660
+- Roteadores: TP-Link Archer, Intelbras Action
+- WiFi: Ubiquiti UniFi, Mikrotik cAP
+- Switches: TP-Link TL-SG, D-Link DGS
+- Antenas: Ubiquiti NanoStation, Intelbras
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet comunitária: 172.20.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN intranet: 200
+- VLAN pública: 300
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/comunet2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU ZTE: admin/admin
+- WiFi Público: comunet/livre
+- Intranet: usuario/comunidade
+Obs: Senhas simples para facilitar acesso comunitário
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento local presencial
+- Nível 2: Suporte técnico regional
+- Nível 3: Engenharia itinerante
+- Nível 4: Projetos comunitários
+- Centro Comunitário: Apoio local
+- Voluntários Tech: Suporte colaborativo
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- WiFi Mesh: RSSI > -65dBm
+- Intranet: SNR > 20dB
+- Atenuação máxima: 25dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://teste.comunet.org.br
+Obs: Servidor local comunitário, teste gratuito
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.comunet.1.10
+- DNS2: 200.comunet.1.11
+- DNS Local: 192.168.1.10 (intranet)
+- OpenDNS: 208.67.222.222 / 208.67.220.220
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 72h úteis
+- Empresarial: 24h úteis
+- Comunitário: 12h
+- Emergencial: 4h
+- WiFi Público: 6h
+- Instalação urbana: 72h
+- Instalação rural: 120h
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 50,00
+- Reinstalação: R$ 100,00
+- Cabo fibra: R$ 15,00/metro
+- Emenda óptica: R$ 30,00/unidade
+- Configuração básica: R$ 80,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 07h às 19h (completo)
+- Domingo: 08h às 18h (emergencial)
+- Feriados: Centro comunitário + plantão
+- Público: Suporte colaborativo
+- Emergência: (11) 99comunet
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 150,00/mês
+- WiFi Empresarial: R$ 300,00/mês
+- Intranet Dedicada: R$ 500,00/mês
+- Telecentro: R$ 200,00/mês
+- Backup comunitário: R$ 50,00/100GB
+- Suporte prioritário: R$ 80,00/mês
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Globoplay: Incluso todos os planos
+- YouTube: Acesso livre WiFi público
+- Conteúdo Local: Produção comunitária
+- Rádio Web: Estações locais
+- TV Comunitária: Canal próprio
+- Jogos Online: Torneios locais
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 10 de cada mês
+- Carência: 30 dias após vencimento
+- Bloqueio: Após 30 dias de atraso
+- Multa: 1% + juros simples
+- Religação: R$ 30,00
+- Parcelamento: Até 6x sem juros
+- Desconto comunitário: 15%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 5% à vista
+- Boleto bancário
+- Dinheiro (centro comunitário)
+- Cartão de crédito: Até 6x
+- Trabalho comunitário (desconto)
+- Troca por serviços
+- Pix parcelado
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação presencial ou online
+- Análise de viabilidade gratuita
+- Taxa de migração: R$ 80,00
+- Prazo local: 3 dias úteis
+- Prazo regional: 7 dias úteis
+- Prioridade para mesma comunidade
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.comunet.org.br
+- App: COMUNET Local (Android/iOS)
+- Login: CPF ou RG
+- Autenticação: SMS simples
+- Sede: Rua da Comunidade, 100 - Centro
+- Cidade: Várias cidades - Brasil
+- CNPJ: 45.678.901/0001-34
+- Telefone: (11) 3000-comunet
+- WhatsApp: (11) 99comunet-help
+- Email: contato@comunet.org.br
+- Site: https://comunet.org.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 06h–22h, Sáb 07h–19h, Dom 08h–18h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–18h
+- Técnico: Seg–Sex 06h–22h, Sáb 07h–19h
+- Social: Seg–Sex 08h–17h
+- Centro Comunitário: 24x7x365
+- Projetos: Seg–Sex 08h–17h
+- Coordenação: Seg–Sex 09h–16h
+
+23. [Soluções Especializadas]
+Q: Serviços para comunidades?
+A:
+- Consultoria em inclusão digital
+- Projetos de conectividade rural
+- Telecentros comunitários
+- E-government local
+- Telemedicina básica
+- Educação à distância
+- Cooperativismo digital
+- Economia solidária online
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 24 meses
+- Instalação: 12 meses
+- Infraestrutura: 3 anos
+- SLA Residencial: 99,0%
+- SLA Empresarial: 99,5%
+- SLA Comunitário: 99,7%
+- Certificação Social
+- Anatel SCM
+- Selo Comunidade Digital
+- ISO 26000 (Responsabilidade Social)
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet gratuita para escolas
+- Telecentros em comunidades carentes
+- Capacitação digital para idosos
+- Reciclagem de equipamentos
+- Energia solar comunitária
+- Hortas digitais conectadas
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Redes mesh comunitárias
+- IoT para agricultura familiar
+- Aplicativos de economia local
+- Blockchain para cooperativas
+- IA para educação
+- Realidade aumentada cultural
+- Conectividade sustentável
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento humanizado com foco comunitário
+- Tecnologia apropriada para cada realidade local
+- Backup colaborativo entre comunidades
+- Monitoramento participativo da qualidade
+- Escalation baseado em impacto social
+- Compensação em forma de melhorias comunitárias
+- Integração com sistemas municipais
+- Protocolo de emergência comunitária
+- Suporte multilíngue incluindo línguas locais
+- Atendimento adaptado para diferentes idades
+- Compliance com direitos digitais
+- Auditoria social trimestral
+- Formação contínua de lideranças locais
+- Metodologia de desenvolvimento comunitário
+- Gestão participativa de recursos
+- Sustentabilidade ambiental e social
+- Economia circular digital
+---
