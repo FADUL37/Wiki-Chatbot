@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget Q&A - Operadoras</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .qa-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .qa-header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .qa-header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .qa-header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .qa-interface {
+            display: flex;
+            height: 600px;
+        }
+
+        .operadora-selector {
+            width: 300px;
+            background: #f8f9fa;
+            border-right: 2px solid #e9ecef;
+            overflow-y: auto;
+        }
+
+        .operadora-list {
+            padding: 20px;
+        }
+
+        .operadora-item {
+            background: white;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .operadora-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            border-color: #667eea;
+        }
+
+        .operadora-item.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .operadora-name {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .operadora-status {
+            font-size: 0.9em;
+            opacity: 0.7;
+        }
+
+        .qa-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .scenario-selector {
+            background: #f8f9fa;
+            padding: 20px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .scenario-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .scenario-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .scenario-btn {
+            background: white;
+            border: 2px solid #e9ecef;
+            padding: 12px 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .scenario-btn:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+            transform: translateY(-1px);
+        }
+
+        .scenario-btn.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-color: transparent;
+        }
+
+        .qa-display {
+            flex: 1;
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        .qa-result {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #667eea;
+        }
+
+        .qa-question {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f4ff;
+        }
+
+        .qa-answer {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .qa-answer ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .qa-answer li {
+            margin-bottom: 5px;
+        }
+
+        .qa-answer strong {
+            color: #333;
+        }
+
+        .qa-actions {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .action-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .action-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .action-btn.secondary {
+            background: #6c757d;
+        }
+
+        .no-selection {
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            margin-top: 50px;
+        }
+
+        .search-box {
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            font-size: 1em;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 10px rgba(102, 126, 234, 0.2);
+        }
+
+        .quick-stats {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .stat-item {
+            display: inline-block;
+            margin: 0 15px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .stat-number {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            .qa-interface {
+                flex-direction: column;
+                height: auto;
+            }
+            
+            .operadora-selector {
+                width: 100%;
+                max-height: 200px;
+            }
+            
+            .scenario-buttons {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="qa-container">
+        <div class="qa-header">
+            <h1>🤖 Sistema Q&A - Operadoras</h1>
+            <p>Respostas inteligentes baseadas em cenários reais de atendimento</p>
+        </div>
+
+        <div class="qa-interface">
+            <div class="operadora-selector">
+                <div class="operadora-list">
+                    <div class="search-box">
+                        <input type="text" class="search-input" id="operadoraSearch" placeholder="Buscar operadora...">
+                    </div>
+                    
+                    <div class="quick-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">28</div>
+                            <div>Operadoras</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">150+</div>
+                            <div>Cenários</div>
+                        </div>
+                    </div>
+
+                    <div id="operadorasList">
+                        <!-- Operadoras serão carregadas aqui -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="qa-content">
+                <div class="scenario-selector">
+                    <div class="scenario-title">📋 Selecione o Cenário de Atendimento:</div>
+                    <div class="scenario-buttons" id="scenarioButtons">
+                        <div class="scenario-btn" data-scenario="sem-conexao">🚫 Cliente sem conexão</div>
+                        <div class="scenario-btn" data-scenario="lentidao">🐌 Internet lenta</div>
+                        <div class="scenario-btn" data-scenario="instalacao">🔧 Solicitação de instalação</div>
+                        <div class="scenario-btn" data-scenario="mudanca-endereco">📍 Mudança de endereço</div>
+                        <div class="scenario-btn" data-scenario="pagamento">💳 Problemas de pagamento</div>
+                        <div class="scenario-btn" data-scenario="desbloqueio">🔓 Desbloqueio de serviço</div>
+                        <div class="scenario-btn" data-scenario="suporte-tecnico">🛠️ Suporte técnico</div>
+                        <div class="scenario-btn" data-scenario="planos">📦 Informações sobre planos</div>
+                        <div class="scenario-btn" data-scenario="equipamentos">📡 Problemas com equipamentos</div>
+                        <div class="scenario-btn" data-scenario="cancelamento">❌ Cancelamento de serviço</div>
+                    </div>
+                </div>
+
+                <div class="qa-display" id="qaDisplay">
+                    <div class="no-selection">
+                        <h3>👆 Selecione uma operadora e um cenário</h3>
+                        <p>Escolha a operadora na lista à esquerda e depois selecione o cenário de atendimento acima.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Base de dados de operadoras e cenários
+        const operadoras = [
+            { id: 'dkiros', name: 'DKIROS', status: 'Matriz - Padrão', active: true },
+            { id: 'aresnet', name: 'ARESNET', status: 'Ativa', active: true },
+            { id: 'avianet', name: 'AVIANET', status: 'Ativa', active: true },
+            { id: 'brasilink', name: 'BRASILINK', status: 'Ativa', active: true },
+            { id: 'capital', name: 'CAPITAL', status: 'Ativa', active: true },
+            { id: 'censanet', name: 'CENSANET', status: 'Ativa', active: true },
+            { id: 'centraltelecom', name: 'CENTRALTELECOM', status: 'Ativa', active: true },
+            { id: 'cetech', name: 'CETECH', status: 'Ativa', active: true },
+            { id: 'comunet', name: 'COMUNET', status: 'Ativa', active: true },
+            { id: 'deltaativa', name: 'DELTAATIVA', status: 'Ativa', active: true },
+            { id: 'etecc', name: 'ETECC', status: 'Ativa', active: true },
+            { id: 'faciliti', name: 'FACILITI', status: 'Ativa', active: true },
+            { id: 'iclick', name: 'ICLICK', status: 'Ativa', active: true },
+            { id: 'inet', name: 'INET', status: 'Ativa', active: true },
+            { id: 'infornet', name: 'INFORNET', status: 'Ativa', active: true },
+            { id: 'infosafe', name: 'INFOSAFE', status: 'Ativa', active: true },
+            { id: 'itapoa', name: 'ITAPOA', status: 'Ativa', active: true },
+            { id: 'lasernet', name: 'LASERNET', status: 'Ativa', active: true },
+            { id: 'linknet', name: 'LINKNET', status: 'Ativa', active: true },
+            { id: 'netfibra', name: 'NETFIBRA', status: 'Ativa', active: true },
+            { id: 'netlink', name: 'NETLINK', status: 'Ativa', active: true },
+            { id: 'netmax', name: 'NETMAX', status: 'Ativa', active: true },
+            { id: 'netplus', name: 'NETPLUS', status: 'Ativa', active: true },
+            { id: 'netpro', name: 'NETPRO', status: 'Ativa', active: true },
+            { id: 'netspeed', name: 'NETSPEED', status: 'Ativa', active: true },
+            { id: 'nettech', name: 'NETTECH', status: 'Ativa', active: true },
+            { id: 'netvip', name: 'NETVIP', status: 'VIP', active: true },
+            { id: 'vivas', name: 'VIVAS', status: 'Ativa', active: true }
+        ];
+
+        // Base de conhecimento de cenários
+        const scenariosKnowledge = {
+            'sem-conexao': {
+                question: 'Cliente relata que está sem conexão com a internet',
+                dkiros: {
+                    answer: `<strong>Procedimento para cliente sem conexão (DKIROS):</strong><br><br>
+                    <strong>1. Verificações iniciais:</strong><br>
+                    • Confirmar se há energia elétrica no local<br>
+                    • Verificar se os cabos estão conectados corretamente<br>
+                    • Observar as luzes dos equipamentos (ONU/ONT e roteador)<br><br>
+                    
+                    <strong>2. Teste de sinal:</strong><br>
+                    • Sinal ideal: até -26dBm<br>
+                    • Se sinal fora do padrão, encaminhar para Suporte N3<br><br>
+                    
+                    <strong>3. Equipamentos DKIROS:</strong><br>
+                    • ONU/ONT: Parks, Stavix, Vsolucion, MaxPrint, Intelbras, ZTE<br>
+                    • Roteadores: TP-Link, Intelbras, ZTE<br>
+                    • Porta de acesso: 1º roteador (8001), 2º roteador (8002), ONU/ONT (4779 ou 80)<br><br>
+                    
+                    <strong>4. Se necessário reset:</strong><br>
+                    • NÃO orientar reset manual<br>
+                    • Encaminhar para Suporte Nível 3<br>
+                    • Prazo atendimento: PF (72h úteis), Corporativo (24h úteis)<br><br>
+                    
+                    <strong>5. Horários de suporte:</strong><br>
+                    • N2: Seg-Sex 08h-21h, Sáb/Feriados 08h-16h<br>
+                    • N3: Seg-Sex 08h-18h, Sáb/Feriados 08h-12h<br>
+                    • Sem plantão aos domingos`
+                },
+                default: {
+                    answer: `<strong>Procedimento padrão para cliente sem conexão:</strong><br><br>
+                    <strong>1. Verificações básicas:</strong><br>
+                    • Confirmar energia elétrica no local<br>
+                    • Verificar conexões dos cabos<br>
+                    • Observar status dos equipamentos<br><br>
+                    
+                    <strong>2. Testes iniciais:</strong><br>
+                    • Reiniciar modem/roteador (desligar 30s e religar)<br>
+                    • Testar conexão direta no cabo<br>
+                    • Verificar se outros dispositivos conectam<br><br>
+                    
+                    <strong>3. Se problema persistir:</strong><br>
+                    • Abrir chamado técnico<br>
+                    • Informar prazo de atendimento<br>
+                    • Orientar sobre possíveis custos de visita improdutiva`
+                }
+            },
+            'lentidao': {
+                question: 'Cliente reclama de lentidão na internet',
+                dkiros: {
+                    answer: `<strong>Procedimento para lentidão (DKIROS):</strong><br><br>
+                    <strong>1. Teste de velocidade:</strong><br>
+                    • Site oficial: http://dkiros.speedtestcustom.com/<br>
+                    • Velocidade garantida apenas por cabo<br>
+                    • Via WiFi pode variar conforme ambiente<br><br>
+                    
+                    <strong>2. Planos disponíveis:</strong><br>
+                    • R1: 250MB → 500MB (1 roteador, até 70m²)<br>
+                    • R1+: 400MB → 800MB (1 roteador, até 70m²)<br>
+                    • R2: 250MB → 500MB (2 roteadores, até 140m²)<br>
+                    • R2+: 400MB → 800MB (2 roteadores, até 140m²)<br>
+                    • R3: 250MB → 500MB (3 roteadores, até 210m²)<br>
+                    • R3+: 400MB → 800MB (3 roteadores, até 210m²)<br><br>
+                    
+                    <strong>3. Verificações técnicas:</strong><br>
+                    • DNS automático: 170.245.99.22 e 170.245.99.23<br>
+                    • Sinal ideal: até -26dBm<br>
+                    • Verificar interferências WiFi<br><br>
+                    
+                    <strong>4. Suporte Mesh:</strong><br>
+                    • Equipamentos próprios: Intelbras w5 1200, ZTE 199a<br>
+                    • Equipamento do cliente: R$40 visita técnica`
+                },
+                default: {
+                    answer: `<strong>Procedimento para lentidão na internet:</strong><br><br>
+                    <strong>1. Teste de velocidade:</strong><br>
+                    • Usar site oficial da operadora<br>
+                    • Testar com cabo direto no modem<br>
+                    • Comparar com velocidade contratada<br><br>
+                    
+                    <strong>2. Verificações:</strong><br>
+                    • Quantos dispositivos conectados<br>
+                    • Programas que consomem banda<br>
+                    • Horário de maior uso<br><br>
+                    
+                    <strong>3. Soluções:</strong><br>
+                    • Reiniciar equipamentos<br>
+                    • Verificar posicionamento do roteador<br>
+                    • Considerar upgrade de plano<br>
+                    • Avaliar necessidade de repetidor`
+                }
+            },
+            'instalacao': {
+                question: 'Cliente solicita instalação de internet',
+                dkiros: {
+                    answer: `<strong>Procedimento para instalação (DKIROS):</strong><br><br>
+                    <strong>1. Encaminhamento:</strong><br>
+                    • Transferir para setor de Vendas durante horário comercial<br>
+                    • Fora do horário: abrir "ENCAMINHAR PARA OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR)"<br>
+                    • Sempre perguntar como ficou sabendo da D-Kiros<br><br>
+                    
+                    <strong>2. Horário de Vendas:</strong><br>
+                    • Segunda a Sexta: 08h às 18h<br>
+                    • Sábado: 08h às 12h<br><br>
+                    
+                    <strong>3. Informações importantes:</strong><br>
+                    • Verificar viabilidade técnica no endereço<br>
+                    • Explicar planos disponíveis (R1, R1+, R2, R2+, R3, R3+)<br>
+                    • Informar sobre tecnologias extras: OléTV, App Telemedicina, Clube D-Kiros<br><br>
+                    
+                    <strong>4. Contato:</strong><br>
+                    • Telefone/WhatsApp: 47 3308 2000<br>
+                    • Site: https://dkiros.com.br/`
+                },
+                default: {
+                    answer: `<strong>Procedimento para solicitação de instalação:</strong><br><br>
+                    <strong>1. Verificar viabilidade:</strong><br>
+                    • Confirmar se há cobertura no endereço<br>
+                    • Verificar disponibilidade técnica<br>
+                    • Informar prazo de instalação<br><br>
+                    
+                    <strong>2. Apresentar planos:</strong><br>
+                    • Explicar velocidades disponíveis<br>
+                    • Informar preços e promoções<br>
+                    • Esclarecer sobre equipamentos inclusos<br><br>
+                    
+                    <strong>3. Processo de contratação:</strong><br>
+                    • Documentos necessários<br>
+                    • Formas de pagamento<br>
+                    • Agendamento da instalação<br>
+                    • Informar sobre possíveis custos extras`
+                }
+            },
+            'mudanca-endereco': {
+                question: 'Cliente solicita mudança de endereço',
+                dkiros: {
+                    answer: `<strong>Procedimento para mudança de endereço (DKIROS):</strong><br><br>
+                    <strong>1. Encaminhamento obrigatório:</strong><br>
+                    • Abrir "OUTRAS DEMANDAS (Comercial ligar/retornar)"<br>
+                    • NÃO realizar mudança diretamente pelo atendimento<br><br>
+                    
+                    <strong>2. Informações a coletar:</strong><br>
+                    • Endereço atual completo<br>
+                    • Novo endereço completo<br>
+                    • Motivo da mudança<br>
+                    • Prazo desejado<br><br>
+                    
+                    <strong>3. Orientações ao cliente:</strong><br>
+                    • Verificação de viabilidade técnica no novo endereço<br>
+                    • Possíveis custos de mudança<br>
+                    • Prazo para análise e execução<br>
+                    • Setor comercial entrará em contato<br><br>
+                    
+                    <strong>4. Pagamento:</strong><br>
+                    • Valor será cobrado na próxima mensalidade<br>
+                    • Avaliado pelo técnico no local`
+                },
+                default: {
+                    answer: `<strong>Procedimento para mudança de endereço:</strong><br><br>
+                    <strong>1. Verificações necessárias:</strong><br>
+                    • Viabilidade técnica no novo endereço<br>
+                    • Distância entre endereços<br>
+                    • Disponibilidade de infraestrutura<br><br>
+                    
+                    <strong>2. Custos envolvidos:</strong><br>
+                    • Taxa de mudança (se aplicável)<br>
+                    • Custos de nova instalação<br>
+                    • Materiais adicionais necessários<br><br>
+                    
+                    <strong>3. Processo:</strong><br>
+                    • Agendamento da retirada<br>
+                    • Agendamento da nova instalação<br>
+                    • Prazo para conclusão<br>
+                    • Documentação necessária`
+                }
+            },
+            'pagamento': {
+                question: 'Cliente com problemas relacionados a pagamento',
+                dkiros: {
+                    answer: `<strong>Procedimento para problemas de pagamento (DKIROS):</strong><br><br>
+                    <strong>1. Métodos de pagamento aceitos:</strong><br>
+                    • PIX<br>
+                    • Boleto bancário<br><br>
+                    
+                    <strong>2. Central do Assinante:</strong><br>
+                    • BASE 1: https://ixc.d-kiros.com.br<br>
+                    • BASE 2: https://ixc.dkirosnet.com.br/central_assinante_web/faturas<br>
+                    • Login: CPF/CNPJ<br>
+                    • Senha: dkirosnet<br>
+                    • NUNCA informar que existem duas bases<br><br>
+                    
+                    <strong>3. Envio de fatura:</strong><br>
+                    • Depende da carteira de cobrança<br>
+                    • Consultar procedimento específico<br>
+                    • Pode ser necessário abrir OUTRAS DEMANDAS<br><br>
+                    
+                    <strong>4. Comprovante de pagamento:</strong><br>
+                    • Conforme carteira de cobrança<br>
+                    • Pode ser necessário abrir OUTRAS DEMANDAS<br><br>
+                    
+                    <strong>5. Bloqueio por inadimplência:</strong><br>
+                    • Após 8 dias de atraso<br>
+                    • Só de terça a quinta<br>
+                    • NÃO informar detalhes ao cliente<br>
+                    • Abrir OUTRAS DEMANDAS se questionado`
+                },
+                default: {
+                    answer: `<strong>Procedimento para problemas de pagamento:</strong><br><br>
+                    <strong>1. Verificar situação:</strong><br>
+                    • Status da conta do cliente<br>
+                    • Últimos pagamentos realizados<br>
+                    • Faturas em aberto<br><br>
+                    
+                    <strong>2. Orientações:</strong><br>
+                    • Formas de pagamento disponíveis<br>
+                    • Como acessar segunda via<br>
+                    • Prazos de vencimento<br><br>
+                    
+                    <strong>3. Soluções:</strong><br>
+                    • Renegociação de débitos<br>
+                    • Parcelamento (se disponível)<br>
+                    • Orientação sobre juros e multas<br>
+                    • Processo de religação`
+                }
+            },
+            'desbloqueio': {
+                question: 'Cliente solicita desbloqueio do serviço',
+                dkiros: {
+                    answer: `<strong>Procedimento para desbloqueio (DKIROS):</strong><br><br>
+                    <strong>1. IMPORTANTE - Desbloqueio de confiança:</strong><br>
+                    • NÃO é permitido<br>
+                    • Exceção: casos de carteira de cobrança via OUTRAS DEMANDAS<br><br>
+                    
+                    <strong>2. Processo padrão:</strong><br>
+                    • Verificar pagamento da fatura<br>
+                    • Confirmar compensação bancária<br>
+                    • Aguardar processamento automático<br><br>
+                    
+                    <strong>3. Custos de religação:</strong><br>
+                    • Não há redução de velocidade<br>
+                    • Religação automática após pagamento<br>
+                    • Sem taxa adicional para religação<br><br>
+                    
+                    <strong>4. Se pagamento não foi identificado:</strong><br>
+                    • Solicitar comprovante<br>
+                    • Abrir OUTRAS DEMANDAS para análise<br>
+                    • Aguardar retorno do setor financeiro<br><br>
+                    
+                    <strong>5. Prazo para religação:</strong><br>
+                    • Até 24h após confirmação do pagamento<br>
+                    • Pode ser mais rápido em horário comercial`
+                },
+                default: {
+                    answer: `<strong>Procedimento para desbloqueio de serviço:</strong><br><br>
+                    <strong>1. Verificar motivo do bloqueio:</strong><br>
+                    • Inadimplência<br>
+                    • Problemas técnicos<br>
+                    • Solicitação do cliente<br><br>
+                    
+                    <strong>2. Para inadimplência:</strong><br>
+                    • Confirmar pagamento das faturas<br>
+                    • Verificar compensação bancária<br>
+                    • Informar prazo de religação<br><br>
+                    
+                    <strong>3. Custos:</strong><br>
+                    • Taxa de religação (se aplicável)<br>
+                    • Juros e multas sobre débitos<br>
+                    • Visita técnica (se necessária)<br><br>
+                    
+                    <strong>4. Processo:</strong><br>
+                    • Quitação dos débitos<br>
+                    • Solicitação de religação<br>
+                    • Prazo para reativação`
+                }
+            },
+            'suporte-tecnico': {
+                question: 'Cliente precisa de suporte técnico',
+                dkiros: {
+                    answer: `<strong>Suporte Técnico DKIROS:</strong><br><br>
+                    <strong>1. Níveis de suporte:</strong><br>
+                    • N2: Seg-Sex 08h-21h, Sáb/Feriados 08h-16h<br>
+                    • N3: Seg-Sex 08h-18h, Sáb/Feriados 08h-12h<br>
+                    • Não tem plantão aos domingos<br><br>
+                    
+                    <strong>2. Prazos de atendimento:</strong><br>
+                    • PF (Pessoa Física): 72h úteis<br>
+                    • Corporativo: 24h úteis<br>
+                    • Sempre confirmar melhor período com cliente<br><br>
+                    
+                    <strong>3. Visita técnica:</strong><br>
+                    • Visita improdutiva: R$40 + materiais<br>
+                    • Cabo: R$8/metro<br>
+                    • Ponteira: R$5/unidade<br>
+                    • Sempre orientar sobre possíveis cobranças<br><br>
+                    
+                    <strong>4. Equipamentos de acesso:</strong><br>
+                    • 1º roteador: porta 8001<br>
+                    • 2º roteador: porta 8002<br>
+                    • ONU/ONT: porta 4779 ou 80<br>
+                    • Rádio: porta 4779, 4791<br><br>
+                    
+                    <strong>5. Senhas e configurações:</strong><br>
+                    • NÃO informar senhas ao cliente<br>
+                    • Informação restrita por segurança<br>
+                    • Apenas equipe técnica autorizada`
+                },
+                default: {
+                    answer: `<strong>Suporte Técnico Geral:</strong><br><br>
+                    <strong>1. Horários de atendimento:</strong><br>
+                    • Verificar horários específicos da operadora<br>
+                    • Informar sobre plantões e feriados<br>
+                    • Orientar sobre canais de contato<br><br>
+                    
+                    <strong>2. Tipos de suporte:</strong><br>
+                    • Suporte remoto (telefone/chat)<br>
+                    • Visita técnica presencial<br>
+                    • Suporte especializado<br><br>
+                    
+                    <strong>3. Custos:</strong><br>
+                    • Visita técnica (se aplicável)<br>
+                    • Materiais utilizados<br>
+                    • Serviços extras<br><br>
+                    
+                    <strong>4. Processo:</strong><br>
+                    • Abertura de chamado<br>
+                    • Diagnóstico inicial<br>
+                    • Agendamento (se necessário)<br>
+                    • Acompanhamento do atendimento`
+                }
+            },
+            'planos': {
+                question: 'Cliente quer informações sobre planos',
+                dkiros: {
+                    answer: `<strong>Planos DKIROS:</strong><br><br>
+                    <strong>1. Planos Residenciais:</strong><br>
+                    • <strong>R1:</strong> 250MB → 500MB, 1 roteador, até 70m²<br>
+                    • <strong>R1+:</strong> 400MB → 800MB, 1 roteador, até 70m²<br>
+                    • <strong>R2:</strong> 250MB → 500MB, 2 roteadores, até 140m²<br>
+                    • <strong>R2+:</strong> 400MB → 800MB, 2 roteadores, até 140m²<br>
+                    • <strong>R3:</strong> 250MB → 500MB, 3 roteadores, até 210m²<br>
+                    • <strong>R3+:</strong> 400MB → 800MB, 3 roteadores, até 210m²<br><br>
+                    
+                    <strong>2. Tecnologias incluídas:</strong><br>
+                    • OléTV (aplicativo de TV Android/iOS)<br>
+                    • App de Telemedicina (LIG Doctor)<br>
+                    • Clube D-Kiros (descontos/cashback)<br>
+                    • Chip de celular (Tua Operadora)<br><br>
+                    
+                    <strong>3. Equipamentos Mesh:</strong><br>
+                    • Intelbras w5 1200<br>
+                    • ZTE 199a<br>
+                    • Cobertura otimizada por ambiente<br><br>
+                    
+                    <strong>4. Para contratação:</strong><br>
+                    • Transferir para Vendas (horário comercial)<br>
+                    • Fora do horário: abrir OUTRAS DEMANDAS<br>
+                    • Telefone: 47 3308 2000`
+                },
+                default: {
+                    answer: `<strong>Informações sobre Planos:</strong><br><br>
+                    <strong>1. Tipos de planos:</strong><br>
+                    • Residencial<br>
+                    • Empresarial<br>
+                    • Corporativo<br><br>
+                    
+                    <strong>2. Velocidades disponíveis:</strong><br>
+                    • Verificar planos específicos da operadora<br>
+                    • Informar sobre promoções vigentes<br>
+                    • Explicar diferenças entre planos<br><br>
+                    
+                    <strong>3. Serviços inclusos:</strong><br>
+                    • Equipamentos fornecidos<br>
+                    • Suporte técnico<br>
+                    • Serviços adicionais<br><br>
+                    
+                    <strong>4. Contratação:</strong><br>
+                    • Documentos necessários<br>
+                    • Formas de pagamento<br>
+                    • Prazo de instalação<br>
+                    • Fidelidade (se aplicável)`
+                }
+            },
+            'equipamentos': {
+                question: 'Cliente com problemas nos equipamentos',
+                dkiros: {
+                    answer: `<strong>Equipamentos DKIROS:</strong><br><br>
+                    <strong>1. Equipamentos utilizados:</strong><br>
+                    • <strong>ONU/ONT:</strong> Parks, Stavix, Vsolucion, MaxPrint, Intelbras, ZTE<br>
+                    • <strong>Mesh:</strong> Intelbras w5 1200, ZTE 199a<br>
+                    • <strong>Roteadores:</strong> TP-Link, Intelbras, ZTE<br>
+                    • <strong>Rádio:</strong> Mikrotik, Ubiquiti, Cambium<br><br>
+                    
+                    <strong>2. Portas de acesso:</strong><br>
+                    • 1º roteador: 8001<br>
+                    • 2º roteador: 8002<br>
+                    • ONU/ONT: 4779 ou 80<br>
+                    • Rádio: 4779, 4791<br><br>
+                    
+                    <strong>3. Usuário/Senha padrão:</strong><br>
+                    • Roteadores: usuário "dkiros", senha "internet"<br>
+                    • ZTE: usuário "multipro", senha "Dk96073233"<br>
+                    • ONT: admin/Dk96073233 ou adminisp/adminisp<br>
+                    • NÃO informar senhas ao cliente (segurança)<br><br>
+                    
+                    <strong>4. Suporte a equipamentos:</strong><br>
+                    • Equipamentos próprios: suporte completo<br>
+                    • Equipamentos do cliente: R$40 visita técnica<br>
+                    • Reset/desconfiguração: encaminhar N3<br><br>
+                    
+                    <strong>5. Repetidores/Mesh:</strong><br>
+                    • Auxílio remoto: conectar, ligar/desligar, WPS<br>
+                    • Configuração avançada: visita técnica`
+                },
+                default: {
+                    answer: `<strong>Problemas com Equipamentos:</strong><br><br>
+                    <strong>1. Diagnóstico inicial:</strong><br>
+                    • Verificar luzes dos equipamentos<br>
+                    • Testar conexões<br>
+                    • Verificar alimentação elétrica<br><br>
+                    
+                    <strong>2. Soluções básicas:</strong><br>
+                    • Reinicialização dos equipamentos<br>
+                    • Verificação de cabos<br>
+                    • Teste de conectividade<br><br>
+                    
+                    <strong>3. Equipamentos da operadora:</strong><br>
+                    • Suporte completo incluído<br>
+                    • Troca sem custo (defeito)<br>
+                    • Configuração remota<br><br>
+                    
+                    <strong>4. Equipamentos do cliente:</strong><br>
+                    • Suporte limitado<br>
+                    • Possível cobrança de visita<br>
+                    • Orientações básicas por telefone`
+                }
+            },
+            'cancelamento': {
+                question: 'Cliente solicita cancelamento do serviço',
+                dkiros: {
+                    answer: `<strong>Procedimento para Cancelamento (DKIROS):</strong><br><br>
+                    <strong>1. Encaminhamento obrigatório:</strong><br>
+                    • Abrir protocolo na categoria correta<br>
+                    • NÃO processar cancelamento diretamente<br>
+                    • Registrar motivo detalhadamente<br><br>
+                    
+                    <strong>2. Informações a coletar:</strong><br>
+                    • Motivo do cancelamento<br>
+                    • Data desejada para desligamento<br>
+                    • Problemas que levaram à decisão<br>
+                    • Interesse em renegociação<br><br>
+                    
+                    <strong>3. Tentativas de retenção:</strong><br>
+                    • Verificar se há soluções para o problema<br>
+                    • Informar sobre melhorias disponíveis<br>
+                    • Oferecer transferência para retenção<br><br>
+                    
+                    <strong>4. Processo:</strong><br>
+                    • Setor responsável entrará em contato<br>
+                    • Análise de débitos pendentes<br>
+                    • Agendamento de retirada de equipamentos<br>
+                    • Quitação final da conta<br><br>
+                    
+                    <strong>5. Equipamentos:</strong><br>
+                    • Devolução obrigatória<br>
+                    • Agendamento de retirada<br>
+                    • Cobrança por equipamentos não devolvidos`
+                },
+                default: {
+                    answer: `<strong>Procedimento para Cancelamento:</strong><br><br>
+                    <strong>1. Verificar motivo:</strong><br>
+                    • Insatisfação com serviço<br>
+                    • Problemas financeiros<br>
+                    • Mudança de endereço<br>
+                    • Concorrência<br><br>
+                    
+                    <strong>2. Tentativas de retenção:</strong><br>
+                    • Oferecer soluções para problemas<br>
+                    • Verificar promoções disponíveis<br>
+                    • Propor mudança de plano<br>
+                    • Transferir para setor de retenção<br><br>
+                    
+                    <strong>3. Processo de cancelamento:</strong><br>
+                    • Verificar fidelidade contratual<br>
+                    • Calcular multas (se aplicável)<br>
+                    • Agendar retirada de equipamentos<br>
+                    • Emitir fatura final<br><br>
+                    
+                    <strong>4. Documentação:</strong><br>
+                    • Protocolo de cancelamento<br>
+                    • Termo de devolução de equipamentos<br>
+                    • Quitação final`
+                }
+            }
+        };
+
+        let selectedOperadora = null;
+        let selectedScenario = null;
+
+        // Inicializar interface
+        function initInterface() {
+            loadOperadoras();
+            setupEventListeners();
+        }
+
+        // Carregar lista de operadoras
+        function loadOperadoras() {
+            const operadorasList = document.getElementById('operadorasList');
+            operadorasList.innerHTML = '';
+
+            operadoras.forEach(operadora => {
+                const operadoraElement = document.createElement('div');
+                operadoraElement.className = 'operadora-item';
+                operadoraElement.dataset.operadora = operadora.id;
+                operadoraElement.innerHTML = `
+                    <div class="operadora-name">${operadora.name}</div>
+                    <div class="operadora-status">${operadora.status}</div>
+                `;
+                operadoraElement.addEventListener('click', () => selectOperadora(operadora.id));
+                operadorasList.appendChild(operadoraElement);
+            });
+        }
+
+        // Configurar event listeners
+        function setupEventListeners() {
+            // Busca de operadoras
+            document.getElementById('operadoraSearch').addEventListener('input', function(e) {
+                const searchTerm = e.target.value.toLowerCase();
+                const operadoraItems = document.querySelectorAll('.operadora-item');
+                
+                operadoraItems.forEach(item => {
+                    const name = item.querySelector('.operadora-name').textContent.toLowerCase();
+                    if (name.includes(searchTerm)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+
+            // Seleção de cenários
+            document.querySelectorAll('.scenario-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    selectScenario(this.dataset.scenario);
+                });
+            });
+        }
+
+        // Selecionar operadora
+        function selectOperadora(operadoraId) {
+            // Remover seleção anterior
+            document.querySelectorAll('.operadora-item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            // Adicionar seleção atual
+            document.querySelector(`[data-operadora="${operadoraId}"]`).classList.add('active');
+            selectedOperadora = operadoraId;
+
+            // Atualizar display se cenário já selecionado
+            if (selectedScenario) {
+                updateQADisplay();
+            }
+        }
+
+        // Selecionar cenário
+        function selectScenario(scenarioId) {
+            // Remover seleção anterior
+            document.querySelectorAll('.scenario-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Adicionar seleção atual
+            document.querySelector(`[data-scenario="${scenarioId}"]`).classList.add('active');
+            selectedScenario = scenarioId;
+
+            // Atualizar display se operadora já selecionada
+            if (selectedOperadora) {
+                updateQADisplay();
+            }
+        }
+
+        // Atualizar display de Q&A
+        function updateQADisplay() {
+            const qaDisplay = document.getElementById('qaDisplay');
+            
+            if (!selectedOperadora || !selectedScenario) {
+                qaDisplay.innerHTML = `
+                    <div class="no-selection">
+                        <h3>👆 Selecione uma operadora e um cenário</h3>
+                        <p>Escolha a operadora na lista à esquerda e depois selecione o cenário de atendimento acima.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const scenario = scenariosKnowledge[selectedScenario];
+            const operadoraData = scenario[selectedOperadora] || scenario.default;
+            const operadoraName = operadoras.find(op => op.id === selectedOperadora)?.name || selectedOperadora.toUpperCase();
+
+            qaDisplay.innerHTML = `
+                <div class="qa-result">
+                    <div class="qa-question">
+                        ❓ ${scenario.question}
+                    </div>
+                    <div class="qa-answer">
+                        ${operadoraData.answer}
+                    </div>
+                    <div class="qa-actions">
+                        <button class="action-btn" onclick="copyAnswer()">
+                            📋 Copiar Resposta
+                        </button>
+                        <button class="action-btn secondary" onclick="openFAQ('${selectedOperadora}')">
+                            📖 Ver FAQ Completo
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Copiar resposta
+        function copyAnswer() {
+            const scenario = scenariosKnowledge[selectedScenario];
+            const operadoraData = scenario[selectedOperadora] || scenario.default;
+            const operadoraName = operadoras.find(op => op.id === selectedOperadora)?.name || selectedOperadora.toUpperCase();
+            
+            const textToCopy = `${operadoraName} - ${scenario.question}\n\n${operadoraData.answer.replace(/<[^>]*>/g, '').replace(/&bull;/g, '•')}`;
+            
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert('Resposta copiada para a área de transferência!');
+            }).catch(() => {
+                alert('Erro ao copiar. Tente selecionar o texto manualmente.');
+            });
+        }
+
+        // Abrir FAQ completo
+        function openFAQ(operadoraId) {
+            const operadoraName = operadoras.find(op => op.id === operadoraId)?.name || operadoraId.toUpperCase();
+            alert(`Abrindo FAQ completo para ${operadoraName}...\n\nEm produção, isso abriria o arquivo FAQ completo da operadora.`);
+        }
+
+        // Inicializar quando a página carregar
+        document.addEventListener('DOMContentLoaded', initInterface);
+    </script>
+</body>
+</html>

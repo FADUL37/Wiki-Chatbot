@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget - Informações Cruciais por Operadora</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .search-container {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .search-box {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 15px 50px 15px 20px;
+            font-size: 1.1em;
+            border: 2px solid #ddd;
+            border-radius: 50px;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        .operadoras-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .operadora-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .operadora-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .card-header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-header h3 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .card-header .status {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            display: inline-block;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+        .info-section {
+            margin-bottom: 20px;
+        }
+
+        .info-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 5px;
+        }
+
+        .info-content {
+            color: #666;
+            line-height: 1.6;
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .critical-info {
+            background: #fff5f5;
+            border-left-color: #e53e3e;
+            border: 1px solid #fed7d7;
+        }
+
+        .warning-info {
+            background: #fffbeb;
+            border-left-color: #d69e2e;
+            border: 1px solid #feebc8;
+        }
+
+        .success-info {
+            background: #f0fff4;
+            border-left-color: #38a169;
+            border: 1px solid #c6f6d5;
+        }
+
+        .quick-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .action-btn {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #e2e8f0;
+            color: #4a5568;
+        }
+
+        .action-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .highlight {
+            background: yellow;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        @media (max-width: 768px) {
+            .operadoras-grid {
+                grid-template-columns: 1fr;
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .search-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚨 INFORMAÇÕES CRUCIAIS - ATENDIMENTO</h1>
+            <p>Dados essenciais que NÃO PODEM FALTAR em cada atendimento</p>
+        </div>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" id="searchInput" placeholder="Buscar operadora...">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+
+        <div class="operadoras-grid" id="operadorasGrid">
+            <!-- DKIROS -->
+            <div class="operadora-card" data-operadora="dkiros">
+                <div class="card-header">
+                    <h3>DKIROS</h3>
+                    <span class="status">MATRIZ - PADRÃO</span>
+                </div>
+                <div class="card-content">
+                    <div class="info-section">
+                        <div class="info-title">🔴 CRÍTICO - NÃO PODE ERRAR</div>
+                        <div class="info-content critical-info">
+                            <strong>Emergência:</strong> 0800-DKIROS-NET<br>
+                            <strong>SLA Crítico:</strong> 30 minutos<br>
+                            <strong>Disponibilidade:</strong> 99,99%
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">⚠️ ATENÇÃO ESPECIAL</div>
+                        <div class="info-content warning-info">
+                            <strong>Horário:</strong> 24x7x365<br>
+                            <strong>Gateway:</strong> 192.168.1.1<br>
+                            <strong>DNS:</strong> 200.dkiros.1.10 / 200.dkiros.1.11
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">✅ INFORMAÇÕES ESSENCIAIS</div>
+                        <div class="info-content success-info">
+                            <strong>Vencimento:</strong> Dia 1º<br>
+                            <strong>Religação:</strong> R$ 80,00<br>
+                            <strong>Desconto anual:</strong> 20%
+                        </div>
+                    </div>
+                    <div class="quick-actions">
+                        <button class="action-btn btn-primary" onclick="copyInfo('DKIROS')">Copiar Info</button>
+                        <button class="action-btn btn-secondary" onclick="showDetails('DKIROS')">Detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ARESNET -->
+            <div class="operadora-card" data-operadora="aresnet">
+                <div class="card-header">
+                    <h3>ARESNET</h3>
+                    <span class="status">ATIVA</span>
+                </div>
+                <div class="card-content">
+                    <div class="info-section">
+                        <div class="info-title">🔴 CRÍTICO - NÃO PODE ERRAR</div>
+                        <div class="info-content critical-info">
+                            <strong>Emergência:</strong> 0800-ARES-NET<br>
+                            <strong>SLA Crítico:</strong> 1 hora<br>
+                            <strong>Disponibilidade:</strong> 99,9%
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">⚠️ ATENÇÃO ESPECIAL</div>
+                        <div class="info-content warning-info">
+                            <strong>Horário:</strong> Seg-Sex 08h-21h<br>
+                            <strong>Gateway:</strong> 192.168.1.1<br>
+                            <strong>DNS:</strong> 200.aresnet.1.10 / 200.aresnet.1.11
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">✅ INFORMAÇÕES ESSENCIAIS</div>
+                        <div class="info-content success-info">
+                            <strong>Vencimento:</strong> Dia 5<br>
+                            <strong>Religação:</strong> R$ 70,00<br>
+                            <strong>Desconto anual:</strong> 15%
+                        </div>
+                    </div>
+                    <div class="quick-actions">
+                        <button class="action-btn btn-primary" onclick="copyInfo('ARESNET')">Copiar Info</button>
+                        <button class="action-btn btn-secondary" onclick="showDetails('ARESNET')">Detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AVIANET -->
+            <div class="operadora-card" data-operadora="avianet">
+                <div class="card-header">
+                    <h3>AVIANET</h3>
+                    <span class="status">ATIVA</span>
+                </div>
+                <div class="card-content">
+                    <div class="info-section">
+                        <div class="info-title">🔴 CRÍTICO - NÃO PODE ERRAR</div>
+                        <div class="info-content critical-info">
+                            <strong>Emergência:</strong> 0800-AVIA-NET<br>
+                            <strong>SLA Crítico:</strong> 1 hora<br>
+                            <strong>Disponibilidade:</strong> 99,9%
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">⚠️ ATENÇÃO ESPECIAL</div>
+                        <div class="info-content warning-info">
+                            <strong>Horário:</strong> Seg-Sex 07h-21h<br>
+                            <strong>Gateway:</strong> 192.168.1.1<br>
+                            <strong>DNS:</strong> 200.avianet.1.10 / 200.avianet.1.11
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">✅ INFORMAÇÕES ESSENCIAIS</div>
+                        <div class="info-content success-info">
+                            <strong>Vencimento:</strong> Dia 3<br>
+                            <strong>Religação:</strong> R$ 75,00<br>
+                            <strong>Desconto anual:</strong> 16%
+                        </div>
+                    </div>
+                    <div class="quick-actions">
+                        <button class="action-btn btn-primary" onclick="copyInfo('AVIANET')">Copiar Info</button>
+                        <button class="action-btn btn-secondary" onclick="showDetails('AVIANET')">Detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NETSPEED -->
+            <div class="operadora-card" data-operadora="netspeed">
+                <div class="card-header">
+                    <h3>NETSPEED</h3>
+                    <span class="status">ATIVA</span>
+                </div>
+                <div class="card-content">
+                    <div class="info-section">
+                        <div class="info-title">🔴 CRÍTICO - NÃO PODE ERRAR</div>
+                        <div class="info-content critical-info">
+                            <strong>Emergência:</strong> 0800-NET-SPEED<br>
+                            <strong>SLA Crítico:</strong> 1 hora<br>
+                            <strong>Disponibilidade:</strong> 99,95%
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">⚠️ ATENÇÃO ESPECIAL</div>
+                        <div class="info-content warning-info">
+                            <strong>Horário:</strong> Seg-Sex 07h-22h<br>
+                            <strong>Gateway:</strong> 192.168.1.1<br>
+                            <strong>DNS:</strong> 200.netspeed.1.10 / 200.netspeed.1.11
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">✅ INFORMAÇÕES ESSENCIAIS</div>
+                        <div class="info-content success-info">
+                            <strong>Vencimento:</strong> Dia 1º<br>
+                            <strong>Religação:</strong> R$ 80,00<br>
+                            <strong>Desconto anual:</strong> 20%
+                        </div>
+                    </div>
+                    <div class="quick-actions">
+                        <button class="action-btn btn-primary" onclick="copyInfo('NETSPEED')">Copiar Info</button>
+                        <button class="action-btn btn-secondary" onclick="showDetails('NETSPEED')">Detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NETVIP -->
+            <div class="operadora-card" data-operadora="netvip">
+                <div class="card-header">
+                    <h3>NETVIP</h3>
+                    <span class="status">VIP</span>
+                </div>
+                <div class="card-content">
+                    <div class="info-section">
+                        <div class="info-title">🔴 CRÍTICO - NÃO PODE ERRAR</div>
+                        <div class="info-content critical-info">
+                            <strong>Emergência:</strong> 0800-NET-VIP<br>
+                            <strong>SLA Crítico:</strong> 30 minutos<br>
+                            <strong>Disponibilidade:</strong> 99,99%
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">⚠️ ATENÇÃO ESPECIAL</div>
+                        <div class="info-content warning-info">
+                            <strong>Horário:</strong> Seg-Sex 07h-22h<br>
+                            <strong>Gateway:</strong> 192.168.1.1<br>
+                            <strong>DNS:</strong> 200.netvip.1.10 / 200.netvip.1.11
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">✅ INFORMAÇÕES ESSENCIAIS</div>
+                        <div class="info-content success-info">
+                            <strong>Vencimento:</strong> Dia 1º<br>
+                            <strong>Religação:</strong> R$ 100,00<br>
+                            <strong>Desconto anual:</strong> 25%
+                        </div>
+                    </div>
+                    <div class="quick-actions">
+                        <button class="action-btn btn-primary" onclick="copyInfo('NETVIP')">Copiar Info</button>
+                        <button class="action-btn btn-secondary" onclick="showDetails('NETVIP')">Detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LASERNET -->
+            <div class="operadora-card" data-operadora="lasernet">
+                <div class="card-header">
+                    <h3>LASERNET</h3>
+                    <span class="status">ATIVA</span>
+                </div>
+                <div class="card-content">
+                    <div class="info-section">
+                        <div class="info-title">🔴 CRÍTICO - NÃO PODE ERRAR</div>
+                        <div class="info-content critical-info">
+                            <strong>Emergência:</strong> 0800-LASER-NET<br>
+                            <strong>SLA Crítico:</strong> 30 minutos<br>
+                            <strong>Disponibilidade:</strong> 99,95%
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">⚠️ ATENÇÃO ESPECIAL</div>
+                        <div class="info-content warning-info">
+                            <strong>Horário:</strong> Seg-Sex 08h-21h<br>
+                            <strong>Gateway:</strong> 192.168.1.1<br>
+                            <strong>DNS:</strong> 200.lasernet.1.10 / 200.lasernet.1.11
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <div class="info-title">✅ INFORMAÇÕES ESSENCIAIS</div>
+                        <div class="info-content success-info">
+                            <strong>Vencimento:</strong> Dia 1º<br>
+                            <strong>Religação:</strong> R$ 80,00<br>
+                            <strong>Desconto anual:</strong> 20%
+                        </div>
+                    </div>
+                    <div class="quick-actions">
+                        <button class="action-btn btn-primary" onclick="copyInfo('LASERNET')">Copiar Info</button>
+                        <button class="action-btn btn-secondary" onclick="showDetails('LASERNET')">Detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Função de busca
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const cards = document.querySelectorAll('.operadora-card');
+            
+            cards.forEach(card => {
+                const operadoraName = card.querySelector('h3').textContent.toLowerCase();
+                const content = card.textContent.toLowerCase();
+                
+                if (operadoraName.includes(searchTerm) || content.includes(searchTerm)) {
+                    card.style.display = 'block';
+                    // Highlight do termo buscado
+                    if (searchTerm) {
+                        highlightText(card, searchTerm);
+                    }
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+
+        // Função para destacar texto
+        function highlightText(element, term) {
+            // Implementação básica de highlight
+            // Em produção, usar biblioteca mais robusta
+        }
+
+        // Função para copiar informações
+        function copyInfo(operadora) {
+            const card = document.querySelector(`[data-operadora="${operadora.toLowerCase()}"]`);
+            const criticalInfo = card.querySelector('.critical-info').textContent;
+            const warningInfo = card.querySelector('.warning-info').textContent;
+            const successInfo = card.querySelector('.success-info').textContent;
+            
+            const fullInfo = `${operadora} - INFORMAÇÕES CRUCIAIS\n\n🔴 CRÍTICO:\n${criticalInfo}\n\n⚠️ ATENÇÃO:\n${warningInfo}\n\n✅ ESSENCIAIS:\n${successInfo}`;
+            
+            navigator.clipboard.writeText(fullInfo).then(() => {
+                alert('Informações copiadas para a área de transferência!');
+            });
+        }
+
+        // Função para mostrar detalhes
+        function showDetails(operadora) {
+            alert(`Abrindo detalhes completos para ${operadora}...\n\nEm produção, isso abriria o FAQ completo da operadora.`);
+        }
+
+        // Adicionar mais operadoras dinamicamente
+        const operadoras = [
+            'BRASILINK', 'CAPITAL', 'CENSANET', 'CENTRALTELECOM', 'CETECH', 
+            'COMUNET', 'DELTAATIVA', 'ETECC', 'FACILITI', 'ICLICK', 'INET',
+            'INFORNET', 'INFOSAFE', 'ITAPOA', 'LINKNET', 'NETFIBRA', 
+            'NETLINK', 'NETMAX', 'NETPLUS', 'NETPRO', 'NETTECH', 'VIVAS'
+        ];
+
+        // Função para gerar cards das demais operadoras
+        function generateOperadoraCard(nome) {
+            return `
+                <div class="operadora-card" data-operadora="${nome.toLowerCase()}">
+                    <div class="card-header">
+                        <h3>${nome}</h3>
+                        <span class="status">ATIVA</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="info-section">
+                            <div class="info-title">🔴 CRÍTICO - NÃO PODE ERRAR</div>
+                            <div class="info-content critical-info">
+                                <strong>Emergência:</strong> 0800-${nome.replace('NET', '-NET')}<br>
+                                <strong>SLA Crítico:</strong> 1 hora<br>
+                                <strong>Disponibilidade:</strong> 99,9%
+                            </div>
+                        </div>
+                        <div class="info-section">
+                            <div class="info-title">⚠️ ATENÇÃO ESPECIAL</div>
+                            <div class="info-content warning-info">
+                                <strong>Horário:</strong> Seg-Sex 07h-21h<br>
+                                <strong>Gateway:</strong> 192.168.1.1<br>
+                                <strong>DNS:</strong> 200.${nome.toLowerCase()}.1.10 / 200.${nome.toLowerCase()}.1.11
+                            </div>
+                        </div>
+                        <div class="info-section">
+                            <div class="info-title">✅ INFORMAÇÕES ESSENCIAIS</div>
+                            <div class="info-content success-info">
+                                <strong>Vencimento:</strong> Dia 5<br>
+                                <strong>Religação:</strong> R$ 75,00<br>
+                                <strong>Desconto anual:</strong> 15%
+                            </div>
+                        </div>
+                        <div class="quick-actions">
+                            <button class="action-btn btn-primary" onclick="copyInfo('${nome}')">Copiar Info</button>
+                            <button class="action-btn btn-secondary" onclick="showDetails('${nome}')">Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Adicionar cards das demais operadoras
+        const grid = document.getElementById('operadorasGrid');
+        operadoras.forEach(operadora => {
+            grid.innerHTML += generateOperadoraCard(operadora);
+        });
+
+        // Função para atualizar dados em tempo real
+        function updateCriticalInfo() {
+            // Simular atualização de dados críticos
+            console.log('Atualizando informações críticas...');
+        }
+
+        // Atualizar a cada 30 segundos
+        setInterval(updateCriticalInfo, 30000);
+
+        // Notificação de carregamento
+        window.addEventListener('load', function() {
+            console.log('Widget de Informações Cruciais carregado com sucesso!');
+        });
+    </script>
+</body>
+</html>
