@@ -749,6 +749,193 @@ Posso fornecer informações sobre:
 
 O que você gostaria de saber?"""
     
+    def gerar_faq_operadora(self, operadora):
+        """Gera FAQ no estilo D-KIROS baseado nas informações da wiki"""
+        try:
+            # Obter informações da operadora
+            resultado_api = self.consultar_operadora_api(operadora)
+            
+            if resultado_api.get('status') == 'erro':
+                return {
+                    'status': 'erro',
+                    'erro': f'Não foi possível obter informações da {operadora}'
+                }
+            
+            conteudo_wiki = resultado_api.get('conteudo', '')
+            
+            # Extrair seções principais
+            secoes = self.extrair_secoes_wiki(conteudo_wiki)
+            
+            # Gerar FAQ estruturado
+            faq_items = []
+            contador = 1
+            
+            # Seções prioritárias para FAQ
+            secoes_prioritarias = [
+                'contato', 'atendimento', 'telefone', 'horário', 'funcionamento',
+                'pagamento', 'fatura', 'boleto', 'débito', 'pix',
+                'suporte', 'técnico', 'problema', 'reparo',
+                'plano', 'pacote', 'internet', 'velocidade',
+                'endereço', 'localização', 'site'
+            ]
+            
+            for secao in secoes:
+                titulo = secao.get('titulo', '').lower()
+                conteudo = secao.get('conteudo', '')
+                
+                # Verificar se é uma seção prioritária
+                if any(palavra in titulo for palavra in secoes_prioritarias) and conteudo:
+                    faq_item = self.criar_item_faq(contador, titulo, conteudo, operadora)
+                    if faq_item:
+                        faq_items.append(faq_item)
+                        contador += 1
+                        
+                        if contador > 15:  # Limitar a 15 itens
+                            break
+            
+            return {
+                'status': 'sucesso',
+                'operadora': operadora,
+                'total_itens': len(faq_items),
+                'faq_items': faq_items,
+                'timestamp': datetime.now().strftime('%d/%m/%Y às %H:%M:%S')
+            }
+            
+        except Exception as e:
+            return {
+                'status': 'erro',
+                'erro': f'Erro ao gerar FAQ: {str(e)}'
+            }
+    
+    def criar_item_faq(self, numero, titulo, conteudo, operadora):
+        """Cria um item de FAQ formatado no estilo D-KIROS"""
+        try:
+            # Limpar e formatar título
+            titulo_limpo = self.limpar_titulo_faq(titulo)
+            
+            # Gerar pergunta baseada no título
+            pergunta = self.gerar_pergunta_faq(titulo_limpo, operadora)
+            
+            # Limpar e formatar conteúdo
+            resposta = self.formatar_resposta_faq(conteudo)
+            
+            # Adicionar observações específicas baseadas no tipo
+            observacao = self.gerar_observacao_faq(titulo_limpo)
+            
+            return {
+                'numero': numero,
+                'categoria': titulo_limpo,
+                'pergunta': pergunta,
+                'resposta': resposta,
+                'observacao': observacao
+            }
+            
+        except Exception as e:
+            return None
+    
+    def limpar_titulo_faq(self, titulo):
+        """Limpa e formata título para FAQ"""
+        # Remover caracteres especiais e normalizar
+        titulo = re.sub(r'[^a-záàâãéèêíìîóòôõúùûç\s]', '', titulo.lower())
+        titulo = titulo.strip()
+        
+        # Mapear para categorias conhecidas
+        mapeamento = {
+            'contato': 'Contato e Atendimento',
+            'telefone': 'Contato e Atendimento', 
+            'atendimento': 'Contato e Atendimento',
+            'horário': 'Horários de Funcionamento',
+            'funcionamento': 'Horários de Funcionamento',
+            'pagamento': 'Pagamentos e Faturas',
+            'fatura': 'Pagamentos e Faturas',
+            'boleto': 'Pagamentos e Faturas',
+            'pix': 'Pagamentos e Faturas',
+            'suporte': 'Suporte Técnico',
+            'técnico': 'Suporte Técnico',
+            'problema': 'Suporte Técnico',
+            'reparo': 'Suporte Técnico',
+            'plano': 'Planos e Serviços',
+            'pacote': 'Planos e Serviços',
+            'internet': 'Planos e Serviços',
+            'velocidade': 'Planos e Serviços',
+            'endereço': 'Localização e Endereço',
+            'localização': 'Localização e Endereço',
+            'site': 'Informações Gerais'
+        }
+        
+        for palavra, categoria in mapeamento.items():
+            if palavra in titulo:
+                return categoria
+        
+        return titulo.title()
+    
+    def gerar_pergunta_faq(self, categoria, operadora):
+        """Gera pergunta baseada na categoria"""
+        perguntas = {
+            'Contato e Atendimento': f'Qual o telefone e formas de contato da {operadora}?',
+            'Horários de Funcionamento': f'Qual o horário de atendimento da {operadora}?',
+            'Pagamentos e Faturas': f'Quais são as formas de pagamento da {operadora}?',
+            'Suporte Técnico': f'Como solicitar suporte técnico da {operadora}?',
+            'Planos e Serviços': f'Quais planos e serviços a {operadora} oferece?',
+            'Localização e Endereço': f'Onde fica localizada a {operadora}?',
+            'Informações Gerais': f'Quais informações importantes sobre a {operadora}?'
+        }
+        
+        return perguntas.get(categoria, f'Informações sobre {categoria.lower()} da {operadora}?')
+    
+    def formatar_resposta_faq(self, conteudo):
+        """Formata resposta no estilo FAQ"""
+        # Limpar HTML e caracteres especiais
+        conteudo = self.limpar_html(conteudo)
+        
+        # Quebrar em linhas e formatar
+        linhas = conteudo.split('\n')
+        resposta_formatada = []
+        
+        for linha in linhas:
+            linha = linha.strip()
+            if linha and len(linha) > 10:  # Ignorar linhas muito curtas
+                # Adicionar marcadores para listas
+                if any(palavra in linha.lower() for palavra in ['telefone', 'contato', 'email', 'whatsapp']):
+                    resposta_formatada.append(f'• {linha}')
+                elif any(palavra in linha.lower() for palavra in ['horário', 'segunda', 'terça', 'sábado', 'domingo']):
+                    resposta_formatada.append(f'• {linha}')
+                else:
+                    resposta_formatada.append(linha)
+        
+        return '\n'.join(resposta_formatada[:5])  # Limitar a 5 linhas
+    
+    def gerar_observacao_faq(self, categoria):
+        """Gera observação específica baseada na categoria"""
+        observacoes = {
+            'Contato e Atendimento': 'Obs: Tenha sempre em mãos seu CPF e número da linha para um atendimento mais rápido.',
+            'Horários de Funcionamento': 'Obs: Horários podem variar em feriados. Consulte sempre antes de entrar em contato.',
+            'Pagamentos e Faturas': 'Obs: Mantenha suas faturas em dia para evitar interrupções no serviço.',
+            'Suporte Técnico': 'Obs: Antes de solicitar suporte, verifique se todos os cabos estão conectados.',
+            'Planos e Serviços': 'Obs: Consulte disponibilidade de planos para sua região.',
+            'Localização e Endereço': 'Obs: Confirme o endereço antes de se deslocar até o local.',
+            'Informações Gerais': 'Obs: Informações sujeitas a alterações. Consulte sempre os canais oficiais.'
+        }
+        
+        return observacoes.get(categoria, 'Obs: Para mais informações, entre em contato com a operadora.')
+    
+    def extrair_secoes_wiki(self, conteudo):
+        """Extrai seções estruturadas da wiki"""
+        secoes = []
+        
+        # Dividir por tags H2, H3, etc.
+        import re
+        padrao_secao = r'<h[2-4][^>]*>([^<]+)</h[2-4]>([\s\S]*?)(?=<h[2-4]|$)'
+        matches = re.findall(padrao_secao, conteudo, re.IGNORECASE)
+        
+        for titulo, conteudo_secao in matches:
+            secoes.append({
+                'titulo': self.limpar_html(titulo).strip(),
+                'conteudo': self.limpar_html(conteudo_secao).strip()
+            })
+        
+        return secoes
+    
     def extrair_keyword_pergunta(self, pergunta):
         """
         Extrai palavra-chave da pergunta para busca nos tópicos
@@ -862,6 +1049,10 @@ wiki_chatbot = WikiChatbot()
 def index():
     return render_template('wiki_chatbot.html')
 
+@app.route('/widget-emocional')
+def widget_emocional():
+    return render_template('widget_emocional.html')
+
 @app.route('/widget')
 def widget():
     """Rota para servir apenas o widget do chatbot (ícone flutuante)"""
@@ -938,6 +1129,19 @@ def resposta_inteligente():
             'status': 'erro'
         }), 500
 
+@app.route('/faq/<operadora>')
+def faq_operadora(operadora):
+    """Gera FAQ estruturado para uma operadora específica"""
+    try:
+        resultado = chatbot.gerar_faq_operadora(operadora.upper())
+        return jsonify(resultado)
+        
+    except Exception as e:
+        return jsonify({
+            'status': 'erro',
+            'erro': f'Erro ao gerar FAQ: {str(e)}'
+        }), 500
+
 @app.route('/teste_api')
 def teste_api():
     """Endpoint para testar a conectividade com a API"""
@@ -998,6 +1202,7 @@ if __name__ == '__main__':
     print("   • /operadora/<nome>/topicos")
     print("   • /informacoes_essenciais/<operadora>")
     print("   • /resposta_inteligente (respostas baseadas na wiki)")
+    print("   • /faq/<operadora> (FAQ estruturado da operadora)")
     print("   • /teste_api (diagnóstico)")
     print("="*60 + "\n")
     

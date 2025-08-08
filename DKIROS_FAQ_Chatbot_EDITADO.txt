@@ -1,0 +1,184 @@
+D-KIROS (Gaspar - SC) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de atendimento da D-Kiros (UPCALL)?
+A:
+- Segunda a Sexta: 18h às 08h
+- Sábado: 12h às 08h de Segunda
+Obs: Não transferir atendimentos após 08h por troca de turno. Treinamento até 10h30 última quarta do mês.
+
+2. [Tecnologias Oferecidas]
+Q: Quais tecnologias a D-Kiros oferece?
+A:
+- OléTV (aplicativo de TV, Android/iOS)
+- App de Telemedicina (LIG Doctor)
+- Clube D-Kiros (descontos/cashback)
+- Chip de celular (Tua Operadora)
+
+3. [Planos Comercializados]
+Q: Quais são os planos da D-Kiros?
+A:
+- R1: 250MB → 500MB, 1 roteador, até 70m²
+- R1+: 400MB → 800MB, 1 roteador, até 70m²
+- R2: 250MB → 500MB, 2 roteadores, até 140m²
+- R2+: 400MB → 800MB, 2 roteadores, até 140m²
+- R3: 250MB → 500MB, 3 roteadores, até 210m²
+- R3+: 400MB → 800MB, 3 roteadores, até 210m²
+
+4. [Contratação]
+Q: Como proceder para contratar ou indicar clientes?
+A:
+- Transferir para setor de Vendas durante horário
+- Fora do horário: abrir ENCAMINHAR PARA OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR)
+- Sempre perguntar como ficou sabendo da D-Kiros
+
+5. [Repetidores / Mesh]
+Q: Presta suporte a repetidores?
+A:
+- Sim, provedor oferece planos com Mesh
+- Equipamento do cliente: R$40 visita técnica
+- Auxílio remoto: conectar, ligar/desligar, WPS, etc.
+
+6. [Equipamentos Utilizados]
+Q: Quais equipamentos utiliza?
+A:
+- ONU/ONT: Parks, Stavix, Vsolucion, MaxPrint, Intelbras, ZTE
+- Mesh: Intelbras w5 1200, ZTE 199a
+- Roteadores: TP-Link, Intelbras, ZTE
+- Rádio: Mikrotik, Ubiquiti, Cambium
+
+7. [Portas de Acesso]
+Q: Qual a porta de acesso aos roteadores?
+A:
+- 1º roteador: 8001
+- 2º roteador: 8002
+- ONU/ONT: 4779 ou 80
+- Rádio Mikrotik/Ubiquiti/Cambium: 4779, 4791
+
+8. [Usuário/Senha Padrão]
+Q: Qual usuário e senha padrão para equipamentos?
+A:
+- Roteadores: usuário “dkiros” (mais comum), senha “internet” (mais comum)
+- ZTE: usuário multipro, senha Dk96073233
+- Consulte tabela por cidade/modelo
+- ONT: admin/Dk96073233 ou adminisp/adminisp
+
+9. [Suporte a Reset e Nível 3]
+Q: Pode informar a senha ao cliente?
+A: Não. Essa informação é restrita por segurança e só pode ser repassada pela equipe técnica.
+A: Não
+Q: Pode ajudar cliente que resetou roteador?
+A: Sim, mas não oriente reset manual. Oriente a abrir atendimento para Suporte Nível 3.
+A: Sim
+Q: Reset ou desconfiguração de ONT?
+A: Encaminhar para Suporte Nível 3
+
+10. [Sinal Ideal]
+Q: Qual o nível de sinal ideal?
+A: Até -26dBm
+
+11. [Teste de Velocidade]
+Q: Qual site para teste de velocidade?
+A: http://dkiros.speedtestcustom.com/
+
+12. [DNS Padrão]
+Q: Qual DNS padrão?
+A:
+- Sempre automático (fornecido pelo ISP)
+- DNS: 170.245.99.22 e 170.245.99.23
+
+13. [Suporte N2/N3 e OS]
+Q: Existe suporte N2 e N3?
+A: Sim
+Q: Como abrir OS?
+A: Seguir tabela de tipos conforme caso (consultar documentação)
+
+14. [Prazo de Atendimento]
+Q: Prazo para atendimento técnico?
+A:
+- PF: 72h úteis
+- Corporativo: 24h úteis
+- Sempre confirmar melhor período com o cliente
+
+15. [Visita Técnica – Valores]
+Q: Custo da visita improdutiva?
+A: R$40 + materiais. Sempre oriente o cliente sobre possíveis cobranças antes de agendar.
+A: R$40 + materiais. Cabo: R$8/m, ponteira: R$5/unidade
+
+16. [Plantão Fim de Semana/Feriado]
+Q: Tem plantão?
+A:
+- N2: Seg–Sex 08h–21h, Sáb/Feriados 08h–16h
+- N3: Seg–Sex 08h–18h, Sáb/Feriados 08h–12h
+- Não tem plantão aos domingos
+
+17. [IP Fixo]
+Q: Fornece IP fixo?
+A: Sim, R$200. Negociação pelo setor comercial
+
+18. [IPTV]
+Q: Trabalha/suporta IPTV?
+A: Não (não homologado Anatel). Orientar cabeamento, mas sem garantia
+
+19. [Autenticação em Condomínios]
+Q: Como é feita autenticação?
+A: PPPoE
+
+20. [Financeiro e Comercial]
+Q: Desbloqueio de confiança?
+A: Não é permitido (exceto casos de carteira de cobrança via OUTRAS DEMANDAS).
+A: Não
+Q: Com quantos dias ocorre o bloqueio?
+A: Após 8 dias de atraso, só de terça a quinta (não informar ao cliente; abrir OUTRAS DEMANDAS se questionado)
+Q: Pode enviar fatura?
+A: Depende da carteira de cobrança; consulte procedimento
+Q: Métodos de pagamento?
+A: PIX ou boleto
+Q: Redução de velocidade?
+A: Não
+
+21. [Mudança de Ponto/Endereço]
+Q: Mudança de ponto?
+A: Abrir atendimento “ligar e retornar” para negociação
+Q: Mudança de endereço?
+A: Abrir OUTRAS DEMANDAS (Comercial ligar/retornar)
+
+22. [Pagamento de Serviços]
+Q: Como pagar por visita/mudança?
+A: Valor será cobrado na próxima mensalidade; avaliado pelo técnico
+
+23. [Comprovante de Pagamento]
+Q: Como enviar comprovante?
+A: Conforme carteira de cobrança; pode ser necessário abrir OUTRAS DEMANDAS
+
+24. [Informações da Empresa]
+- Central do Assinante:
+  - BASE 1: https://ixc.d-kiros.com.br
+  - BASE 2: https://ixc.dkirosnet.com.br/central_assinante_web/faturas
+  - NUNCA informar ao cliente que existem duas bases
+- Login: CPF/CNPJ
+- Senha: dkirosnet
+- Endereço Matriz: R. João Ferretti, 155 Sala 01, Gaspar Mirim, Gaspar - SC
+- Telefone/WhatsApp: 47 3308 2000
+- Site: https://dkiros.com.br/
+
+25. [Horários dos Setores]
+- Atendimento Sucesso do Cliente: Seg–Sex 08h–18h, Sáb 08h–12h
+- Contratar (Vendas): Seg–Sex 08h–18h, Sáb 08h–12h
+- Suporte Provedor (CRT): Seg–Sex 08h–18h, Sáb 08h–12h
+
+---
+**Observação Geral Importante:**  
+- Não informe senha do roteador ao cliente. Essa informação é restrita por segurança e só pode ser repassada por equipe técnica quando permitido.
+- Nunca oriente o cliente a realizar reset manual em ONT/roteador. Sempre abra atendimento, encaminhe para Suporte Nível 3 ou conforme tabela de OS do FAQ.
+- Visitas técnicas improdutivas e serviços extras são cobrados. Sempre oriente o cliente sobre os valores (R$40 visita improdutiva, R$8/m de cabo, R$5 por ponteira).
+- Suporte a repetidor/Mesh: só é prestado para equipamentos próprios, para equipamento do cliente é cobrada taxa de R$40 pela visita técnica.
+- Desbloqueio de confiança não é permitido (exceto casos descritos para carteiras específicas via OUTRAS DEMANDAS).
+- Cancelamento, mudança de endereço, ponto adicional, titularidade e renegociação: sempre abrir protocolo ou atendimento na categoria correta.
+- Prazo para atendimento técnico: sempre confirme com o cliente e explique que pode variar conforme demanda (PF 72h úteis, corporativo 24h úteis).
+- Não revele detalhes de autenticação em condomínios (tipo de base, etc.).
+- Pagamento de serviços extras: sempre será cobrado na próxima mensalidade, avaliado pelo técnico no local.
+- A velocidade garantida é apenas por cabo; via WiFi pode variar conforme ambiente.
+- Em caso de dúvida, encaminhe atendimento para a equipe responsável e registre tudo no sistema.
+---
+

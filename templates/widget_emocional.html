@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget Emocional das Operadoras</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="white" opacity="0.1"/><circle cx="80" cy="40" r="1.5" fill="white" opacity="0.1"/><circle cx="40" cy="80" r="1" fill="white" opacity="0.1"/></svg>');
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .operadoras-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .operadora-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .operadora-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--card-color);
+        }
+
+        .operadora-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            border-color: var(--card-color);
+        }
+
+        .operadora-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .operadora-emoji {
+            font-size: 3rem;
+            margin-right: 15px;
+            animation: bounce 2s infinite;
+        }
+
+        .operadora-info h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .operadora-status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: white;
+            background: var(--status-color);
+        }
+
+        .emocao-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 10px;
+            border-left: 4px solid var(--card-color);
+        }
+
+        .emocao-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .emocao-text {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #6c757d;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .info-item {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .info-item:hover {
+            background: var(--card-color);
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .info-item i {
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .info-item strong {
+            display: block;
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+        }
+
+        .info-item span {
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+        }
+
+        .btn-primary {
+            background: var(--card-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+        
+        .btn-outline:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        /* Estilos para FAQ */
+        .faq-container {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .faq-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .faq-stats {
+            margin-left: auto;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .badge {
+            background: var(--primary-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .timestamp {
+            color: #666;
+            font-size: 12px;
+        }
+        
+        .faq-item {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .faq-question {
+            padding: 15px;
+            background: #f8f9fa;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: background 0.3s ease;
+        }
+        
+        .faq-question:hover {
+            background: #e9ecef;
+        }
+        
+        .faq-numero {
+            background: var(--primary-color);
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .faq-categoria {
+            background: #6c757d;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .faq-pergunta {
+            flex: 1;
+            font-weight: 500;
+        }
+        
+        .faq-toggle {
+            transition: transform 0.3s ease;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        
+        .faq-item.open .faq-toggle {
+            transform: rotate(180deg);
+        }
+        
+        .faq-answer {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item.open .faq-answer {
+            padding: 15px;
+            max-height: 300px;
+        }
+        
+        .faq-resposta {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .faq-observacao {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 6px;
+            padding: 10px;
+            font-size: 13px;
+            color: #856404;
+            font-style: italic;
+        }
+        
+        .faq-actions {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 2px solid #f0f0f0;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .erro-container {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .erro-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .erro-emoji {
+            font-size: 24px;
+        }
+        
+        .erro-mensagem {
+            color: #721c24;
+            margin-bottom: 15px;
+        }
+        
+        .btn-retry {
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .btn-retry:hover {
+            background: #c82333;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+
+        .loading i {
+            font-size: 2rem;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Cores específicas para cada operadora */
+        .vivas {
+            --card-color: #e74c3c;
+            --status-color: #c0392b;
+        }
+
+        .aresnet {
+            --card-color: #3498db;
+            --status-color: #2980b9;
+        }
+
+        .poxnet {
+            --card-color: #2ecc71;
+            --status-color: #27ae60;
+        }
+
+        .netfibra {
+            --card-color: #f39c12;
+            --status-color: #e67e22;
+        }
+
+        .conecta {
+            --card-color: #9b59b6;
+            --status-color: #8e44ad;
+        }
+
+        @media (max-width: 768px) {
+            .operadoras-grid {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .operadora-emoji {
+                font-size: 2.5rem;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-heart"></i> Widget Emocional das Operadoras</h1>
+            <p>Conheça a personalidade e características únicas de cada operadora</p>
+        </div>
+
+        <div id="operadorasContainer" class="operadoras-grid">
+            <div class="loading">
+                <i class="fas fa-spinner"></i>
+                <p>Carregando informações emocionais das operadoras...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configurações emocionais para cada operadora
+        const operadorasConfig = {
+            'VIVAS': {
+                emoji: '🔥',
+                personalidade: 'Energética e Dinâmica',
+                emocao: 'Sempre cheia de energia! A VIVAS é como aquela amiga que nunca para, sempre conectada e pronta para resolver seus problemas de internet com muita paixão e dedicação.',
+                status: 'Ativa',
+                classe: 'vivas',
+                caracteristicas: [
+                    { icon: 'fas fa-bolt', title: 'Velocidade', desc: 'Super rápida' },
+                    { icon: 'fas fa-heart', title: 'Atendimento', desc: 'Caloroso' },
+                    { icon: 'fas fa-shield-alt', title: 'Confiança', desc: 'Segura' }
+                ]
+            },
+            'ARESNET': {
+                emoji: '🌊',
+                personalidade: 'Calma e Confiável',
+                emocao: 'Tranquila como um rio que flui suavemente. A ARESNET é a operadora zen, que mantém a calma mesmo nos momentos mais turbulentos e oferece estabilidade como uma rocha.',
+                status: 'Estável',
+                classe: 'aresnet',
+                caracteristicas: [
+                    { icon: 'fas fa-water', title: 'Fluidez', desc: 'Conexão fluida' },
+                    { icon: 'fas fa-mountain', title: 'Estabilidade', desc: 'Sólida' },
+                    { icon: 'fas fa-leaf', title: 'Sustentável', desc: 'Eco-friendly' }
+                ]
+            },
+            'POXNET': {
+                emoji: '🚀',
+                personalidade: 'Inovadora e Futurista',
+                emocao: 'Sempre olhando para o futuro! A POXNET é a operadora visionária, que adora tecnologia de ponta e está sempre um passo à frente, como um foguete rumo às estrelas.',
+                status: 'Inovando',
+                classe: 'poxnet',
+                caracteristicas: [
+                    { icon: 'fas fa-rocket', title: 'Inovação', desc: 'Tecnologia avançada' },
+                    { icon: 'fas fa-star', title: 'Qualidade', desc: 'Premium' },
+                    { icon: 'fas fa-cog', title: 'Eficiência', desc: 'Otimizada' }
+                ]
+            },
+            'NETFIBRA': {
+                emoji: '☀️',
+                personalidade: 'Alegre e Acolhedora',
+                emocao: 'Brilhante como o sol! A NETFIBRA é a operadora mais calorosa e acolhedora, sempre com um sorriso no rosto e pronta para iluminar seu dia com internet de qualidade.',
+                status: 'Radiante',
+                classe: 'netfibra',
+                caracteristicas: [
+                    { icon: 'fas fa-sun', title: 'Brilho', desc: 'Ilumina seu dia' },
+                    { icon: 'fas fa-home', title: 'Acolhimento', desc: 'Como em casa' },
+                    { icon: 'fas fa-smile', title: 'Alegria', desc: 'Sempre positiva' }
+                ]
+            },
+            'CONECTA': {
+                emoji: '🔮',
+                personalidade: 'Misteriosa e Inteligente',
+                emocao: 'Enigmática e sábia! A CONECTA é a operadora mais intelectual, que guarda segredos tecnológicos e oferece soluções inteligentes com um toque de magia.',
+                status: 'Sábia',
+                classe: 'conecta',
+                caracteristicas: [
+                    { icon: 'fas fa-brain', title: 'Inteligência', desc: 'IA avançada' },
+                    { icon: 'fas fa-magic', title: 'Magia', desc: 'Soluções mágicas' },
+                    { icon: 'fas fa-eye', title: 'Visão', desc: 'Perspicaz' }
+                ]
+            }
+        };
+
+        async function carregarOperadoras() {
+            const container = document.getElementById('operadorasContainer');
+            
+            try {
+                // Simular carregamento
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                
+                const operadoras = Object.keys(operadorasConfig);
+                let html = '';
+                
+                for (const operadora of operadoras) {
+                    const config = operadorasConfig[operadora];
+                    
+                    // Buscar informações reais da operadora e FAQ
+                    try {
+                        const [infoResponse, faqResponse] = await Promise.all([
+                            fetch(`/informacoes_essenciais/${operadora}`),
+                            fetch(`/faq/${operadora}`)
+                        ]);
+                        
+                        const infoData = await infoResponse.json();
+                        const faqData = await faqResponse.json();
+                        
+                        html += criarCardOperadora(operadora, config, infoData, faqData);
+                    } catch (error) {
+                        console.log(`Erro ao carregar ${operadora}:`, error);
+                        html += criarCardOperadora(operadora, config, null, null);
+                    }
+                }
+                
+                container.innerHTML = html;
+                
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="loading">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p>Erro ao carregar as operadoras. Tente novamente.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function criarCardOperadora(nome, config, dadosReais, dadosFAQ) {
+            const informacoesCriticas = dadosReais?.informacoes_criticas || [];
+            const faqItems = dadosFAQ?.faq_items || [];
+            
+            return `
+                <div class="operadora-card ${config.classe}">
+                    <div class="operadora-header">
+                        <div class="operadora-emoji">${config.emoji}</div>
+                        <div class="operadora-info">
+                            <h3>${nome}</h3>
+                            <span class="operadora-status">${config.status}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emocao-section">
+                        <div class="emocao-title">
+                            <i class="fas fa-heart"></i>
+                            Personalidade: ${config.personalidade}
+                        </div>
+                        <div class="emocao-text">
+                            ${config.emocao}
+                        </div>
+                    </div>
+                    
+                    <div class="info-grid">
+                        ${config.caracteristicas.map(item => `
+                            <div class="info-item">
+                                <i class="${item.icon}"></i>
+                                <strong>${item.title}</strong>
+                                <span>${item.desc}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                    
+                    ${faqItems.length > 0 ? `
+                        <div class="emocao-section">
+                            <div class="emocao-title">
+                                <i class="fas fa-question-circle"></i>
+                                FAQ Principal (${faqItems.length} itens)
+                            </div>
+                            <div class="emocao-text">
+                                ${faqItems.slice(0, 2).map(item => 
+                                    `<strong>Q:</strong> ${item.pergunta}<br><strong>R:</strong> ${item.resposta.substring(0, 80)}...`
+                                ).join('<br><br>')}
+                            </div>
+                        </div>
+                    ` : ''}
+                    
+                    ${informacoesCriticas.length > 0 ? `
+                        <div class="emocao-section">
+                            <div class="emocao-title">
+                                <i class="fas fa-info-circle"></i>
+                                Informações Importantes
+                            </div>
+                            <div class="emocao-text">
+                                ${informacoesCriticas.slice(0, 2).map(info => 
+                                    `<strong>${info.header}:</strong> ${info.content.substring(0, 100)}...`
+                                ).join('<br><br>')}
+                            </div>
+                        </div>
+                    ` : ''}
+                    
+                    <div class="action-buttons">
+                        <button class="btn btn-primary" onclick="gerarRespostaEmocional('${nome}', 'saudacao')">
+                            <i class="fas fa-comments"></i>
+                            Conversar
+                        </button>
+                        <button class="btn btn-outline" onclick="verFAQ('${nome}')">
+                            <i class="fas fa-question"></i>
+                            FAQ
+                        </button>
+                        <button class="btn btn-outline" onclick="verDetalhes('${nome}')">
+                            <i class="fas fa-info"></i>
+                            Detalhes
+                        </button>
+                        <button class="btn btn-outline" onclick="testarConexao('${nome}')">
+                            <i class="fas fa-wifi"></i>
+                            Testar
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        async function gerarRespostaEmocional(operadora, tipo) {
+            const config = operadorasConfig[operadora];
+            
+            try {
+                const response = await fetch(`/resposta_inteligente?operadora=${operadora}&tipo=${tipo}&contexto=emocional`);
+                const data = await response.json();
+                
+                if (data.resposta) {
+                    const respostaEmocional = `${config.emoji} ${data.resposta}\n\n💭 *Resposta gerada com a personalidade ${config.personalidade} da ${operadora}*`;
+                    
+                    alert(respostaEmocional);
+                } else {
+                    alert(`${config.emoji} Olá! Sou a ${operadora}, ${config.personalidade.toLowerCase()}! ${config.emocao}`);
+                }
+            } catch (error) {
+                alert(`${config.emoji} Olá! Sou a ${operadora}, ${config.personalidade.toLowerCase()}! ${config.emocao}`);
+            }
+        }
+
+        function verFAQ(operadora) {
+            window.open(`/faq/${operadora}`, '_blank');
+        }
+
+        function verDetalhes(operadora) {
+            window.open(`/operadora/${operadora}/topicos`, '_blank');
+        }
+
+        function testarConexao(operadora) {
+            const config = operadorasConfig[operadora];
+            alert(`${config.emoji} Testando conexão com ${operadora}...\n\nPersonalidade: ${config.personalidade}\nStatus: ${config.status}\n\n${config.emocao}`);
+        }
+
+        // Inicializar quando a página carregar
+        document.addEventListener('DOMContentLoaded', carregarOperadoras);
+    </script>
+</body>
+</html>
