@@ -1,0 +1,289 @@
+INET (Internet Network) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da INET?
+A:
+- Segunda a Sexta: 07h às 21h
+- Sábado: 08h às 17h
+- Domingo: Plantão 09h às 17h
+Obs: Suporte técnico estendido para empresas.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica GPON
+- Internet Banda Larga
+- Redes Corporativas
+- Telefonia IP
+- Hospedagem Web
+- Email Corporativo
+- Backup em Nuvem
+- Segurança Digital
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- INET 120: 120MB, R$ 42,90
+- INET 250: 250MB, R$ 62,90
+- INET 400: 400MB, R$ 82,90
+- INET 600: 600MB, R$ 109,90
+- INET 1GB: 1GB, R$ 139,90
+- INET PLUS: 1.5GB, R$ 189,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP INET 300: 300MB dedicado, R$ 599,90
+- CORP INET 500: 500MB dedicado, R$ 899,90
+- CORP INET 1GB: 1GB dedicado, R$ 1.399,90
+- INET BUSINESS: Pacote completo, R$ 1.199,90
+- Link Dedicado: A partir de R$ 1.500,00
+- Hospedagem: A partir de R$ 50,00
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Consulta comercial presencial/online
+- Análise técnica de viabilidade
+- Proposta personalizada em 24h
+- Contrato físico ou digital
+- Instalação em 48h (área urbana)
+- Instalação em 72h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: ZTE C300, Huawei MA5608T
+- ONU: ZTE F660, Huawei HG8245H
+- Roteadores: Mikrotik RB, TP-Link Archer
+- Switches: D-Link DGS, TP-Link TL-SG
+- Servidores: Dell PowerEdge, HP ProLiant
+- Firewalls: pfSense, Mikrotik
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet corporativa: 172.16.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN corporativa: 200
+- VLAN DMZ: 300
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/inet2024
+- ONU ZTE: admin/admin
+- ONU Huawei: telecomadmin/admintelecom
+- WiFi Corporativo: inet/empresa123
+- Email: usuario@inet.com.br
+Obs: Alteração obrigatória no primeiro acesso
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Atendimento geral
+- Nível 2: Suporte técnico especializado
+- Nível 3: Engenharia de redes
+- Nível 4: Projetos e infraestrutura
+- Hosting Support: Suporte para hospedagem
+- Email Support: Suporte para email
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- WiFi: RSSI > -65dBm
+- SNR mínimo: 18dB
+- Atenuação máxima: 25dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.inet.com.br
+Obs: Servidor próprio com histórico de medições
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.inet.1.10
+- DNS2: 200.inet.1.11
+- DNS Corporativo: 172.16.1.10 / 172.16.1.11
+- OpenDNS: 208.67.222.222 / 208.67.220.220
+- Google: 8.8.8.8 / 8.8.4.4
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 48h úteis
+- Empresarial: 12h úteis
+- Hospedagem: 4h
+- Email: 2h
+- Instalação urbana: 48h
+- Instalação rural: 72h
+- Disponibilidade: 99,5%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 60,00
+- Reinstalação: R$ 120,00
+- Cabo fibra: R$ 15,00/metro
+- Configuração servidor: R$ 150,00/hora
+- Migração de dados: R$ 200,00
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 17h (completo)
+- Domingo: 09h às 17h (emergencial)
+- Feriados: Plantão reduzido
+- Hospedagem: 24x7x365
+- Emergência: (11) 3000-INET
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo: R$ 100,00/mês
+- Email Premium: R$ 30,00/caixa
+- Backup Cloud: R$ 80,00/100GB
+- SSL Certificado: R$ 150,00/ano
+- Monitoramento 24x7: R$ 200,00/mês
+- Suporte Dedicado: R$ 300,00/mês
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Globoplay: Incluso todos os planos
+- YouTube: Acesso livre
+- Spotify: 1 mês grátis
+- Conteúdo Web: Hospedagem gratuita
+- Rádio Online: Streaming incluído
+- Portal de Notícias: Acesso premium
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 15 de cada mês
+- Carência: 15 dias após vencimento
+- Bloqueio: Após 15 dias de atraso
+- Multa: 2% + juros simples
+- Religação: R$ 40,00
+- Parcelamento: Até 8x sem juros
+- Desconto anual: 8%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 5% à vista
+- Débito automático: Desconto 3%
+- Boleto bancário
+- Cartão de crédito: Até 8x
+- Transferência bancária
+- Dinheiro (lojas físicas)
+- Cheque (empresarial)
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via portal ou telefone
+- Análise de viabilidade em 24h
+- Taxa de migração: R$ 100,00
+- Prazo urbano: 2 dias úteis
+- Prazo rural: 5 dias úteis
+- Backup de configurações
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.inet.com.br
+- App: INET Mobile (Android/iOS)
+- Login: CPF + senha
+- Autenticação: SMS
+- Sede: Rua da Rede, 300 - Centro
+- Cidade: Belo Horizonte - MG
+- CNPJ: 90.123.456/0001-89
+- Telefone: (31) 3000-INET
+- WhatsApp: (31) 99inet-help
+- Email: contato@inet.com.br
+- Site: https://inet.com.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 07h–21h, Sáb 08h–17h, Dom 09h–17h
+- Comercial: Seg–Sex 08h–20h, Sáb 08h–16h
+- Técnico: Seg–Sex 07h–21h, Sáb 08h–17h
+- Hospedagem: 24x7x365
+- Email: 24x7x365
+- Projetos: Seg–Sex 08h–18h
+- Financeiro: Seg–Sex 08h–17h
+
+23. [Soluções Especializadas]
+Q: Serviços para empresas?
+A:
+- Consultoria em infraestrutura de TI
+- Desenvolvimento de sites
+- E-commerce completo
+- Email marketing
+- Backup e recuperação
+- Segurança digital
+- Monitoramento de redes
+- Suporte técnico terceirizado
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 24 meses
+- Instalação: 18 meses
+- Infraestrutura: 3 anos
+- SLA Residencial: 99,3%
+- SLA Empresarial: 99,7%
+- SLA Hospedagem: 99,9%
+- Anatel SCM
+- ISO 9001 (Qualidade)
+- Certificação Web
+- Selo de Confiança
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet gratuita para bibliotecas
+- Capacitação em informática
+- Reciclagem de equipamentos
+- Energia limpa nos servidores
+- Programa de inclusão digital
+- Apoio a pequenos negócios online
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- Cloud computing
+- Inteligência artificial
+- Automação de processos
+- Segurança cibernética
+- Desenvolvimento web
+- Mobile first
+- Sustentabilidade digital
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento técnico especializado
+- Tecnologia confiável e estável
+- Backup automático de configurações
+- Monitoramento proativo de serviços
+- Escalation baseado em criticidade
+- Compensação proporcional ao impacto
+- Integração com sistemas corporativos
+- Protocolo de segurança digital
+- Suporte técnico em português
+- Atendimento personalizado por setor
+- Compliance com regulamentações
+- Auditoria de qualidade trimestral
+- Treinamento técnico contínuo
+- Metodologia de melhoria contínua
+- Gestão eficiente de recursos
+- Sustentabilidade operacional
+- Inovação focada em resultados
+---

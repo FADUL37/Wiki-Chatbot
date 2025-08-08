@@ -1,0 +1,290 @@
+ICLICK (iClick Telecom) – FAQ Chatbot (Pergunta & Resposta)
+
+1. [Horário de Atendimento]
+Q: Qual o horário de funcionamento da ICLICK?
+A:
+- Segunda a Sexta: 08h às 22h
+- Sábado: 08h às 18h
+- Domingo: Plantão 10h às 18h
+Obs: Atendimento digital 24x7 via app.
+
+2. [Portfolio de Tecnologias]
+Q: Quais soluções tecnológicas oferece?
+A:
+- Fibra Óptica FTTH
+- Internet Ultra Rápida
+- WiFi 6 Avançado
+- Gaming Premium
+- Streaming 4K/8K
+- Cloud Gaming
+- Smart Home
+- Realidade Virtual
+
+3. [Planos Residenciais]
+Q: Opções para residências?
+A:
+- ICLICK 200: 200MB, R$ 49,90
+- ICLICK 400: 400MB, R$ 69,90
+- ICLICK 600: 600MB, R$ 89,90
+- ICLICK 1GB: 1GB, R$ 119,90
+- ICLICK 2GB: 2GB, R$ 179,90
+- ICLICK ULTRA: 5GB, R$ 299,90
+
+4. [Soluções Empresariais]
+Q: Planos corporativos disponíveis?
+A:
+- CORP ICLICK 500: 500MB dedicado, R$ 799,90
+- CORP ICLICK 1GB: 1GB dedicado, R$ 1.299,90
+- CORP ICLICK 5GB: 5GB dedicado, R$ 3.999,90
+- ICLICK BUSINESS: Pacote completo, R$ 1.599,90
+- Cloud Solutions: A partir de R$ 500,00
+- Managed Services: Sob consulta
+
+5. [Processo de Adesão]
+Q: Como contratar os serviços?
+A:
+- Contratação 100% digital
+- App iClick com IA
+- Análise instantânea de viabilidade
+- Proposta em tempo real
+- Instalação em 24h (área urbana)
+- Instalação em 48h (demais áreas)
+- Garantia: 30 dias
+
+6. [Equipamentos e Infraestrutura]
+Q: Tecnologias e equipamentos utilizados?
+A:
+- OLT: Huawei MA5800-X15, Nokia 7360
+- ONU: Huawei HG8546M, Nokia G-010G-P
+- Roteadores: ASUS AX6000, Netgear Nighthawk
+- WiFi 6: TP-Link Archer AX73, ASUS AX6000
+- Switches: Cisco Catalyst, Ubiquiti Dream
+- Gaming: Equipamentos otimizados
+
+7. [Configurações de Rede]
+Q: Parâmetros padrão de configuração?
+A:
+- Gateway padrão: 192.168.1.1
+- Subnet gaming: 10.gaming.x.x/24
+- ONU web: 192.168.100.1:8080
+- VLAN internet: 100
+- VLAN gaming: 666
+- VLAN streaming: 777
+- MTU: 1500 bytes
+
+8. [Credenciais de Acesso]
+Q: Usuários e senhas padrão?
+A:
+- Roteador: admin/iclick2024
+- ONU Huawei: telecomadmin/admintelecom
+- ONU Nokia: admin/admin
+- WiFi Gaming: iclick/gaming123
+- Cloud: usuario/iclick@cloud
+Obs: Configuração automática via app
+
+9. [Estrutura de Atendimento]
+Q: Organização do suporte?
+A:
+- Nível 1: Chatbot IA 24x7
+- Nível 2: Suporte técnico especializado
+- Nível 3: Engenharia de performance
+- Nível 4: Arquitetura avançada
+- Gaming Support: Especialistas em jogos
+- Streaming Support: Otimização de vídeo
+
+10. [Parâmetros Ópticos]
+Q: Níveis de sinal recomendados?
+A:
+- GPON RX: -27dBm a -8dBm
+- GPON TX: +0.5dBm a +5dBm
+- WiFi 6: RSSI > -60dBm
+- Gaming: Latência < 5ms
+- Streaming: Jitter < 1ms
+- Atenuação máxima: 25dB
+
+11. [Teste de Velocidade]
+Q: Plataforma oficial de teste?
+A: https://speedtest.iclick.net.br
+Obs: Teste com medição de latência para gaming
+
+12. [Servidores DNS]
+Q: DNS configurados?
+A:
+- DNS1: 200.iclick.1.10
+- DNS2: 200.iclick.1.11
+- DNS Gaming: 1.1.1.1 / 1.0.0.1 (Cloudflare)
+- DNS Streaming: 8.8.8.8 / 8.8.4.4 (Google)
+- DNS Seguro: 9.9.9.9 / 149.112.112.112
+
+13. [SLA e Prazos]
+Q: Tempos de atendimento garantidos?
+A:
+- Residencial: 12h úteis
+- Empresarial: 4h úteis
+- Gaming: 2h
+- Streaming: 1h
+- Instalação expressa: 24h
+- Instalação padrão: 48h
+- Disponibilidade: 99,9%
+
+14. [Custos de Serviços]
+Q: Tabela de valores técnicos?
+A:
+- Análise técnica: Gratuita
+- Primeira visita: Gratuita
+- Visita improdutiva: R$ 50,00
+- Reinstalação: R$ 100,00
+- Cabo fibra: R$ 20,00/metro
+- Otimização gaming: R$ 150,00
+- Configuração avançada: R$ 120,00/hora
+
+15. [Plantão e Suporte]
+Q: Disponibilidade em finais de semana?
+A:
+- Sábado: 08h às 18h (completo)
+- Domingo: 10h às 18h (emergencial)
+- Feriados: Suporte digital
+- Gaming: 24x7x365
+- Emergência: 0800-ICLICK-24
+
+16. [Serviços Premium]
+Q: Produtos diferenciados?
+A:
+- IP Fixo Gaming: R$ 150,00/mês
+- WiFi 6 Premium: R$ 200,00/mês
+- Gaming Boost: R$ 100,00/mês
+- Streaming 8K: R$ 180,00/mês
+- Cloud Gaming: R$ 250,00/mês
+- Suporte Gamer: R$ 120,00/mês
+
+17. [Entretenimento e Conteúdo]
+Q: Parcerias de streaming?
+A:
+- Netflix: 6 meses grátis (planos 1GB+)
+- Disney+: 3 meses grátis
+- Amazon Prime Gaming: Incluso
+- Twitch Turbo: 2 meses grátis
+- YouTube Premium: 4 meses grátis
+- GeForce NOW: Acesso prioritário
+
+18. [Política Financeira]
+Q: Regras de cobrança?
+A:
+- Vencimento: Dia 5 de cada mês
+- Carência: 7 dias após vencimento
+- Bloqueio: Após 7 dias de atraso
+- Multa: 2% + juros 1% a.m.
+- Religação: R$ 30,00
+- Parcelamento: Até 10x
+- Desconto anual: 15%
+
+19. [Modalidades de Pagamento]
+Q: Formas de quitação?
+A:
+- PIX: Desconto 10% à vista
+- Débito automático: Desconto 5%
+- Cartão de crédito: Até 10x
+- Boleto bancário
+- Criptomoedas: Bitcoin/Ethereum
+- PayPal internacional
+- Apple Pay / Google Pay
+
+20. [Migração de Endereço]
+Q: Processo de mudança?
+A:
+- Solicitação via app iClick
+- Análise automática instantânea
+- Taxa de migração: R$ 80,00
+- Prazo: 24h (mesma cidade)
+- Prazo: 48h (outras cidades)
+- Agendamento inteligente
+
+21. [Dados Institucionais]
+- Portal Cliente: https://portal.iclick.net.br
+- App: iClick (Android/iOS)
+- Login: Email + biometria
+- Autenticação: 2FA obrigatório
+- Sede: Av. Digital, 1000 - Tech Valley
+- Cidade: São Paulo - SP
+- CNPJ: 89.012.345/0001-78
+- Telefone: 0800-ICLICK-NOW
+- WhatsApp: (11) 99iclick-tech
+- Email: contato@iclick.net.br
+- Site: https://iclick.net.br
+
+22. [Horários Departamentais]
+- Atendimento: Seg–Sex 08h–22h, Sáb 08h–18h, Dom 10h–18h
+- Comercial: Seg–Sex 08h–21h, Sáb 08h–17h
+- Técnico: 24x7x365
+- Gaming Support: 24x7x365
+- Streaming Support: Seg–Dom 06h–02h
+- Instalações: Seg–Sáb 08h–20h
+- Financeiro: Seg–Sex 08h–18h
+
+23. [Soluções Especializadas]
+Q: Serviços para gamers e streamers?
+A:
+- Consultoria em setup gaming
+- Otimização de latência
+- Configuração para streaming
+- Suporte para e-sports
+- Rede dedicada para competições
+- Cloud gaming premium
+- Realidade virtual/aumentada
+- Desenvolvimento de jogos
+
+24. [Certificações e Compliance]
+Q: Qualificações técnicas?
+A:
+- Equipamentos: 36 meses
+- Instalação: 24 meses
+- Infraestrutura: 5 anos
+- SLA Residencial: 99,7%
+- SLA Gaming: 99,95%
+- SLA Streaming: 99,9%
+- Certificação Gaming
+- ISO 27001 (Segurança)
+- Anatel SCM
+- Selo Gamer Approved
+
+25. [Responsabilidade Social]
+Q: Projetos socioambientais?
+A:
+- Internet gratuita para e-sports educativo
+- Capacitação em tecnologia para jovens
+- Reciclagem de equipamentos gaming
+- Energia renovável nos data centers
+- Programa de inclusão digital
+- Apoio a desenvolvedores indie
+
+26. [Inovação e Tecnologia]
+Q: Investimentos em P&D?
+A:
+- 5G para gaming móvel
+- Edge computing para baixa latência
+- IA para otimização automática
+- Realidade virtual/aumentada
+- Blockchain para gaming
+- Quantum computing (pesquisa)
+- Metaverso e Web3
+
+---
+**Protocolos Operacionais Especializados:**
+- Atendimento focado em performance
+- Tecnologia de ponta para gaming
+- Otimização automática de conexão
+- Monitoramento em tempo real
+- Escalation baseado em impacto na experiência
+- Compensação em créditos ou upgrades
+- Integração com plataformas de jogos
+- Protocolo de emergência para e-sports
+- Suporte multilíngue para gamers
+- Atendimento especializado por modalidade
+- Compliance com regulamentações de jogos
+- Auditoria de performance semanal
+- Treinamento em tecnologias emergentes
+- Metodologia ágil de desenvolvimento
+- Gestão de comunidade gamer
+- Sustentabilidade tecnológica
+- Inovação contínua em experiência
+---
