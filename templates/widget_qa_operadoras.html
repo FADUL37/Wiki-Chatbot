@@ -144,6 +144,20 @@
             border-color: transparent;
         }
 
+        .scenario-btn.special-btn {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            border: 2px solid transparent;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        }
+
+        .scenario-btn.special-btn:hover {
+            background: linear-gradient(135deg, #ee5a24, #ff6b6b);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+        }
+
         .qa-display {
             flex: 1;
             padding: 30px;
@@ -259,6 +273,155 @@
             font-size: 1.2em;
         }
 
+        /* Modal para Informações Essenciais */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 20px;
+            max-width: 95vw;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .modal-header h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .modal-body {
+            padding: 30px;
+        }
+
+        .operadoras-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .operadora-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+
+        .operadora-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .card-header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-header h3 {
+            font-size: 1.4em;
+            margin-bottom: 5px;
+        }
+
+        .card-header .status {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            display: inline-block;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .info-section {
+            margin-bottom: 15px;
+        }
+
+        .info-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 1em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 5px;
+        }
+
+        .info-content {
+            color: #666;
+            line-height: 1.5;
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            font-size: 0.9em;
+        }
+
+        .critical-info {
+            background: #fff5f5;
+            border-left-color: #e53e3e;
+            border: 1px solid #fed7d7;
+        }
+
+        .warning-info {
+            background: #fffbeb;
+            border-left-color: #d69e2e;
+            border: 1px solid #feebc8;
+        }
+
+        .success-info {
+            background: #f0fff4;
+            border-left-color: #38a169;
+            border: 1px solid #c6f6d5;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .close-modal:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1);
+        }
+
         @media (max-width: 768px) {
             .qa-interface {
                 flex-direction: column;
@@ -272,6 +435,15 @@
             
             .scenario-buttons {
                 grid-template-columns: 1fr;
+            }
+
+            .operadoras-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .modal-content {
+                margin: 10px;
+                max-width: calc(100vw - 20px);
             }
         }
     </style>
@@ -329,6 +501,7 @@
                         <div class="scenario-btn" data-scenario="planos">📋 Informações sobre planos</div>
                         <div class="scenario-btn" data-scenario="equipamentos">📡 Problemas com equipamentos</div>
                         <div class="scenario-btn" data-scenario="cancelamento">❌ Cancelamento de serviço</div>
+                        <div class="scenario-btn special-btn" data-scenario="informacoes-essenciais">📋 **Informações Essenciais**</div>
                     </div>
                 </div>
 
@@ -337,6 +510,22 @@
                         <h3>👆 Selecione uma operadora e um cenário</h3>
                         <p>Escolha a operadora na lista à esquerda e depois selecione o cenário de atendimento acima.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Informações Essenciais -->
+    <div class="modal-overlay" id="modalInformacoesEssenciais">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close-modal" onclick="closeModal()">&times;</button>
+                <h2>🚨 INFORMAÇÕES CRUCIAIS - ATENDIMENTO</h2>
+                <p>Dados essenciais que NÃO PODEM FALTAR em cada atendimento</p>
+            </div>
+            <div class="modal-body">
+                <div class="operadoras-grid" id="operadorasGridModal">
+                    <!-- Conteúdo será carregado dinamicamente -->
                 </div>
             </div>
         </div>
@@ -2451,6 +2640,12 @@
 
         // Selecionar cenário
         function selectScenario(scenarioId) {
+            // Verificar se é o botão de informações essenciais
+            if (scenarioId === 'informacoes-essenciais') {
+                openInformacoesEssenciais();
+                return;
+            }
+
             // Remover seleção anterior
             document.querySelectorAll('.scenario-btn').forEach(btn => {
                 btn.classList.remove('active');
@@ -2524,6 +2719,227 @@
             const operadoraName = operadoras.find(op => op.id === operadoraId)?.name || operadoraId.toUpperCase();
             alert(`Abrindo FAQ completo para ${operadoraName}...\n\nEm produção, isso abriria o arquivo FAQ completo da operadora.`);
         }
+
+        // Abrir modal de informações essenciais
+        function openInformacoesEssenciais() {
+            const modal = document.getElementById('modalInformacoesEssenciais');
+            const gridModal = document.getElementById('operadorasGridModal');
+            
+            // Carregar informações essenciais
+            loadInformacoesEssenciais(gridModal);
+            
+            // Mostrar modal
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Fechar modal
+        function closeModal() {
+            const modal = document.getElementById('modalInformacoesEssenciais');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Carregar informações essenciais de todas as operadoras
+        function loadInformacoesEssenciais(container) {
+            const informacoesEssenciais = {
+                dkiros: {
+                    critico: 'Emergência: 0800-DKIROS-NET<br>SLA Crítico: 30 minutos<br>Disponibilidade: 99,99%',
+                    atencao: 'Horário: 24x7x365<br>Gateway: 192.168.1.1<br>DNS: 200.dkiros.1.10 / 200.dkiros.1.11',
+                    essencial: 'Vencimento: Dia 1º<br>Religação: R$ 80,00<br>Desconto anual: 20%'
+                },
+                aresnet: {
+                    critico: 'Emergência: 0800-ARES-NET<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 08h-21h<br>Gateway: 192.168.1.1<br>DNS: 200.aresnet.1.10 / 200.aresnet.1.11',
+                    essencial: 'Vencimento: Dia 5<br>Religação: R$ 70,00<br>Desconto anual: 15%'
+                },
+                avianet: {
+                    critico: 'Emergência: 0800-AVIA-NET<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 07h-21h<br>Gateway: 192.168.1.1<br>DNS: 200.avianet.1.10 / 200.avianet.1.11',
+                    essencial: 'Vencimento: Dia 3<br>Religação: R$ 75,00<br>Desconto anual: 16%'
+                },
+                vivas: {
+                    critico: 'Emergência: 0800-VIVAS-NET<br>SLA Crítico: 45 minutos<br>Disponibilidade: 99,95%',
+                    atencao: 'Horário: 24x7x365<br>Gateway: 192.168.1.1<br>DNS: 200.vivas.1.10 / 200.vivas.1.11',
+                    essencial: 'Vencimento: Dia 10<br>Religação: R$ 85,00<br>Desconto anual: 18%'
+                },
+                cetech: {
+                    critico: 'Emergência: 0800-CETECH-NET<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,8%',
+                    atencao: 'Horário: Seg-Sex 08h-20h<br>Gateway: 192.168.1.1<br>DNS: 200.cetech.1.10 / 200.cetech.1.11',
+                    essencial: 'Vencimento: Dia 7<br>Religação: R$ 75,00<br>Desconto anual: 15%'
+                },
+                comunet: {
+                    critico: 'Emergência: 0800-COMUNET<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 08h-18h<br>Gateway: 192.168.1.1<br>DNS: 200.comunet.1.10 / 200.comunet.1.11',
+                    essencial: 'Vencimento: Dia 5<br>Religação: R$ 70,00<br>Desconto anual: 15%'
+                },
+                netspeed: {
+                    critico: 'Emergência: 0800-NET-SPEED<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,95%',
+                    atencao: 'Horário: Seg-Sex 07h-22h<br>Gateway: 192.168.1.1<br>DNS: 200.netspeed.1.10 / 200.netspeed.1.11',
+                    essencial: 'Vencimento: Dia 1º<br>Religação: R$ 80,00<br>Desconto anual: 20%'
+                },
+                netvip: {
+                    critico: 'Emergência: 0800-NET-VIP<br>SLA Crítico: 30 minutos<br>Disponibilidade: 99,99%',
+                    atencao: 'Horário: 24x7x365<br>Gateway: 192.168.1.1<br>DNS: 200.netvip.1.10 / 200.netvip.1.11',
+                    essencial: 'Vencimento: Dia 1º<br>Religação: R$ 90,00<br>Desconto anual: 25%'
+                },
+                brasilink: {
+                    critico: 'Emergência: 0800-BRASILINK<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,8%',
+                    atencao: 'Horário: Seg-Sex 08h-18h<br>Gateway: 192.168.1.1<br>DNS: 200.brasilink.1.10 / 200.brasilink.1.11',
+                    essencial: 'Vencimento: Dia 8<br>Religação: R$ 75,00<br>Desconto anual: 12%'
+                },
+                capital: {
+                    critico: 'Emergência: 0800-CAPITAL<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 07h-19h<br>Gateway: 192.168.1.1<br>DNS: 200.capital.1.10 / 200.capital.1.11',
+                    essencial: 'Vencimento: Dia 15<br>Religação: R$ 80,00<br>Desconto anual: 18%'
+                },
+                censanet: {
+                    critico: 'Emergência: 0800-CENSANET<br>SLA Crítico: 2 horas<br>Disponibilidade: 99,7%',
+                    atencao: 'Horário: Seg-Sex 08h-17h<br>Gateway: 192.168.1.1<br>DNS: 200.censanet.1.10 / 200.censanet.1.11',
+                    essencial: 'Vencimento: Dia 10<br>Religação: R$ 70,00<br>Desconto anual: 10%'
+                },
+                centraltelecom: {
+                    critico: 'Emergência: 0800-CENTRAL<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,8%',
+                    atencao: 'Horário: Seg-Sex 08h-18h<br>Gateway: 192.168.1.1<br>DNS: 200.central.1.10 / 200.central.1.11',
+                    essencial: 'Vencimento: Dia 5<br>Religação: R$ 75,00<br>Desconto anual: 15%'
+                },
+                deltaativa: {
+                    critico: 'Emergência: 0800-DELTA<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 08h-20h<br>Gateway: 192.168.1.1<br>DNS: 200.delta.1.10 / 200.delta.1.11',
+                    essencial: 'Vencimento: Dia 12<br>Religação: R$ 80,00<br>Desconto anual: 16%'
+                },
+                etecc: {
+                    critico: 'Emergência: 0800-ETECC<br>SLA Crítico: 2 horas<br>Disponibilidade: 99,7%',
+                    atencao: 'Horário: Seg-Sex 08h-17h<br>Gateway: 192.168.1.1<br>DNS: 200.etecc.1.10 / 200.etecc.1.11',
+                    essencial: 'Vencimento: Dia 20<br>Religação: R$ 70,00<br>Desconto anual: 12%'
+                },
+                faciliti: {
+                    critico: 'Emergência: 0800-FACILITI<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,8%',
+                    atencao: 'Horário: Seg-Sex 08h-19h<br>Gateway: 192.168.1.1<br>DNS: 200.faciliti.1.10 / 200.faciliti.1.11',
+                    essencial: 'Vencimento: Dia 7<br>Religação: R$ 75,00<br>Desconto anual: 14%'
+                },
+                iclick: {
+                    critico: 'Emergência: 0800-ICLICK<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 08h-21h<br>Gateway: 192.168.1.1<br>DNS: 200.iclick.1.10 / 200.iclick.1.11',
+                    essencial: 'Vencimento: Dia 3<br>Religação: R$ 80,00<br>Desconto anual: 17%'
+                },
+                inet: {
+                    critico: 'Emergência: 0800-INET<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,8%',
+                    atencao: 'Horário: Seg-Sex 08h-18h<br>Gateway: 192.168.1.1<br>DNS: 200.inet.1.10 / 200.inet.1.11',
+                    essencial: 'Vencimento: Dia 10<br>Religação: R$ 75,00<br>Desconto anual: 13%'
+                },
+                infornet: {
+                    critico: 'Emergência: 0800-INFORNET<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 08h-20h<br>Gateway: 192.168.1.1<br>DNS: 200.infornet.1.10 / 200.infornet.1.11',
+                    essencial: 'Vencimento: Dia 5<br>Religação: R$ 80,00<br>Desconto anual: 16%'
+                },
+                infosafe: {
+                    critico: 'Emergência: 0800-INFOSAFE<br>SLA Crítico: 2 horas<br>Disponibilidade: 99,7%',
+                    atencao: 'Horário: Seg-Sex 08h-17h<br>Gateway: 192.168.1.1<br>DNS: 200.infosafe.1.10 / 200.infosafe.1.11',
+                    essencial: 'Vencimento: Dia 15<br>Religação: R$ 70,00<br>Desconto anual: 11%'
+                },
+                itapoa: {
+                    critico: 'Emergência: 0800-ITAPOA<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,8%',
+                    atencao: 'Horário: Seg-Sex 08h-19h<br>Gateway: 192.168.1.1<br>DNS: 200.itapoa.1.10 / 200.itapoa.1.11',
+                    essencial: 'Vencimento: Dia 8<br>Religação: R$ 75,00<br>Desconto anual: 14%'
+                },
+                lasernet: {
+                    critico: 'Emergência: 0800-LASERNET<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 08h-21h<br>Gateway: 192.168.1.1<br>DNS: 200.lasernet.1.10 / 200.lasernet.1.11',
+                    essencial: 'Vencimento: Dia 12<br>Religação: R$ 80,00<br>Desconto anual: 17%'
+                },
+                linknet: {
+                    critico: 'Emergência: 0800-LINKNET<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,8%',
+                    atencao: 'Horário: Seg-Sex 08h-18h<br>Gateway: 192.168.1.1<br>DNS: 200.linknet.1.10 / 200.linknet.1.11',
+                    essencial: 'Vencimento: Dia 6<br>Religação: R$ 75,00<br>Desconto anual: 13%'
+                },
+                netfibra: {
+                    critico: 'Emergência: 0800-NETFIBRA<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 08h-20h<br>Gateway: 192.168.1.1<br>DNS: 200.netfibra.1.10 / 200.netfibra.1.11',
+                    essencial: 'Vencimento: Dia 10<br>Religação: R$ 80,00<br>Desconto anual: 16%'
+                },
+                netlink: {
+                    critico: 'Emergência: 0800-NETLINK<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,8%',
+                    atencao: 'Horário: Seg-Sex 08h-19h<br>Gateway: 192.168.1.1<br>DNS: 200.netlink.1.10 / 200.netlink.1.11',
+                    essencial: 'Vencimento: Dia 7<br>Religação: R$ 75,00<br>Desconto anual: 14%'
+                },
+                netmax: {
+                    critico: 'Emergência: 0800-NETMAX<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 08h-21h<br>Gateway: 192.168.1.1<br>DNS: 200.netmax.1.10 / 200.netmax.1.11',
+                    essencial: 'Vencimento: Dia 5<br>Religação: R$ 80,00<br>Desconto anual: 17%'
+                },
+                netplus: {
+                    critico: 'Emergência: 0800-NETPLUS<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,8%',
+                    atencao: 'Horário: Seg-Sex 08h-18h<br>Gateway: 192.168.1.1<br>DNS: 200.netplus.1.10 / 200.netplus.1.11',
+                    essencial: 'Vencimento: Dia 12<br>Religação: R$ 75,00<br>Desconto anual: 13%'
+                },
+                netpro: {
+                    critico: 'Emergência: 0800-NETPRO<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,9%',
+                    atencao: 'Horário: Seg-Sex 08h-20h<br>Gateway: 192.168.1.1<br>DNS: 200.netpro.1.10 / 200.netpro.1.11',
+                    essencial: 'Vencimento: Dia 8<br>Religação: R$ 80,00<br>Desconto anual: 16%'
+                },
+                nettech: {
+                    critico: 'Emergência: 0800-NETTECH<br>SLA Crítico: 1 hora<br>Disponibilidade: 99,8%',
+                    atencao: 'Horário: Seg-Sex 08h-19h<br>Gateway: 192.168.1.1<br>DNS: 200.nettech.1.10 / 200.nettech.1.11',
+                    essencial: 'Vencimento: Dia 15<br>Religação: R$ 75,00<br>Desconto anual: 14%'
+                }
+            };
+
+            container.innerHTML = '';
+
+            operadoras.forEach(operadora => {
+                const info = informacoesEssenciais[operadora.id] || {
+                    critico: 'Informações em atualização',
+                    atencao: 'Consulte supervisor',
+                    essencial: 'Dados sendo coletados'
+                };
+
+                const cardHTML = `
+                    <div class="operadora-card">
+                        <div class="card-header">
+                            <h3>${operadora.name}</h3>
+                            <span class="status">${operadora.status}</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="info-section">
+                                <div class="info-title">🔴 CRÍTICO - NÃO PODE ERRAR</div>
+                                <div class="info-content critical-info">
+                                    ${info.critico}
+                                </div>
+                            </div>
+                            <div class="info-section">
+                                <div class="info-title">⚠️ ATENÇÃO ESPECIAL</div>
+                                <div class="info-content warning-info">
+                                    ${info.atencao}
+                                </div>
+                            </div>
+                            <div class="info-section">
+                                <div class="info-title">✅ INFORMAÇÕES ESSENCIAIS</div>
+                                <div class="info-content success-info">
+                                    ${info.essencial}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += cardHTML;
+            });
+        }
+
+        // Fechar modal ao clicar fora
+        document.addEventListener('click', function(e) {
+            const modal = document.getElementById('modalInformacoesEssenciais');
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Fechar modal com ESC
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
 
         // Inicializar quando a página carregar
         document.addEventListener('DOMContentLoaded', initInterface);
